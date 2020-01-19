@@ -5,11 +5,16 @@
     width: 50vw;
     height: 38vw;
     margin: 0 auto;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     /*overflow: hidden;*/
 }
 
 .slider_one_big_picture > * {
+    -webkit-transition: ease all 1s;
+    -o-transition: ease all 1s;
     transition: ease all 1s;
 }
 
@@ -72,10 +77,15 @@
     max-width: 640px;
     max-height: 480px;
     margin: 0 auto;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .slider_one_big_2 > * {
+    -webkit-transition: ease all 1s;
+    -o-transition: ease all 1s;
     transition: ease all 1s;
 }
 
@@ -162,10 +172,15 @@
     /* 640px; */
     height: 53.2vw;
     margin: 0 auto;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .slider_circle_10 > * {
+    -webkit-transition: ease all 1s;
+    -o-transition: ease all 1s;
     transition: ease all 1s;
 }
 
@@ -279,10 +294,15 @@
     height: 19.5vw;
     position: relative;
     margin: 0 auto;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .slider_four_in_line > * {
+    -webkit-transition: ease all 1s;
+    -o-transition: ease all 1s;
     transition: ease all 1s;
     overflow: hidden;
 }
@@ -360,10 +380,15 @@
     height: 600px;
     position: relative;
     margin: 0 auto;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .slider_clock > * {
+    -webkit-transition: ease all 1s;
+    -o-transition: ease all 1s;
     transition: ease all 1s;
 }
 
@@ -375,7 +400,9 @@
     margin-top: -125px;
     width: 400px;
     height: 250px;
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
     opacity: 1;
     z-index: 10;
     overflow: hidden;
@@ -403,69 +430,101 @@
     height: 60px;
     margin-top: 200px;
     margin-left: -48px;
-    transform-origin: 48px -200px;
-    transform: rotate(0deg);
+    -webkit-transform-origin: 48px -200px;
+        -ms-transform-origin: 48px -200px;
+            transform-origin: 48px -200px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
     opacity: 1;
     overflow: hidden;
 }
 
 .slider_clock .next2 {
-    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg);
 }
 
 .slider_clock .next3 {
-    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+            transform: rotate(-60deg);
 }
 
 .slider_clock .next4 {
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
 }
 
 .slider_clock .next5 {
-    transform: rotate(-120deg);
+    -webkit-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+            transform: rotate(-120deg);
 }
 
 .slider_clock .next6 {
-    transform: rotate(-150deg);
+    -webkit-transform: rotate(-150deg);
+        -ms-transform: rotate(-150deg);
+            transform: rotate(-150deg);
 }
 
 .slider_clock .next7 {
     opacity: 0;
-    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
 }
 
 .slider_clock .prev1 {
-    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
 }
 
 .slider_clock .prev2 {
-    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg);
 }
 
 .slider_clock .prev3 {
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 
 .slider_clock .prev4 {
-    transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+            transform: rotate(120deg);
 }
 
 .slider_clock .prev5 {
-    transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+        -ms-transform: rotate(150deg);
+            transform: rotate(150deg);
 }
 
 .slider_clock .prev6 {
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 .slider_clock .prev7 {
     opacity: 0;
-    transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+        -ms-transform: rotate(210deg);
+            transform: rotate(210deg);
 }
 
 .slider_clock .hidden {
     opacity: 0;
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
 
@@ -573,10 +632,12 @@
 
 
 div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
-    box-shadow: 0px 1px 3px #000;
+    -webkit-box-shadow: 0px 1px 3px #000;
+            box-shadow: 0px 1px 3px #000;
     border: 1px solid #000;
     background: #fff;
     text-align: center;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-size: 150px;
 }

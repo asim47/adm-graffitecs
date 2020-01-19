@@ -37,7 +37,8 @@ padding-top: 3%;
 
   display: inline-block;
   opacity: 1;
-  animation: lp 2s linear infinite;
+  -webkit-animation: lp 2s linear infinite;
+          animation: lp 2s linear infinite;
 }
 
 .noContentFileDir{

@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /*inbox  css here!*/
 .cp-l {
   float: left;
@@ -450,6 +452,8 @@ body {
   position: relative !important;
   left: 0 !important;
   top: 15px !important;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
   float: left !important;
 }
@@ -473,6 +477,8 @@ body {
     position: relative !important;
     left: 0 !important;
     top: 90px !important;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
     float: left !important;
   }
@@ -650,12 +656,15 @@ body {
 }
 /*task managment*/
 .task-topic-admin .set_panel1 {
+  display: -ms-grid;
   display: grid;
 }
 .task-topic-admin .set_panel1 {
+  display: -ms-grid;
   display: grid;
 }
 .sector_option .set_panel1 {
+  display: -ms-grid;
   display: grid;
 }
 .cus-heg-on-lg {
@@ -719,6 +728,8 @@ body {
   margin-right: 0;
 }
 .custom-users-column img:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .task-topic-admin .filter_label {
@@ -784,6 +795,10 @@ body {
   float: left;
 }
 .events-custom .bottom-icons .d-flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 .updates span {
@@ -838,6 +853,7 @@ body {
   }
 }
 .survey-admin .f-loc {
+  right: -webkit-calc(100% - 40px);
   right: calc(100% - 40px);
 }
 .cus-pic-dir.mar-cus-b {
@@ -1382,6 +1398,7 @@ width: 60%;
   }
   .suggestion-card h4 {
     overflow: unset;
+    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
   }
 }
@@ -1417,6 +1434,7 @@ width: 60%;
   }
   .suggestion-card h4 {
     overflow: unset;
+    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
   }
   .edit-icon-border {
@@ -1466,6 +1484,7 @@ width: 60%;
   }
   .suggestion-card h4 {
     overflow: unset;
+    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
   }
   .gm-page .col-md-1.p-0.col-md-offset-1 {
@@ -1497,9 +1516,7 @@ width: 66%;
     float: left;
     text-align: left;
   }
-  .share-survey-set_panel1
-    .usman-container.set_survey_margin_checkbox
-    .checkmark {
+  .share-survey-set_panel1 .usman-container.set_survey_margin_checkbox .checkmark {
     left: 0% !important;
   }
   .on-rtl-fl-l.job-recruitment .button_Group {
@@ -1980,6 +1997,7 @@ input:-moz-placeholder {
   }
 }
 .f-loc {
+  right: -webkit-calc(100% - 50px) !important;
   right: calc(100% - 50px) !important;
 }
 .progress-bar {
@@ -1988,6 +2006,8 @@ input:-moz-placeholder {
 .bg-li-gr-prog-my-prof {
   border-radius: 0 5px 5px 0 !important;
   height: 34px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(97%, #ffc64e), to(#f0971b));
+  background-image: -o-linear-gradient(left, #ffc64e 97%, #f0971b);
   background-image: linear-gradient(to right, #ffc64e 97%, #f0971b);
   text-align: center;
   color: #fff;
@@ -1996,13 +2016,31 @@ input:-moz-placeholder {
 }
 @media only screen and (max-width: 2000px) and (min-width: 767px) {
   .add-manager-team-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
   .add-manager-team-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }

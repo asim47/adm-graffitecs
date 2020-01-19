@@ -115,11 +115,13 @@
   padding: 3px;
 }
 .daterangepicker .calendar-table .next span {
-  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 .daterangepicker .calendar-table .prev span {
-  transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+      transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
 .daterangepicker .calendar-table th,

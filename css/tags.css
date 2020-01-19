@@ -1,7 +1,8 @@
 .bootstrap-tagsinput {
   background-color: #fff;
  /*  border: 1px solid #ccc; */
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   display: inline-block;
   padding: 8px 6px;
   color: #555;
@@ -13,7 +14,8 @@
 }
 .bootstrap-tagsinput input {
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   outline: none;
   background-color: transparent;
   padding: 0 6px;
@@ -33,7 +35,8 @@
 }
 .bootstrap-tagsinput input:focus {
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .bootstrap-tagsinput .tag {
   margin-right: 2px;
@@ -62,7 +65,8 @@
   background: #287db5 !important;
   color: #ffffff !important;
   /* border-color: #287db5 !important; */
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 .bootstrap-tagsinput > .label {
   border-radius: 9px;

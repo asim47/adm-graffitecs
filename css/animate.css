@@ -54,21 +54,24 @@ Copyright (c) 2014 Daniel Eden
 @keyframes bounce {
   0%, 20%, 53%, 80%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+       transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -webkit-transform: translate3d(0,0,0);
             transform: translate3d(0,0,0);
   }
 
   40%, 43% {
     -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-            transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+            -o-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+       transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
     -webkit-transform: translate3d(0, -30px, 0);
             transform: translate3d(0, -30px, 0);
   }
 
   70% {
     -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-            transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+            -o-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+       transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
     -webkit-transform: translate3d(0, -15px, 0);
             transform: translate3d(0, -15px, 0);
   }
@@ -516,7 +519,8 @@ Copyright (c) 2014 Daniel Eden
 @keyframes bounceIn {
   0%, 20%, 40%, 60%, 80%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+       transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
@@ -597,7 +601,8 @@ Copyright (c) 2014 Daniel Eden
 @keyframes bounceInDown {
   0%, 60%, 75%, 90%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+       transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
@@ -670,7 +675,8 @@ Copyright (c) 2014 Daniel Eden
 @keyframes bounceInLeft {
   0%, 60%, 75%, 90%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+       transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
@@ -743,7 +749,8 @@ Copyright (c) 2014 Daniel Eden
 @keyframes bounceInRight {
   0%, 60%, 75%, 90%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+       transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
@@ -816,7 +823,8 @@ Copyright (c) 2014 Daniel Eden
 @keyframes bounceInUp {
   0%, 60%, 75%, 90%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+       transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   0% {
@@ -1694,7 +1702,8 @@ Copyright (c) 2014 Daniel Eden
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
             transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
     -webkit-transition-timing-function: ease-in;
-            transition-timing-function: ease-in;
+            -o-transition-timing-function: ease-in;
+       transition-timing-function: ease-in;
     opacity: 0;
   }
 
@@ -1702,7 +1711,8 @@ Copyright (c) 2014 Daniel Eden
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
             transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
     -webkit-transition-timing-function: ease-in;
-            transition-timing-function: ease-in;
+            -o-transition-timing-function: ease-in;
+       transition-timing-function: ease-in;
   }
 
   60% {
@@ -1767,7 +1777,8 @@ Copyright (c) 2014 Daniel Eden
     -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
             transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
     -webkit-transition-timing-function: ease-in;
-            transition-timing-function: ease-in;
+            -o-transition-timing-function: ease-in;
+       transition-timing-function: ease-in;
     opacity: 0;
   }
 
@@ -1775,7 +1786,8 @@ Copyright (c) 2014 Daniel Eden
     -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
             transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
     -webkit-transition-timing-function: ease-in;
-            transition-timing-function: ease-in;
+            -o-transition-timing-function: ease-in;
+       transition-timing-function: ease-in;
   }
 
   60% {
@@ -3194,63 +3206,4 @@ to {
 	-o-transform: scaleY(1);
 	-moz-transform: scaleY(1);
 }
-}
-
-@-moz-keyframes anime {
-from {
-	opacity: 0;
-	transform: scaleY(0);
-	-webkit-transform: scaleY(0);
-	-moz-transform: scaleY(0);
-	-ms-transform: scaleY(0);
-	-o-transform: scaleY(0);
-}
-to {
-	opacity: 1;
-	transform: scaleY(1);
-	-webkit-transform: scaleY(1);
-	-ms-transform: scaleY(1);
-	-o-transform: scaleY(1);
-	-moz-transform: scaleY(1);
-}
-
-}
-
-@-o-keyframes anime {
-from {
-	opacity: 0;
-	transform: scaleY(0);
-	-webkit-transform: scaleY(0);
-	-moz-transform: scaleY(0);
-	-ms-transform: scaleY(0);
-	-o-transform: scaleY(0);
-}
-to {
-	opacity: 1;
-	transform: scaleY(1);
-	-webkit-transform: scaleY(1);
-	-ms-transform: scaleY(1);
-	-o-transform: scaleY(1);
-	-moz-transform: scaleY(1);
-}
-}
-
-@-ms-keyframes anime {
-from {
-	opacity: 0;
-	transform: scaleY(0);
-	-webkit-transform: scaleY(0);
-	-moz-transform: scaleY(0);
-	-ms-transform: scaleY(0);
-	-o-transform: scaleY(0);
-}
-to {
-	opacity: 1;
-	transform: scaleY(1);
-	-webkit-transform: scaleY(1);
-	-ms-transform: scaleY(1);
-	-o-transform: scaleY(1);
-	-moz-transform: scaleY(1);
-}
-
 }

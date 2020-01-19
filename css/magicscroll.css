@@ -23,7 +23,6 @@
     padding: 0;
     outline: 0;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 .MagicScroll,
@@ -252,7 +251,6 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 .MagicScroll[data-mode="carousel"] .mcs-items-container,
 .MagicScroll[data-mode="cover-flow"] .mcs-items-container {
     -webkit-perspective: 1000px;
-    -moz-perspective: 1000px;
     -o-perspective: 1000px;
     perspective: 1000px;
 
@@ -262,8 +260,6 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 .MagicScroll[data-mode="carousel"] .mcs-item,
 .MagicScroll[data-mode="cover-flow"] .mcs-item {
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
@@ -284,7 +280,6 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     -webkit-transform: translateZ(1px) translateX(-50%);
     transform: translateZ(1px) translateX(-50%);
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
@@ -332,7 +327,10 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     width: 100%;
     bottom: 0;
     -webkit-transition: -webkit-transform .25s;
+            transition: -webkit-transform .25s;
+            -o-transition: transform .25s;
             transition: transform .25s;
+            transition: transform .25s, -webkit-transform .25s;
     -webkit-transform: translateY(150%);
             -ms-transform: translate(0, 150%);
             transform: translateY(150%);
@@ -365,6 +363,7 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     border: 0;
     border-radius: 0;
     -webkit-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
     transition: opacity .25s linear;
 }
 .MagicScroll:hover > .mcs-button:hover {
@@ -407,8 +406,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 }
 .mcs-bullets.show {
     opacity: 1.0;
-    -moz-transition: opacity .5s;
     -o-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
     transition: opacity .5s;
 }
 .MagicScroll-horizontal .mcs-bullets {
@@ -455,7 +454,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 [data-mode="animation"] .mcs-item {
     -webkit-animation-duration: 0;
     -webkit-transform: none;
-            animation-name: none;
+            -webkit-animation-name: none;
+                    animation-name: none;
             animation-duration: 0;
 }
 
@@ -503,22 +503,26 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 .MagicScroll-horizontal[data-mode="animation"] [data-forward] [data-entering],
 .MagicScroll-horizontal[data-mode="animation"] [data-forward] [data-exited] {
     -webkit-transform: translateX(100000px);
-            transform: translateX(100000px);
+            -ms-transform: translateX(100000px);
+        transform: translateX(100000px);
 }
 .MagicScroll-horizontal[data-mode="animation"] [data-backward] [data-entering],
 .MagicScroll-horizontal[data-mode="animation"] [data-backward] [data-exited] {
     -webkit-transform: translateX(-100000px);
-            transform: translateX(-100000px);
+            -ms-transform: translateX(-100000px);
+        transform: translateX(-100000px);
 }
 .MagicScroll-vertical[data-mode="animation"] [data-forward] [data-entering],
 .MagicScroll-vertical[data-mode="animation"] [data-forward] [data-exited] {
     -webkit-transform: translateY(100000px);
-            transform: translateY(100000px);
+            -ms-transform: translateY(100000px);
+        transform: translateY(100000px);
 }
 .MagicScroll-vertical[data-mode="animation"] [data-backward] [data-entering],
 .MagicScroll-vertical[data-mode="animation"] [data-backward] [data-exited] {
     -webkit-transform: translateY(-100000px);
-            transform: translateY(-100000px);
+            -ms-transform: translateY(-100000px);
+        transform: translateY(-100000px);
 }
 /**
  * SlideIn animation
@@ -984,11 +988,13 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 }
 .mcs-bounce.MagicScroll-vertical[data-mode="animation"] [data-forward] [data-entering] {
     -webkit-transform: translateY(100000px);
-            transform: translateY(100000px);
+            -ms-transform: translateY(100000px);
+        transform: translateY(100000px);
 }
 .mcs-bounce.MagicScroll-vertical[data-mode="animation"] [data-forward] [data-exited] {
     -webkit-transform: translateY(100000px);
-            transform: translateY(100000px);
+            -ms-transform: translateY(100000px);
+        transform: translateY(100000px);
 }
 @-webkit-keyframes v-forward-exit-bounce {
     0% {
@@ -1175,30 +1181,35 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     border-right: none;
     border-bottom: none;
     -webkit-transition: border-color .15s linear;
+            -o-transition: border-color .15s linear;
             transition: border-color .15s linear;
 }
 
 .MagicScroll-horizontal .mcs-button-arrow-prev:before {
     left: 62%;
     -webkit-transform: translate(-50%, -50%) rotateZ(-45deg);
-            transform: translate(-50%, -50%) rotateZ(-45deg);
+            -ms-transform: translate(-50%, -50%) rotate(-45deg);
+        transform: translate(-50%, -50%) rotateZ(-45deg);
 }
 
 .MagicScroll-horizontal .mcs-button-arrow-next:before {
     left: 40%;
     -webkit-transform: translate(-50%, -50%) rotateZ(135deg);
-            transform: translate(-50%, -50%) rotateZ(135deg);
+            -ms-transform: translate(-50%, -50%) rotate(135deg);
+        transform: translate(-50%, -50%) rotateZ(135deg);
 
 }
 .MagicScroll-vertical .mcs-button-arrow-prev:before {
     top: 62%;
     -webkit-transform: translate(-50%, -50%) rotateZ(45deg);
-            transform: translate(-50%, -50%) rotateZ(45deg);
+            -ms-transform: translate(-50%, -50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotateZ(45deg);
 }
 .MagicScroll-vertical .mcs-button-arrow-next:before {
     top: 40%;
     -webkit-transform: translate(-50%, -50%) rotateZ(-135deg);
-            transform: translate(-50%, -50%) rotateZ(-135deg);
+            -ms-transform: translate(-50%, -50%) rotate(-135deg);
+        transform: translate(-50%, -50%) rotateZ(-135deg);
 }
 .mcs-button-arrow.mcs-disabled {
     opacity: 0.01 !important;
@@ -1210,6 +1221,7 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     margin: auto;
     opacity: 0.6;
     -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
     transition: opacity .15s linear;
 }
 .MagicScroll-horizontal .mcs-button-arrow-prev { left: 0; right: auto; top: 0; bottom: 0; }
@@ -1230,8 +1242,10 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     height: 24px;
     border-radius: 3px;
     background: rgba(255, 255, 255, .75);
-    box-shadow: 0 0 1px rgba(153, 153, 153, .5);
+    -webkit-box-shadow: 0 0 1px rgba(153, 153, 153, .5);
+            box-shadow: 0 0 1px rgba(153, 153, 153, .5);
     -webkit-transition: background-color .15s linear;
+            -o-transition: background-color .15s linear;
             transition: background-color .15s linear;
 }
 
@@ -1293,7 +1307,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     margin-left: 10px;
     top: 50%;
     -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
 }
 .MagicScroll-vertical.MagicScroll-bullets {
     margin-right: 35px;
@@ -1337,7 +1352,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 }
 .MagicScroll[data-mode="carousel"] img,
 .MagicScroll[data-mode="cover-flow"] img {
-    box-shadow: 0px 15px 30px -10px #000;
+    -webkit-box-shadow: 0px 15px 30px -10px #000;
+            box-shadow: 0px 15px 30px -10px #000;
 }
 .MagicScroll[data-mode="carousel"] figcaption,
 .MagicScroll[data-mode="cover-flow"] figcaption {
@@ -1349,7 +1365,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 
 /* Misc */
 .MagicScroll.mcs-shadows {
-    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.15);
 }
 
 .MagicScroll.mcs-border .mcs-item {
@@ -1393,7 +1410,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
     height:60px;
     opacity: 1;
     -webkit-transform:scale(0.6);
-    transform:scale(0.6);
+    -ms-transform:scale(0.6);
+        transform:scale(0.6);
 }
 
 .mcs-loader-circle {
@@ -1506,6 +1524,7 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 .MagicScroll.mcs-rounded .mcs-button-arrow {
     color: rgba(49,51,61,0.6);
     -webkit-transition: color .15s linear, background-color .15s linear;
+    -o-transition: color .15s linear, background-color .15s linear;
     transition: color .15s linear, background-color .15s linear;
 }
 .MagicScroll.mcs-rounded.MagicScroll-horizontal .mcs-button-arrow {
@@ -1542,7 +1561,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 .MagicScroll.mcs-rounded.MagicScroll-arrows-outside .mcs-button-arrow {
     background: #efefef;
     opacity: 1;
-    box-shadow: 0 0 1px rgba(153, 153, 153, .5);
+    -webkit-box-shadow: 0 0 1px rgba(153, 153, 153, .5);
+            box-shadow: 0 0 1px rgba(153, 153, 153, .5);
 }
 
 .MagicScroll.mcs-rounded.MagicScroll-arrows-inside .mcs-button-arrow:hover:not(.mcs-disabled) {
@@ -1551,7 +1571,8 @@ body.mcs-dragging button.mcs-button.mcs-horizontal.mcs-button-arrow {
 }
 .MagicScroll.mcs-rounded.MagicScroll-arrows-inside .mcs-button-arrow {
     background-color: rgba(255, 255, 255, .75);
-    box-shadow: 0 0 1px rgba(153, 153, 153, .5);
+    -webkit-box-shadow: 0 0 1px rgba(153, 153, 153, .5);
+            box-shadow: 0 0 1px rgba(153, 153, 153, .5);
 }
 
 .lt-ie10-magic .mcs-rounded.MagicScroll-horizontal.MagicScroll-arrows-inside .mcs-button-arrow-prev {

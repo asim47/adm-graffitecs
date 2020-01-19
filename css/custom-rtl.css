@@ -1,285 +1,302 @@
 /*inbox  css here!*/	
-	.cp-l {	
-	  float: left;	
-	}	
-	body {	
-	  padding-right: 0;
-	}	
-	.cp-r {	
-	  float: right;	
-	}	
-		
-	.cuspr-0 {	
-	  padding-right: 0;	
-	}	
-		
-	.cuspl-0 {	
-	  padding-left: 0;	
-	}	
-	.inbox-fr {	
-	  float: left;	
-	}	
-	.inbox-caret .glyphicon-triangle-bottom {	
-	  top: 10px;	
-	  right: -9.6px;	
-	}	
-	.inbox-custom-table tbody tr th:first-child {	
-	  text-align: right;	
-	}	
-	.inbox-custom-rtl-tl {	
-	  text-align: left;	
-	}	
-	/*inbox  css end !*/	
-	.btn-warning.dic-off-btn-fl {
-    float: left; 
+.cp-l {	
+	float: left;	
+  }	
+  body {	
+	padding-right: 0;
+  }	
+  .cp-r {	
+	float: right;	
+  }	
+	  
+  .cuspr-0 {	
+	padding-right: 0;	
+  }	
+	  
+  .cuspl-0 {	
+	padding-left: 0;	
+  }	
+  .inbox-fr {	
+	float: left;	
+  }	
+  .inbox-caret .glyphicon-triangle-bottom {	
+	top: 10px;	
+	right: -9.6px;	
+  }	
+  .inbox-custom-table tbody tr th:first-child {	
+	text-align: right;	
+  }	
+  .inbox-custom-rtl-tl {	
+	text-align: left;	
+  }	
+  /*inbox  css end !*/	
+  .btn-warning.dic-off-btn-fl {
+  float: left; 
 }	
-	/*approva css here*/	
-		
-	/*my-request css here*/	
-	.pr-0 {	
-	  padding-left: 0;	
-	}	
-	.cus-top-heading {	
-	  display: inline-block;	
-	  position: relative;	
-	  top: 2px;	
-	  left: 0;	
-	  right: 5px;	
-	}	
+  /*approva css here*/	
+	  
+  /*my-request css here*/	
+  .pr-0 {	
+	padding-left: 0;	
+  }	
+  .cus-top-heading {	
+	display: inline-block;	
+	position: relative;	
+	top: 2px;	
+	left: 0;	
+	right: 5px;	
+  }	
 /*
 .on-for-check .usman-container { 
-    width: 100%;
-    text-align: right;
+  width: 100%;
+  text-align: right;
 }*/
 .survey_admin-end { 
-    padding: 0 0px 0 15px;
+  padding: 0 0px 0 15px;
 }
- .survey_admin-mandatory { 
-    padding-left: 15px;
-    padding-right: 0;
+.survey_admin-mandatory { 
+  padding-left: 15px;
+  padding-right: 0;
 }
-	.cus-cent-top-header { 	
-	  border-right: none;	
-	}	
+  .cus-cent-top-header { 	
+	border-right: none;	
+  }	
+  .announcements-page .announcement-block {	
+	padding: 25px 100px 25px 25px;	
+  }	
+  .announcements-page .announcement-block-top .align-left {	
+	float: right;	
+  }	
+  .announcements-page .announcement-block-top .align-right {	
+	float: left;	
+  }	
+  .announcements-page .announcement-block-top .image-holder {	
+	float: right;	
+	margin: 0 -70px 0 0;	
+  }	
+	  
+  @media only screen and (max-width: 767px) {	
 	.announcements-page .announcement-block {	
-	  padding: 25px 100px 25px 25px;	
+	  padding: 20px;	
 	}	
-	.announcements-page .announcement-block-top .align-left {	
-	  float: right;	
-	}	
+	.announcements-page .announcement-block-top .align-left,	
 	.announcements-page .announcement-block-top .align-right {	
-	  float: left;	
+	  float: none;	
 	}	
 	.announcements-page .announcement-block-top .image-holder {	
 	  float: right;	
-	  margin: 0 -70px 0 0;	
+	  margin: 0 0 0 15px;	
 	}	
-		
-	@media only screen and (max-width: 767px) {	
-	  .announcements-page .announcement-block {	
-	    padding: 20px;	
-	  }	
-	  .announcements-page .announcement-block-top .align-left,	
-	  .announcements-page .announcement-block-top .align-right {	
-	    float: none;	
-	  }	
-	  .announcements-page .announcement-block-top .image-holder {	
-	    float: right;	
-	    margin: 0 0 0 15px;	
-	  }	
+  }	
+	  
+  @media only screen and (min-width: 767px) {	
+	.main-content-usman {	
+	   text-align: end;	
 	}	
-		
-	@media only screen and (min-width: 767px) {	
-	  .main-content-usman {	
-	     text-align: end;	
-	  }	
-	  .rtl-mlg-tr {	
-	    text-align: center;	
-	  }	
+	.rtl-mlg-tr {	
+	  text-align: center;	
 	}	
-	@media only screen and (max-width: 1075px) {	
-	  .btn-pa {	
-	    margin-bottom: 8px;	
-	    display: inline-block;	
-	  }	
+  }	
+  @media only screen and (max-width: 1075px) {	
+	.btn-pa {	
+	  margin-bottom: 8px;	
+	  display: inline-block;	
 	}	
-		
-	/*my-request css end*/	
-		
-	/*happines css here*/	
-	.happines .table > thead > tr > th {	
-	  padding-left: 0;	
-	}	
-	.rtl-assig-report-pr-0 {	
-	  padding-right: 0;	
-	}	
-	.btn-txt-rig {	
-	  text-align: left;	
-	}	
-	/*happines css end*/	
-	.task-dir {	
-	  text-align: right;	
-	}	
-	.task-info {	
-	  position: relative;	
-	  right: 15px;	
-	}	
-	 .update-score-table .min-w:first-child { 
-    text-align: right;
+  }	
+	  
+  /*my-request css end*/	
+	  
+  /*happines css here*/	
+  .happines .table > thead > tr > th {	
+	padding-left: 0;	
+  }	
+  .rtl-assig-report-pr-0 {	
+	padding-right: 0;	
+  }	
+  .btn-txt-rig {	
+	text-align: left;	
+  }	
+  /*happines css end*/	
+  .task-dir {	
+	text-align: right;	
+  }	
+  .task-info {	
+	position: relative;	
+	right: 15px;	
+  }	
+   .update-score-table .min-w:first-child { 
+  text-align: right;
 }	
 .checkmark {
-    position: relative;
-    height: 25px;
-    width: 25px;
-    float: right;
-    background: #eee;
-    margin-right: 0;
-    margin-left: 20px;
+  position: relative;
+  height: 25px;
+  width: 25px;
+  float: right;
+  background: #eee;
+  margin-right: 0;
+  margin-left: 20px;
 }
-	.annonc-rtl-change {	
-	  float: right !important;	
-	}	
-	.annonce-in-xs button {	
-	  left: 0;	
-	}	
-	@media only screen and (max-width: 1150px) and (min-width: 991px) {	
-	  .txt-cnt {	
-	    position: relative;	
-	    right: -15px;	
-	    padding-left: 0;	
-	    padding-right: 0;	
-	  }	
-	}	
-	.dic-off-btn-fl {	
-	  float: left;	
-	}	
-	.dis-off-card {	
+  .annonc-rtl-change {	
+	float: right !important;	
+  }	
+  .annonce-in-xs button {	
+	left: 0;	
+  }	
+  @media only screen and (max-width: 1150px) and (min-width: 991px) {	
+	.txt-cnt {	
 	  position: relative;	
-	  left: -5px;	
-	  top: 8px;	
+	  right: -15px;	
+	  padding-left: 0;	
+	  padding-right: 0;	
 	}	
-	.cus-pic-dir {	
+  }	
+  .dic-off-btn-fl {	
+	float: left;	
+  }	
+  .dis-off-card {	
+	position: relative;	
+	left: -5px;	
+	top: 8px;	
+  }	
+  .cus-pic-dir {	
+	float: right;	
+  }	
+	  
+  @media only screen and (max-width: 575px) {	
+	.annonce-in-xs button {	
 	  float: right;	
+	  margin-top: 15px;	
 	}	
-		
-	@media only screen and (max-width: 575px) {	
-	  .annonce-in-xs button {	
-	    float: right;	
-	    margin-top: 15px;	
-	  }	
-	  .announce-btn-customize {	
-	    display: block;	
-	    height: 210px;	
-	    position: relative;	
-	    top: 0px;	
-	    left: 5px;	
-	  }	
+	.announce-btn-customize {	
+	  display: block;	
+	  height: 210px;	
+	  position: relative;	
+	  top: 0px;	
+	  left: 5px;	
 	}	
-	.fr-rtl {	
-	  float: right;	
+  }	
+  .fr-rtl {	
+	float: right;	
+  }	
+  .str-serv {	
+	position: relative !important;	
+	right: 70px !important;	
+	font-size: 10px !important;	
+	top: 18px !important;	
+	color: #fff;	
+	float: left !important;	
+  }	
+  .rec-pos {	
+	position: relative !important;	
+	left: 0 !important;	
+	top: 15px !important;	
+	-webkit-transform: rotate(180deg);	
+		-ms-transform: rotate(180deg);	
+			transform: rotate(180deg);	
+	float: left !important;	
+  }	
+  .pos-left-on-rtl {	
+	position: relative;	
+	left: -15px;	
+  }	
+  @media only screen and (max-width: 767px) and (min-width: 575px) {	
+	.rec-pos {	
+	  position: relative !important;	
+	  left: 0 !important;	
+	  top: 90px !important;	
+	  -webkit-transform: rotate(180deg);	
+		  -ms-transform: rotate(180deg);	
+			  transform: rotate(180deg);	
+	  float: left !important;	
 	}	
 	.str-serv {	
 	  position: relative !important;	
 	  right: 70px !important;	
 	  font-size: 10px !important;	
-	  top: 18px !important;	
+	  top: 92px !important;	
 	  color: #fff;	
 	  float: left !important;	
 	}	
-	.rec-pos {	
-	  position: relative !important;	
-	  left: 0 !important;	
-	  top: 15px !important;	
-	  transform: rotate(180deg);	
-	  float: left !important;	
-	}	
-	.pos-left-on-rtl {	
+	.announce-btn-customize {	
+	  display: block;	
+	  height: 120px;	
 	  position: relative;	
-	  left: -15px;	
+	  top: -130px;	
+	  left: 5px;	
 	}	
-	@media only screen and (max-width: 767px) and (min-width: 575px) {	
-	  .rec-pos {	
-	    position: relative !important;	
-	    left: 0 !important;	
-	    top: 90px !important;	
-	    transform: rotate(180deg);	
-	    float: left !important;	
-	  }	
-	  .str-serv {	
-	    position: relative !important;	
-	    right: 70px !important;	
-	    font-size: 10px !important;	
-	    top: 92px !important;	
-	    color: #fff;	
-	    float: left !important;	
-	  }	
-	  .announce-btn-customize {	
-	    display: block;	
-	    height: 120px;	
-	    position: relative;	
-	    top: -130px;	
-	    left: 5px;	
-	  }	
-	  .gm-cir-des.announce-btn-customize {	
-	    position: relative !important;	
-	    height: 100px !important;	
-	    top: 30px !important;	
-	    left: 5px;	
-	    display: inline-block;	
-	  }	
+	.gm-cir-des.announce-btn-customize {	
+	  position: relative !important;	
+	  height: 100px !important;	
+	  top: 30px !important;	
+	  left: 5px;	
+	  display: inline-block;	
 	}	
-	@media only screen and (max-width: 575px) {	
-	  .serv-custom-width {	
-	    height: 185px;	
-	  }	
+  }	
+  @media only screen and (max-width: 575px) {	
+	.serv-custom-width {	
+	  height: 185px;	
 	}	
-	@media only screen and (max-width: 1200px) and (min-width: 991px) {	
-	  .pos-left-on-rtl {	
-	    top: -15px;	
-	  }	
+  }	
+  @media only screen and (max-width: 1200px) and (min-width: 991px) {	
+	.pos-left-on-rtl {	
+	  top: -15px;	
 	}	
-	/*anounced css here*/	
-	.cus-mar-rig-annonc {	
-	  margin-right: 0 !important;	
+  }	
+  /*anounced css here*/	
+  .cus-mar-rig-annonc {	
+	margin-right: 0 !important;	
+  }	
+  @media only screen and (max-width: 767px) {	
+	.rtl-mb-cus {	
+	  margin-bottom: 5px !important;	
 	}	
-	@media only screen and (max-width: 767px) {	
-	  .rtl-mb-cus {	
-	    margin-bottom: 5px !important;	
-	  }	
+  }	
+  @media only screen and (max-width: 330px) {	
+	.txt-eln-end {	
+	  position: relative;	
+	  bottom: 0px;	
 	}	
-	@media only screen and (max-width: 330px) {	
-	  .txt-eln-end {	
-	    position: relative;	
-	    bottom: 0px;	
-	  }	
+  }	
+  /*saeeed magazine css here*/	
+	  
+  @media only screen and (max-width: 330px) {	
+	.txt-eln-end {	
+	  position: relative;	
+	  bottom: 0px;	
 	}	
-	/*saeeed magazine css here*/	
-		
-	@media only screen and (max-width: 330px) {	
-	  .txt-eln-end {	
-	    position: relative;	
-	    bottom: 0px;	
-	  }	
+  }	
+  @media only screen and (min-width: 768px) {	
+	.custom-0fs.col-sm-offset-2 {	
+	  margin-right: 16.66666667% !important;	
+	  margin-left: 0 !important;	
 	}	
-	@media only screen and (min-width: 768px) {	
-	  .custom-0fs.col-sm-offset-2 {	
-	    margin-right: 16.66666667% !important;	
-	    margin-left: 0 !important;	
-	  }	
-	  .rtl-tc {	
-	    text-align: center;	
-	  }	
+	.rtl-tc {	
+	  text-align: center;	
 	}	
+  }	
 @media only screen and (max-width: 400px) {	
 
 
 }	
-	@media only screen and (min-width: 992px) {	
-	  .custom-0fs .col-md-6 {	
-	    width: 80%;	
-	  }	
+  @media only screen and (min-width: 992px) {	
+	.custom-0fs .col-md-6 {	
+	  width: 80%;	
 	}	
-	/*assigen manager*/	
+  }	
+  /*assigen manager*/	
+  .asg-mng-pg-1-crd.accordion-toggle:after {	
+	right: 97%;	
+  }	
+  .asg-mng-pg-snd-crd-inner.accordion-toggle:after {	
+	right: 97%;	
+  }	
+  .asg-mng-pg-1-crd-rep.accordion-toggle:after {	
+	right: 97%;	
+  }	
+  .f-loc {	
+	right: 94%;	
+  }	
+  @media only screen and (min-width: 1100px) {	
 	.asg-mng-pg-1-crd.accordion-toggle:after {	
 	  right: 97%;	
 	}	
@@ -289,749 +306,746 @@
 	.asg-mng-pg-1-crd-rep.accordion-toggle:after {	
 	  right: 97%;	
 	}	
+  }	
+  @media only screen and (max-width: 1100px) and (min-width: 767px) {	
+	.asg-mng-pg-1-crd.accordion-toggle:after {	
+	  right: 95%;	
+	}	
+	.asg-mng-pg-snd-crd-inner.accordion-toggle:after {	
+	  right: 95%;	
+	}	
+	.asg-mng-pg-1-crd-rep.accordion-toggle:after {	
+	  right: 95%;	
+	}	
 	.f-loc {	
 	  right: 94%;	
 	}	
-	@media only screen and (min-width: 1100px) {	
-	  .asg-mng-pg-1-crd.accordion-toggle:after {	
-	    right: 97%;	
-	  }	
-	  .asg-mng-pg-snd-crd-inner.accordion-toggle:after {	
-	    right: 97%;	
-	  }	
-	  .asg-mng-pg-1-crd-rep.accordion-toggle:after {	
-	    right: 97%;	
-	  }	
+  }	
+  @media only screen and (max-width: 767px) and (min-width: 320px) {	
+	.asg-mng-pg-1-crd.accordion-toggle:after {	
+	  right: 92%;	
 	}	
-	@media only screen and (max-width: 1100px) and (min-width: 767px) {	
-	  .asg-mng-pg-1-crd.accordion-toggle:after {	
-	    right: 95%;	
-	  }	
-	  .asg-mng-pg-snd-crd-inner.accordion-toggle:after {	
-	    right: 95%;	
-	  }	
-	  .asg-mng-pg-1-crd-rep.accordion-toggle:after {	
-	    right: 95%;	
-	  }	
-	  .f-loc {	
-	    right: 94%;	
-	  }	
+	.asg-mng-pg-snd-crd-inner.accordion-toggle:after {	
+	  right: 92%;	
 	}	
-	@media only screen and (max-width: 767px) and (min-width: 320px) {	
-	  .asg-mng-pg-1-crd.accordion-toggle:after {	
-	    right: 92%;	
-	  }	
-	  .asg-mng-pg-snd-crd-inner.accordion-toggle:after {	
-	    right: 92%;	
-	  }	
-	  .asg-mng-pg-1-crd-rep.accordion-toggle:after {	
-	    right: 92%;	
-	  }	
-	  .f-loc {	
-	    right: 94%;	
-	  }	
+	.asg-mng-pg-1-crd-rep.accordion-toggle:after {	
+	  right: 92%;	
 	}	
-		
-	.asg-mng-pg-1-crd,	
-	.asg-mng-pg-snd-crd-inner {	
-	  padding: 10px 15px 10px 25px;	
+	.f-loc {	
+	  right: 94%;	
 	}	
-	.acor-inner-img-wid-tex {	
-	  position: absolute;	
-	  top: 10px;	
-	  right: 40px;	
-	  font-size: 11px;	
-	}	
-	.acor-inner-rep-img-wid-tex {	
-	  position: relative;	
-	  right: 12px;	
-	  font-size: 11px;	
-	}	
-	.cros-inner-accor-for-clos {	
-	  float: left;	
-	}	
-	.bottom-icons ul { 
-    float: left;
+  }	
+	  
+  .asg-mng-pg-1-crd,	
+  .asg-mng-pg-snd-crd-inner {	
+	padding: 10px 15px 10px 25px;	
+  }	
+  .acor-inner-img-wid-tex {	
+	position: absolute;	
+	top: 10px;	
+	right: 40px;	
+	font-size: 11px;	
+  }	
+  .acor-inner-rep-img-wid-tex {	
+	position: relative;	
+	right: 12px;	
+	font-size: 11px;	
+  }	
+  .cros-inner-accor-for-clos {	
+	float: left;	
+  }	
+  .bottom-icons ul { 
+  float: left;
 }	
 
 .fc-button-group { 
-    float: right;
+  float: right;
 }
-	/*task managment*/	
-	.task-topic-admin .set_panel1 {	
-	  display: grid;	
+  /*task managment*/	
+  .task-topic-admin .set_panel1 {	
+	display: -ms-grid;	
+	display: grid;	
+  }	
+  .task-topic-admin .set_panel1 {	
+	display: -ms-grid;	
+	display: grid;	
+  }	
+  .sector_option .set_panel1 {	
+	display: -ms-grid;	
+	display: grid;	
+  }	
+  .cus-heg-on-lg {	
+	float: left;	
+  }	
+  @media screen and (min-width: 1300px) {	
+	.add_task_manager.txt-cnt {	
+	  text-align: left;	
 	}	
-	.task-topic-admin .set_panel1 {	
-	  display: grid;	
+  }	
+  @media screen and (min-width: 991px) {	
+	.pad-r-cus {	
+	  padding-right: 15px !important;	
 	}	
-	.sector_option .set_panel1 {	
-	  display: grid;	
+  }	
+  @media screen and (max-width: 1150px) and (min-width: 991px) {	
+	.add_task_manager.txt-cnt {	
+	  position: relative;	
+	  right: 0px;	
+	  text-align: right;	
 	}	
-	.cus-heg-on-lg {	
-	  float: left;	
+  }	
+  @media only screen and (max-width: 815px) and (min-width: 768px) {	
+	.only-pr-n {	
+	  padding-right: 15px;	
 	}	
-	@media screen and (min-width: 1300px) {	
-	  .add_task_manager.txt-cnt {	
-	    text-align: left;	
-	  }	
+  }	
+  @media screen and (max-width: 991px) and (min-width: 575px) {	
+	.add_task_manager.txt-cnt {	
+	  text-align: left;	
 	}	
-	@media screen and (min-width: 991px) {	
-	  .pad-r-cus {	
-	    padding-right: 15px !important;	
-	  }	
+  }	
+	  
+  @media screen and (min-width: 767px) {	
+	.cus-task-mng-fil-cent {	
+	  text-align: center;	
 	}	
-	@media screen and (max-width: 1150px) and (min-width: 991px) {	
-	  .add_task_manager.txt-cnt {	
-	    position: relative;	
-	    right: 0px;	
-	    text-align: right;	
-	  }	
+  }	
+  @media screen and (max-width: 575px) {	
+	.add_task_manager.txt-cnt {	
+	  text-align: right;	
 	}	
-	@media only screen and (max-width: 815px) and (min-width: 768px) {	
-	  .only-pr-n {	
-	    padding-right: 15px;	
-	  }	
-	}	
-	@media screen and (max-width: 991px) and (min-width: 575px) {	
-	  .add_task_manager.txt-cnt {	
-	    text-align: left;	
-	  }	
-	}	
-		
-	@media screen and (min-width: 767px) {	
-	  .cus-task-mng-fil-cent {	
-	    text-align: center;	
-	  }	
-	}	
-	@media screen and (max-width: 575px) {	
-	  .add_task_manager.txt-cnt {	
-	    text-align: right;	
-	  }	
-	}	
-		
-	/*achiv&proj arsl*/	
-	.task-topic-admin .sector_option {	
-	  margin-left: 0;	
-	  margin-right: 0;	
-	}	
-		
-	.task-topic-admin .filter_label {	
-	  margin-left: 15px;	
-	}	
-	.task-topic-admin .set_Input_Filter {	
-	  padding-left: 220px;	
-	  padding-right: 0px;	
-	}	
-	/*certification arsl*/	
-	.task-topic-admin .sector_option {	
-	  margin-left: 0;	
-	  margin-right: 0;	
-	}	
-	.custom-users-column img:nth-child(2) { 	
-	    transform: rotate(180deg);	
-	}	
-	.task-topic-admin .filter_label {	
-	  margin-left: 15px;	
-	}	
-	.task-topic-admin .set_Input_Filter {	
-	  padding-left: 220px;	
-	  padding-right: 0px;	
-	}	
-		
-	/*job history arsl*/	
-	/*servay reports muhmn*/	
+  }	
+	  
+  /*achiv&proj arsl*/	
+  .task-topic-admin .sector_option {	
+	margin-left: 0;	
+	margin-right: 0;	
+  }	
+	  
+  .task-topic-admin .filter_label {	
+	margin-left: 15px;	
+  }	
+  .task-topic-admin .set_Input_Filter {	
+	padding-left: 220px;	
+	padding-right: 0px;	
+  }	
+  /*certification arsl*/	
+  .task-topic-admin .sector_option {	
+	margin-left: 0;	
+	margin-right: 0;	
+  }	
+  .custom-users-column img:nth-child(2) { 	
+	  -webkit-transform: rotate(180deg); 	
+		  -ms-transform: rotate(180deg); 	
+			  transform: rotate(180deg);	
+  }	
+  .task-topic-admin .filter_label {	
+	margin-left: 15px;	
+  }	
+  .task-topic-admin .set_Input_Filter {	
+	padding-left: 220px;	
+	padding-right: 0px;	
+  }	
+	  
+  /*job history arsl*/	
+  /*servay reports muhmn*/	
+  .survey-report-page .survey-setting {	
+	float: right;	
+  }	
+	  
+  .survey-report-page .survey-report-button2 {	
+	text-align: left;	
+	float: left;	
+  }	
+	  
+  @media screen and (max-width: 767px) {	
 	.survey-report-page .survey-setting {	
-	  float: right;	
+	  width: 100%;	
 	}	
-		
+	  
 	.survey-report-page .survey-report-button2 {	
-	  text-align: left;	
-	  float: left;	
+	  text-align: right;	
+	  width: 100%;	
 	}	
-		
-	@media screen and (max-width: 767px) {	
-	  .survey-report-page .survey-setting {	
-	    width: 100%;	
-	  }	
-		
-	  .survey-report-page .survey-report-button2 {	
-	    text-align: right;	
-	    width: 100%;	
-	  }	
-	}	
-	/*saeed survay*/	
-	.saeed-surveys-page .s {	
-	  padding: 30px;	
-	  text-align: left;	
-	}	
-	/*events*/	
-	.events-custom .updates {	
-	  direction: rtl;	
-	  padding-right: 25px;	
-	}	
+  }	
+  /*saeed survay*/	
+  .saeed-surveys-page .s {	
+	padding: 30px;	
+	text-align: left;	
+  }	
+  /*events*/	
+  .events-custom .updates {	
+	direction: rtl;	
+	padding-right: 25px;	
+  }	
+  .events-set-main .events-img {	
+	float: right;	
+  }	
+  #fullCalendar .fc-right .fc-today-button {	
+	float: left;	
+  }	
+  .fc .fc-toolbar > * > * {	
+	float: right;	
+  }	
+  .events-custom .upcomming-events {	
+	text-align: right;	
+  }	
+  .events-custom .events-content-set {	
+	direction: rtl;	
+	text-align: right;	
+  }	
+  .events-custom .bottom-icons {	
+	float: left;	
+  }	
+  .events-custom .bottom-icons .d-flex {	
+	-webkit-box-orient: horizontal;	
+	-webkit-box-direction: reverse;	
+	-webkit-flex-direction: row-reverse;	
+		-ms-flex-direction: row-reverse;	
+			flex-direction: row-reverse;	
+  }	
+  .updates span {	
+	color: #5b5b5b;	
+	display: table-row;	
+  }	
+  @media only screen and (max-width: 767px) {	
 	.events-set-main .events-img {	
-	  float: right;	
-	}	
-	#fullCalendar .fc-right .fc-today-button {	
-	  float: left;	
-	}	
-	.fc .fc-toolbar > * > * {	
-	  float: right;	
-	}	
-	.events-custom .upcomming-events {	
-	  text-align: right;	
-	}	
-	.events-custom .events-content-set {	
-	  direction: rtl;	
-	  text-align: right;	
-	}	
-	.events-custom .bottom-icons {	
-	  float: left;	
-	}	
-	.events-custom .bottom-icons .d-flex {	
-	  flex-direction: row-reverse;	
-	}	
-	.updates span {	
-	  color: #5b5b5b;	
-	  display: table-row;	
-	}	
-	@media only screen and (max-width: 767px) {	
-	  .events-set-main .events-img {	
-	    float: right !important;	
-	    display: block;	
-	    width: 100%;	
-	  }	
-	  .events-set-main .events-img img {	
-	    width: 50px;	
-	    float: right;	
-	  }	
-	}/*	
-	.task-topic-admin .usman-container,	
-	.survey-report-page .usman-container {	
-	  display: block;	
-	}*/	
-	.survey-checkbox-panel .usman-container {	
-	  display: block;	
-	} /*footer bottom*/	
-	.custom-new-generic-page .pagination {	
-	  float: left;	
-	}	
-	.task-topic-admin .float-left {	
 	  float: right !important;	
+	  display: block;	
+	  width: 100%;	
 	}	
-	.task-management .col-sm-4 {	
-	    float: right;	
+	.events-set-main .events-img img {	
+	  width: 50px;	
+	  float: right;	
 	}	
-	.task-checkbox .checkmark { 	
-	   right: 0 !important;	
-	  }	
-	.task-topic-admin .float-right {	
-	  float: left !important;	
+  }/*	
+  .task-topic-admin .usman-container,	
+  .survey-report-page .usman-container {	
+	display: block;	
+  }*/	
+  .survey-checkbox-panel .usman-container {	
+	display: block;	
+  } /*footer bottom*/	
+  .custom-new-generic-page .pagination {	
+	float: left;	
+  }	
+  .task-topic-admin .float-left {	
+	float: right !important;	
+  }	
+  .task-management .col-sm-4 {	
+	  float: right;	
+  }	
+  .task-checkbox .checkmark { 	
+	 right: 0 !important;	
 	}	
-	.task-topic-admin .text-right {	
-	  text-align: left !important;	
+  .task-topic-admin .float-right {	
+	float: left !important;	
+  }	
+  .task-topic-admin .text-right {	
+	text-align: left !important;	
+  }	
+  .task-topic-admin .text-left {	
+	text-align: right !important;	
+  }	
+  .custom-new-generic-page .survey-report-button {	
+	float: left;	
+  }	
+  @media only screen and (max-width: 355px) {	
+	.custom-new-generic-page .survey-report-button2 button {	
+	  margin-bottom: 10px !important;	
 	}	
-	.task-topic-admin .text-left {	
-	  text-align: right !important;	
+  }	
+  .survey-admin .f-loc {	 
+	right: -webkit-calc(100% - 40px);	 
+	right: calc(100% - 40px);	
+  }	
+  .cus-pic-dir.mar-cus-b {	
+	text-align: left !important;	
+  }	
+  @media only screen and (max-width: 767px) and (min-width: 575px) {	
+	.announce-btn-customize {	
+	  display: block;	
+	  position: relative;	
+	  top: 0;	
+	  left: 5px;	
+	  margin-bottom: 5px;	
 	}	
-	.custom-new-generic-page .survey-report-button {	
-	  float: left;	
+  }	
+	  
+  @media only screen and (max-width: 575px) {	
+	.announce-btn-customize.sug-cus-btn-top {	
+	  display: block;	
+	  height: 210px;	
+	  position: relative;	
+	  top: 0px;	
+	  left: 5px;	
 	}	
-	@media only screen and (max-width: 355px) {	
-	  .custom-new-generic-page .survey-report-button2 button {	
-	    margin-bottom: 10px !important;	
-	  }	
-	}	
-	.survey-admin .f-loc {	 
-	  right: calc(100% - 40px);	
-	}	
-	.cus-pic-dir.mar-cus-b {	
-	  text-align: left !important;	
-	}	
-	@media only screen and (max-width: 767px) and (min-width: 575px) {	
-	  .announce-btn-customize {	
-	    display: block;	
-	    position: relative;	
-	    top: 0;	
-	    left: 5px;	
-	    margin-bottom: 5px;	
-	  }	
-	}	
-		
-	@media only screen and (max-width: 575px) {	
-	  .announce-btn-customize.sug-cus-btn-top {	
-	    display: block;	
-	    height: 210px;	
-	    position: relative;	
-	    top: 0px;	
-	    left: 5px;	
-	  }	
-	}	
-	.shortlisting-btn-col{
-	text-align: left;
+  }	
+  .shortlisting-btn-col{
+  text-align: left;
 }
 .survey-admin .col-md-4 {
-    padding: 0;
+  padding: 0;
 }
 
 
 
 
 .survey-admin .set_survey_margin_checkbox { 
-    margin-right: 0px; 
+  margin-right: 0px; 
 }		
 /*	.job-recruitment .job-vac-bg-holder-top .col-lg-6 {	
-	  float: right;	
-	}	*/
-	.job-recruitment .job-vac-bg-holder-top .image-holder {	
-	  float: right;	
-	}	
-	.job-recruitment .job-vac-bg-holder-top .content {	
-	  padding: 15px 15px 0 0;	
-	}	
-	.job-recruitment .job-rec-panel-padding h4 { 	
-	  margin: 7px 10px 0 0;	
 	float: right;	
-	}	 
-	.job-vacancy-listing i {
-    float: right; 
-    padding: 0 0px 0 10px;
-	}
-	.job-recruitment .set-dropdown-icon {	
-	  float: left;	
-	}	
+  }	*/
+  .job-recruitment .job-vac-bg-holder-top .image-holder {	
+	float: right;	
+  }	
+  .job-recruitment .job-vac-bg-holder-top .content {	
+	padding: 15px 15px 0 0;	
+  }	
+  .job-recruitment .job-rec-panel-padding h4 { 	
+	margin: 7px 10px 0 0;	
+  float: right;	
+  }	 
+  .job-vacancy-listing i {
+  float: right; 
+  padding: 0 0px 0 10px;
+  }
+  .job-recruitment .set-dropdown-icon {	
+	float: left;	
+  }	
 /*	.job-recruitment .job-vac-bg-holder-top .col-lg-6.text-right {	
-	  text-align: left;	
-	}	*/
-	.job-recruitment .set-dropdown-icon {	
-	  float: left;	
+	text-align: left;	
+  }	*/
+  .job-recruitment .set-dropdown-icon {	
+	float: left;	
+  }	
+	  
+  @media only screen and (max-width: 991px) {	
+	.job-recruitment .job-vac-bg-holder-top .col-lg-6.text-right {	
+	  text-align: right;	
 	}	
-		
-	@media only screen and (max-width: 991px) {	
-	  .job-recruitment .job-vac-bg-holder-top .col-lg-6.text-right {	
-	    text-align: right;	
-	  }	
-	  .job-vac-bg-holder-top .text-right {	
-	    float: right;	
-	    text-align: right;	
-	  }	
-	}	
-		
-	/*personal -profile*/	
-	@media only screen and (max-width: 2000px) and (min-width: 1200px) {	
-	  /*.custom-new-generic-page .f-loc {	
-	    right: 92%;	
-	  }*/	
-	.manager_leave .f-loc { 	
-	    top: 40px;  	
-	}	
-		
-	  .cus-spec {	
-	    right: 86% !important;	
-	  }	
-	}	
-	@media only screen and (max-width: 1200px) and (min-width: 1100px) {	
-	  .custom-new-generic-page .f-loc {	
-	    right: 92%;	
-	  }	
-	}	
-	/*	
-	@media only screen and (max-width: 1100px) and (min-width: 767px) {	
-	  .custom-new-generic-page .f-loc {	
-	    right: 90%;	
-	  }	
-	}*/	
-	@media only screen and (max-width: 767px) and (min-width: 650px) {	
-	  /*.custom-new-generic-page .f-loc {	
-	    right: 92%;	
-	  }*/	
-	  .cus-spec {	
-	    right: 88% !important;	
-	  }	
-	}	
-	@media only screen and (max-width: 650px) and (min-width: 575px) {	
-	  /*.custom-new-generic-page .f-loc {	
-	    right: 92%;	
-	  }*/	
-	  .cus-spec {	
-	    right: 86% !important;	
-	  }	
-	}	
-	/*@media only screen and (max-width: 575px) and (min-width: 320px) {	
-	  .custom-new-generic-page .f-loc {	
-	    right: 88%;	
-	  }	
-	}	
-	/*custom checkbox*/	
-	/*.usman-container.set_survey_margin_checkbox {	
-	  display: block;	
-	  width: 98%;	
-	}*/	
-	.panel-default.set_panel .usman-container {	
-	  display: inline-block;	
-	  position: relative;	
-	  padding-left: 0;	
-	  cursor: pointer;	
-	  font-size: 12px;	
-	  -webkit-user-select: none;	
-	  -moz-user-select: none;	
-	  -ms-user-select: none;	
-	  user-select: none;	
-	  width: 100%;	
-	  text-align: left;	
-	}	
-	@media only screen and (min-width: 1200px) {	
-	  .panel-default.set_panel .checkmark {	
-	    position: absolute;	
-	    top: 0;	
-	    left: 88%;	
-	    height: 17px;	
-	    width: 17px;	
-	    background-color: #fff;	
-	    border: 1px solid gray !important;	
-	    border-radius: 2px;	
-	  }	
-	}	
-		
-	/*reports css here*/	
-	@media only screen and (min-width: 992px) {	
-	  .pr-lg-0,	
-	  .px-lg-0 {	
-	    padding-right: 15px !important;	
-	  }	
-	}	
-	/*survay-admin*/	
-	.set_date .cus-dat-us {	
-	  text-align: left;	
-	  padding-right: 10px;	
-	  padding-left: 10px;	
-	}	
-	.on-for-check .on-rtl-fl-l {	
-	  float: left;	
-	}	
-	@media only screen and (max-width: 1200px) and (min-width: 767px) {	
-	  .on-for-check .checkmark {	
-	    position: absolute;	
-	    top: 0;	
-	    left: 96%;	
-	    height: 17px;	
-	    width: 17px;	
-	    background-color: #fff;	
-	    border: 1px solid #ededed !important;	
-	    border-radius: 2px;	
-	  }	
-	}/*	
-	@media only screen and (min-width: 1200px) {	
-	  .on-for-check .usman-container.set_survey_margin_checkbox {	
-	    display: block;	
-	    width: 93%;	
-	  }	
-	}	
-	@media only screen and (max-width: 991px) and (min-width: 767px) {	
-	  .on-for-check .usman-container.set_survey_margin_checkbox {	
-	    display: block;	
-	    width: 95%;	
-	  }	
-	}	
-	@media only screen and (max-width: 767px) and (min-width: 575px) {	
-	  .on-for-check .usman-container.set_survey_margin_checkbox {	
-	    display: block;	
-	    width: 95%;	
-	  }	
-	}*/	
-		
-	/*asif add coustome css start here*/	
-		
-	.aadm-surveys-heading .cus-top-heading {	
-	  border-left: 0px solid #979797;	
-	  padding-left: 10px;	
-	  border-right: 1px solid #979797;	
-	  padding-right: 10px;	
-	}	
-		
-	.saeed-surveys-page .first {	
-	  margin-left: 0;	
-	  margin-right: 10px;	
-	}	
-	.on-for-check .usman-container { 
-	text-align: right;
-	}	
-	.on-for-check .checkmark { 
-	left: 0;
-	}
-	.saeed-surveys-page .f {	
+	.job-vac-bg-holder-top .text-right {	
 	  float: right;	
-	}	
-	.saeed-surveys-page .s1 {	
-	  float: left;	
-	}	
-	.custom-new-generic-page .d-inline-block {	
-	  /* padding: 0 50px; */	
-	}	
-	.custom-new-generic-page .fs-link-org {	
-	  border-right: 0px solid #ccc;	
-	  padding-right: 20px;	
-	  padding-left: 20px;	
-	  border-left: 1px solid #ccc;	
-	}	
-	.custom-new-generic-page .table thead th:nth-child(2) {	
 	  text-align: right;	
 	}	
-	.custom-new-generic-page .table thead th:nth-child(3) {	
-	  text-align: right;	
-	}	
-	.edit-list .show-edit {	
-	  border-left: 0px solid #ccc;	
-	  padding-left: 0;	
-	}	
-	.edit-icon-border {	
-	  border-right: 1px solid #ccc;	
-	  height: 20px;	
-	  float: left;	
-	  position: relative;	
-	  left: 0px;	
-	  top: -10px;	
-	}	
-	.approval-table.post-approval {	
-	  border-left: 1px solid #e6e6e6;	
-	  text-align: right;	
-	  border-right: 1px solid #e6e6e6;	
-	}	
-	.post-approval th:first-child {	
-	  text-align: right;	
-	}	
-	.job-recruitment .set_button_float {	
-	    float: left;	
-	    margin: 20px 0 0;	
-	    text-align: left !important;	
-	}	
-	.discounts-page .col-md-10 {	
-	    float: right;	
-	}	
-	.dis-off-page .col-md-3 {	
-	    float: right;	
-	}/*	
-	.custom-new-generic-page .inbox-custom-rtl-tl .pagination {	
-	    float: right;	
+  }	
+	  
+  /*personal -profile*/	
+  @media only screen and (max-width: 2000px) and (min-width: 1200px) {	
+	/*.custom-new-generic-page .f-loc {	
+	  right: 92%;	
 	}*/	
-	.pagination-row .col-md-6 p { 	
-	    text-align: right;	
+  .manager_leave .f-loc { 	
+	  top: 40px;  	
+  }	
+	  
+	.cus-spec {	
+	  right: 86% !important;	
 	}	
-	.leave_info_panel_margin .col-md-8 {	
-	    float: right;	
-	}	
-	.panel-box h5 {	
-	    text-align: left;	
-	}	
-		
-	.manager_leave .input-append.date .gry-clo {	
-	      text-align: left;  	
-	}	
+  }	
+  @media only screen and (max-width: 1200px) and (min-width: 1100px) {	
 	.custom-new-generic-page .f-loc {	
-	   /* right: 25px; */	
+	  right: 92%;	
 	}	
-		
-	.task-management .col-md-10{	
-	    float: right;	
-	    text-align: right;	
+  }	
+  /*	
+  @media only screen and (max-width: 1100px) and (min-width: 767px) {	
+	.custom-new-generic-page .f-loc {	
+	  right: 90%;	
 	}	
-	.task-checkbox {	
-	    float: right; 	
+  }*/	
+  @media only screen and (max-width: 767px) and (min-width: 650px) {	
+	/*.custom-new-generic-page .f-loc {	
+	  right: 92%;	
+	}*/	
+	.cus-spec {	
+	  right: 88% !important;	
 	}	
-		
-	.task-management .usman-container { 	
-	    text-align: right; 	
-	    padding-left: 0;	
-	    padding-right: 30px;	
+  }	
+  @media only screen and (max-width: 650px) and (min-width: 575px) {	
+	/*.custom-new-generic-page .f-loc {	
+	  right: 92%;	
+	}*/	
+	.cus-spec {	
+	  right: 86% !important;	
 	}	
-	.task-management .task-circle { 	
-	    float: right; 	
+  }	
+  /*@media only screen and (max-width: 575px) and (min-width: 320px) {	
+	.custom-new-generic-page .f-loc {	
+	  right: 88%;	
 	}	
-	.task-management .task-info { 	
-	    float: right; 	
-	}	
-	.task-management .col-sm-12.col-md-6 p {	
-	    text-align: left;	
-	}	
-	
-	.suggestion-form-button-row .col-md-5{	
-	    float: right;	
-	}	
-	.suggestion-form-button-row .col-md-7 {	
-	    float: left;	
-	    padding: 0;	
-	}	
-	.suggestion-form-button-row .usman-container.cus-wd-3.pl-5 {	
-	    text-align: right;	
-	    padding-right: 35px;	
-	}	
-	.suggestion-off-card-image-col {	
-	    float: right;	
-	}	
-	.suggestions-card-name {	
-	    float: right; 	
-	}	
-	.suggestions-card-name h5 {	
-	    text-align: right;	
-	}	
-	.suggestions-card-name p {	
-	    text-align: right;	
-	}	
-	.suggestion-card .col-md-offset-1 {	
-	    margin-left: -3.333%;	
-	}	
-	.job-recruitment img {	
-	    float: right;	
-	}	
-	.dis-off-page .off-side-hig {	
-	    max-height: 280px;	
-	    float: right;	
-	    width: 74%;	
-	    padding: 0;
-	}	
-	.dis-off-page .off-side-hig .cus-con-hig-dis { 
-    padding: 10px 0px 0 0; 
-}
-	.task-management .jus-cont .col-md-4.f-lr {	
-	    float: left;	
-	}	
-	.approval-page .col-md-5.col-md-offset-7 {	
-		
-	    float: left !important;	
-	    margin-left: 0 !important;	
-	    padding: 0 !important;	
-		
-	}	
-	.organization-table-body .edit-list .show-edit {	
-		
-	border-left: 0px solid #ccc;	
+  }	
+  /*custom checkbox*/	
+  /*.usman-container.set_survey_margin_checkbox {	
+	display: block;	
+	width: 98%;	
+  }*/	
+  .panel-default.set_panel .usman-container {	
+	display: inline-block;	
+	position: relative;	
+	padding-left: 0;	
 	cursor: pointer;	
-	padding-left: 0;	
-	border-right: 1px solid #ccc;	
-	padding-right: 50px;	
+	font-size: 12px;	
+	-webkit-user-select: none;	
+	-moz-user-select: none;	
+	-ms-user-select: none;	
+	user-select: none;	
+	width: 100%;	
+	text-align: left;	
+  }	
+  @media only screen and (min-width: 1200px) {	
+	.panel-default.set_panel .checkmark {	
+	  position: absolute;	
+	  top: 0;	
+	  left: 88%;	
+	  height: 17px;	
+	  width: 17px;	
+	  background-color: #fff;	
+	  border: 1px solid gray !important;	
+	  border-radius: 2px;	
 	}	
-	.custom-new-generic-page .fa-trash {	
+  }	
+	  
+  /*reports css here*/	
+  @media only screen and (min-width: 992px) {	
+	.pr-lg-0,	
+	.px-lg-0 {	
+	  padding-right: 15px !important;	
+	}	
+  }	
+  /*survay-admin*/	
+  .set_date .cus-dat-us {	
+	text-align: left;	
+	padding-right: 10px;	
+	padding-left: 10px;	
+  }	
+  .on-for-check .on-rtl-fl-l {	
+	float: left;	
+  }	
+  @media only screen and (max-width: 1200px) and (min-width: 767px) {	
+	.on-for-check .checkmark {	
+	  position: absolute;	
+	  top: 0;	
+	  left: 96%;	
+	  height: 17px;	
+	  width: 17px;	
+	  background-color: #fff;	
+	  border: 1px solid #ededed !important;	
+	  border-radius: 2px;	
+	}	
+  }/*	
+  @media only screen and (min-width: 1200px) {	
+	.on-for-check .usman-container.set_survey_margin_checkbox {	
+	  display: block;	
+	  width: 93%;	
+	}	
+  }	
+  @media only screen and (max-width: 991px) and (min-width: 767px) {	
+	.on-for-check .usman-container.set_survey_margin_checkbox {	
+	  display: block;	
+	  width: 95%;	
+	}	
+  }	
+  @media only screen and (max-width: 767px) and (min-width: 575px) {	
+	.on-for-check .usman-container.set_survey_margin_checkbox {	
+	  display: block;	
+	  width: 95%;	
+	}	
+  }*/	
+	  
+  /*asif add coustome css start here*/	
+	  
+  .aadm-surveys-heading .cus-top-heading {	
+	border-left: 0px solid #979797;	
+	padding-left: 10px;	
+	border-right: 1px solid #979797;	
+	padding-right: 10px;	
+  }	
+	  
+  .saeed-surveys-page .first {	
+	margin-left: 0;	
+	margin-right: 10px;	
+  }	
+  .on-for-check .usman-container { 
+  text-align: right;
+  }	
+  .on-for-check .checkmark { 
+  left: 0;
+  }
+  .saeed-surveys-page .f {	
+	float: right;	
+  }	
+  .saeed-surveys-page .s1 {	
+	float: left;	
+  }	
+  .custom-new-generic-page .d-inline-block {	
+	/* padding: 0 50px; */	
+  }	
+  .custom-new-generic-page .fs-link-org {	
+	border-right: 0px solid #ccc;	
+	padding-right: 20px;	
+	padding-left: 20px;	
+	border-left: 1px solid #ccc;	
+  }	
+  .custom-new-generic-page .table thead th:nth-child(2) {	
+	text-align: right;	
+  }	
+  .custom-new-generic-page .table thead th:nth-child(3) {	
+	text-align: right;	
+  }	
+  .edit-list .show-edit {	
 	border-left: 0px solid #ccc;	
 	padding-left: 0;	
-	font-size: 20px;	
+  }	
+  .edit-icon-border {	
 	border-right: 1px solid #ccc;	
-	padding-right: 50px;	
-	}	
-	.my-request-page .btn {	
-	    float: left; 	
-	}	
-	.pagination-row .col-md-6:first-child {	
-	   float: right;	
-	    width: 50%;	
-	}	
-	.manager_leave .leave-set-date-color { 	
-	    float: right; 	
-	}	
-	.custom-users-column {	
-	    float: left;	
-	}	
-	.manager_leave .panel-box h5 { 	
-	    text-align: right;	
-	}	
-	.leave_info_panel_margin .col-md-5 {	
-	    float: right;  	
-	}	
-	.manager_leave .leave_info_panel_margin { 	
-	    margin-right: -8px;	
-	}	
-		
-	.leave_info_panel_header .image-holder {	
-	    float: right;	
-	    width: 60px;	
-	    margin: 0 0px 0 10px;	
-	}	
-	.panel-box .panel-body .col-xs-12 {	
-	    float: right; 	
-	}	
-	.suggestion-review-text-col {	
-	    float: right; 	
-	}	
-	.suggestion-review-col { 	
-	   float: right; 	
-	    margin-right: 8%;	
-	    margin-left: 0;	
-	}	
-	.events-set-main { 	
-	    float: right;	
-	    text-align: right;	
-	    width: 100%;	
-	}	
-	.upcomming-events h3 {	
-	    color: #1b6592;	
-	    font-weight: 600;	
-	    text-align: right;	
-	    float: right;	
-	    width: 100%;	
-	}	
-	.events-content-set {	
-	    overflow: hidden;	
-	    padding-left: 0;	
-	    padding-right: 15px;	
-	}	
-	.on-rtl-fl-l.job-recruitment {	
-	    width: 100%;	
-	    float: left;	
-	    text-align: left;	
-	}	
-	.survey-admin .pl-0 {	
-	    padding-left: 15px !important;	
-	    padding-right: 0;	
-	}	
-	.survey-admin-mandatory {	
-	    float: left;	
-	    width: 30%;	
-	    padding-right: 15px;	
-	    padding-left: 15px;	
-	}.survey-admin-date {	
-	    float: left;	
-	    width: 35%;	
-	    padding: 0 15px 0 0;	
-	}	
-		
-		
-		
-		
-		
-		@media only screen and (min-width: 250px) and (max-width: 380px) {	
-		.suggestion-review-text-col {
-		width: 50%; 
-		}	 
-		}	
-		@media only screen and (min-width: 381px) and (max-width: 767px) {	
-		.suggestion-review-text-col {
-		float: right !important;
-		}
+	height: 20px;	
+	float: left;	
+	position: relative;	
+	left: 0px;	
+	top: -10px;	
+  }	
+  .approval-table.post-approval {	
+	border-left: 1px solid #e6e6e6;	
+	text-align: right;	
+	border-right: 1px solid #e6e6e6;	
+  }	
+  .post-approval th:first-child {	
+	text-align: right;	
+  }	
+  .job-recruitment .set_button_float {	
+	  float: left;	
+	  margin: 20px 0 0;	
+	  text-align: left !important;	
+  }	
+  .discounts-page .col-md-10 {	
+	  float: right;	
+  }	
+  .dis-off-page .col-md-3 {	
+	  float: right;	
+  }/*	
+  .custom-new-generic-page .inbox-custom-rtl-tl .pagination {	
+	  float: right;	
+  }*/	
+  .pagination-row .col-md-6 p { 	
+	  text-align: right;	
+  }	
+  .leave_info_panel_margin .col-md-8 {	
+	  float: right;	
+  }	
+  .panel-box h5 {	
+	  text-align: left;	
+  }	
+	  
+  .manager_leave .input-append.date .gry-clo {	
+		text-align: left;  	
+  }	
+  .custom-new-generic-page .f-loc {	
+	 /* right: 25px; */	
+  }	
+	  
+  .task-management .col-md-10{	
+	  float: right;	
+	  text-align: right;	
+  }	
+  .task-checkbox {	
+	  float: right; 	
+  }	
+	  
+  .task-management .usman-container { 	
+	  text-align: right; 	
+	  padding-left: 0;	
+	  padding-right: 30px;	
+  }	
+  .task-management .task-circle { 	
+	  float: right; 	
+  }	
+  .task-management .task-info { 	
+	  float: right; 	
+  }	
+  .task-management .col-sm-12.col-md-6 p {	
+	  text-align: left;	
+  }	
+  
+  .suggestion-form-button-row .col-md-5{	
+	  float: right;	
+  }	
+  .suggestion-form-button-row .col-md-7 {	
+	  float: left;	
+	  padding: 0;	
+  }	
+  .suggestion-form-button-row .usman-container.cus-wd-3.pl-5 {	
+	  text-align: right;	
+	  padding-right: 35px;	
+  }	
+  .suggestion-off-card-image-col {	
+	  float: right;	
+  }	
+  .suggestions-card-name {	
+	  float: right; 	
+  }	
+  .suggestions-card-name h5 {	
+	  text-align: right;	
+  }	
+  .suggestions-card-name p {	
+	  text-align: right;	
+  }	
+  .suggestion-card .col-md-offset-1 {	
+	  margin-left: -3.333%;	
+  }	
+  .job-recruitment img {	
+	  float: right;	
+  }	
+  .dis-off-page .off-side-hig {	
+	  max-height: 280px;	
+	  float: right;	
+	  width: 74%;	
+	  padding: 0;
+  }	
+  .dis-off-page .off-side-hig .cus-con-hig-dis { 
+  padding: 10px 0px 0 0; 
+}
+  .task-management .jus-cont .col-md-4.f-lr {	
+	  float: left;	
+  }	
+  .approval-page .col-md-5.col-md-offset-7 {	
+	  
+	  float: left !important;	
+	  margin-left: 0 !important;	
+	  padding: 0 !important;	
+	  
+  }	
+  .organization-table-body .edit-list .show-edit {	
+	  
+  border-left: 0px solid #ccc;	
+  cursor: pointer;	
+  padding-left: 0;	
+  border-right: 1px solid #ccc;	
+  padding-right: 50px;	
+  }	
+  .custom-new-generic-page .fa-trash {	
+  border-left: 0px solid #ccc;	
+  padding-left: 0;	
+  font-size: 20px;	
+  border-right: 1px solid #ccc;	
+  padding-right: 50px;	
+  }	
+  .my-request-page .btn {	
+	  float: left; 	
+  }	
+  .pagination-row .col-md-6:first-child {	
+	 float: right;	
+	  width: 50%;	
+  }	
+  .manager_leave .leave-set-date-color { 	
+	  float: right; 	
+  }	
+  .custom-users-column {	
+	  float: left;	
+  }	
+  .manager_leave .panel-box h5 { 	
+	  text-align: right;	
+  }	
+  .leave_info_panel_margin .col-md-5 {	
+	  float: right;  	
+  }	
+  .manager_leave .leave_info_panel_margin { 	
+	  margin-right: -8px;	
+  }	
+	  
+  .leave_info_panel_header .image-holder {	
+	  float: right;	
+	  width: 60px;	
+	  margin: 0 0px 0 10px;	
+  }	
+  .panel-box .panel-body .col-xs-12 {	
+	  float: right; 	
+  }	
+  .suggestion-review-text-col {	
+	  float: right; 	
+  }	
+  .suggestion-review-col { 	
+	 float: right; 	
+	  margin-right: 8%;	
+	  margin-left: 0;	
+  }	
+  .events-set-main { 	
+	  float: right;	
+	  text-align: right;	
+	  width: 100%;	
+  }	
+  .upcomming-events h3 {	
+	  color: #1b6592;	
+	  font-weight: 600;	
+	  text-align: right;	
+	  float: right;	
+	  width: 100%;	
+  }	
+  .events-content-set {	
+	  overflow: hidden;	
+	  padding-left: 0;	
+	  padding-right: 15px;	
+  }	
+  .on-rtl-fl-l.job-recruitment {	
+	  width: 100%;	
+	  float: left;	
+	  text-align: left;	
+  }	
+  .survey-admin .pl-0 {	
+	  padding-left: 15px !important;	
+	  padding-right: 0;	
+  }	
+  .survey-admin-mandatory {	
+	  float: left;	
+	  width: 30%;	
+	  padding-right: 15px;	
+	  padding-left: 15px;	
+  }.survey-admin-date {	
+	  float: left;	
+	  width: 35%;	
+	  padding: 0 15px 0 0;	
+  }	
+	  
+	  
+	  
+	  
+	  
+	  @media only screen and (min-width: 250px) and (max-width: 380px) {	
+	  .suggestion-review-text-col {
+	  width: 50%; 
+	  }	 
+	  }	
+	  @media only screen and (min-width: 381px) and (max-width: 767px) {	
+	  .suggestion-review-text-col {
+	  float: right !important;
+	  }
 
 
-		}
-		
-	@media only screen and (min-width: 250px) and (max-width: 767px) {	
-	.dis-off-page .col-md-9.off-side-hig {	
-	    float: right;	
-	    width: 78%;	
-	}	
-	.task-management .col-md-10 { 
-    width: 80%;
+	  }
+	  
+  @media only screen and (min-width: 250px) and (max-width: 767px) {	
+  .dis-off-page .col-md-9.off-side-hig {	
+	  float: right;	
+	  width: 78%;	
+  }	
+  .task-management .col-md-10 { 
+  width: 80%;
 }
 .suggestion-review-text-col { 
-    float: left; 
+  float: left; 
 }
 .suggestion-review-text-col { 
-    width: 70%; 
+  width: 70%; 
 }
 
 
 
 .on-for-check .checkmark { 
-    right: 90%; 
+  right: 90%; 
 }
 .survey_admin-mandatory { 
-    width: 100%;
+  width: 100%;
 padding: 0 15px;
 }
 .survey_admin-end {
@@ -1044,100 +1058,100 @@ padding: 0 15px;
 }
 
 .main-content-usman { 
-    text-align: left;
+  text-align: left;
 
 }
-	.dis-off-page .col-md-3 {	
-	    float: right;	
-	    padding: 0 15px;	
-	    width: 75px;	
-	}	
-	.secondDiv .col-md-4.s { 	
-	    float: left;	
-	}	
-	.task-management .col-md-2.add_task_manager {	
-	    float: left;	
-	}	
-	.on-md-mt { 
-    margin-top: 20px;
-    float: left;
-    width: 100%;
+  .dis-off-page .col-md-3 {	
+	  float: right;	
+	  padding: 0 15px;	
+	  width: 75px;	
+  }	
+  .secondDiv .col-md-4.s { 	
+	  float: left;	
+  }	
+  .task-management .col-md-2.add_task_manager {	
+	  float: left;	
+  }	
+  .on-md-mt { 
+  margin-top: 20px;
+  float: left;
+  width: 100%;
 
 }
-	.suggestion-review-col {	
-	    float: right !important;	
-	    margin-right: 8% !important;	
-	    margin-left: 0 !important;	
-	    width: 90px !important;	
-	    margin-top: 0;
-	}	
-	.suggestions-card-name {	
-	    float: right;	
-	    padding-right: 30px;	
-	}	
-	.suggestion-card-btn {	
-	    float: left !important;	
-	    width: 45% !important;	
-	}	
-		
-		
-		
-		
-		
-	}	
-		
-	@media only screen and (min-width: 1025px) and (max-width: 1340px) {	
-	.discounts-page .col-md-9.off-side-hig { 	
-	    float: right; 	
-	    padding: 8px 10px;	
-	}	
-		
-		
-		
-	}	
-	@media only screen and (min-width: 991px) and (max-width: 1340px) {	
-	.task-management .col-md-2.add_task_manager {	
-	    float: left;	
-	}	
-	}	
-	@media only screen and (min-width: 768px) and (max-width: 990px) {	
-		
-	.dis-off-page .col-md-9.off-side-hig { 	
-	    float: right; 	
-	}.task-management .col-md-2.add_task_manager {	
-	    float: left;	
-	}	
-	.suggestion-off-card-image-col {	
-	    float: right !important;	
-	}	
-	.suggestions-card-name {	
-	    float: right !important;	
-		
-	}	
-		
-	 	
-		
-	}	
-	/* webkit solution */	
-	::-webkit-input-placeholder { text-align:right !important;}	
-	/* mozilla solution */	
-	input:-moz-placeholder { text-align:right; }	
-		
-	
-		
-	.request-row-rtl{	
-	  padding-right: 15px;	
-	}	
-		
-	.pagination-rtl{	
-	  direction: ltr;	
+  .suggestion-review-col {	
+	  float: right !important;	
+	  margin-right: 8% !important;	
+	  margin-left: 0 !important;	
+	  width: 90px !important;	
+	  margin-top: 0;
+  }	
+  .suggestions-card-name {	
+	  float: right;	
+	  padding-right: 30px;	
+  }	
+  .suggestion-card-btn {	
 	  float: left !important;	
-	}	
-	/*asif add coustome css end here*/	
-	.border-rtl{	
-	  border-right: solid 1px #979797;	
-	    padding-right: 10px;	
-	}
-	.filter{
-		font-family: Arial, helvetica, sans-serif;
-	}
+	  width: 45% !important;	
+  }	
+	  
+	  
+	  
+	  
+	  
+  }	
+	  
+  @media only screen and (min-width: 1025px) and (max-width: 1340px) {	
+  .discounts-page .col-md-9.off-side-hig { 	
+	  float: right; 	
+	  padding: 8px 10px;	
+  }	
+	  
+	  
+	  
+  }	
+  @media only screen and (min-width: 991px) and (max-width: 1340px) {	
+  .task-management .col-md-2.add_task_manager {	
+	  float: left;	
+  }	
+  }	
+  @media only screen and (min-width: 768px) and (max-width: 990px) {	
+	  
+  .dis-off-page .col-md-9.off-side-hig { 	
+	  float: right; 	
+  }.task-management .col-md-2.add_task_manager {	
+	  float: left;	
+  }	
+  .suggestion-off-card-image-col {	
+	  float: right !important;	
+  }	
+  .suggestions-card-name {	
+	  float: right !important;	
+	  
+  }	
+	  
+	   
+	  
+  }	
+  /* webkit solution */	
+  ::-webkit-input-placeholder { text-align:right !important;}	
+  /* mozilla solution */	
+  input:-moz-placeholder { text-align:right; }	
+	  
+  
+	  
+  .request-row-rtl{	
+	padding-right: 15px;	
+  }	
+	  
+  .pagination-rtl{	
+	direction: ltr;	
+	float: left !important;	
+  }	
+  /*asif add coustome css end here*/	
+  .border-rtl{	
+	border-right: solid 1px #979797;	
+	  padding-right: 10px;	
+  }
+  .filter{
+	  font-family: Arial, helvetica, sans-serif;
+  }

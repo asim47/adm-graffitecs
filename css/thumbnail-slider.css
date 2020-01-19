@@ -5,10 +5,14 @@
   padding: 20px;
   background-color: #ffffff;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
   position: relative;
   -webkit-user-select: none;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
 }
 
 #thumbnail-slider div.inner {
@@ -39,18 +43,23 @@
   *display: inline !important; /*IE7 hack*/
   margin: 0;
   margin-right: 0px; /* Spacing between thumbs*/
+  -webkit-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
   transition: border-color 0.3s;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   text-align: center;
   vertical-align: middle;
   padding: 0;
   position: relative;
   list-style: none;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   opacity: 40%;
   height: 150px;
   width: 250px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 #thumbnail-slider ul li.active {
@@ -59,7 +68,8 @@
   opacity: 100%;
   height: 225px;
   width: 330px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 #thumbnail-slider .thumb {
@@ -72,7 +82,8 @@
   display: block;
   position: absolute;
   font-size: 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* --------- navigation controls ------- */
@@ -88,7 +99,8 @@
   position: absolute;
   /*background-color:#0346a3;*/
   *background-color: #ccc; /*IE7 hack*/
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   width: 32px;
   height: 60px;
   line-height: 60px;

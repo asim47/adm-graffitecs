@@ -4,7 +4,10 @@
   height: 100%; */
 }
 .custom-status-block .row > div {
-  align-self: center;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
 }
 .custom-status-block {
   margin-top: 10px;
@@ -110,8 +113,7 @@
   background: transparent;
   position: relative;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .custom-feedback-block .custom-smileys li button i {
@@ -137,7 +139,6 @@
 .custom-feedback-block .custom-smileys li.selected button,
 .custom-feedback-block .custom-smileys li button:hover {
   -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }

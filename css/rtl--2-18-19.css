@@ -1,383 +1,385 @@
 body{
-     direction:rtl; 
-     font-family: 'Cairo', serif;
-     text-align:right;
+    direction:rtl; 
+    font-family: 'Cairo', serif;
+    text-align:right;
 }
 .main_header .logo_box .logo_inner { 
-    float: left;
-    
+   float: left;
+   
 }
 p.text-left.custom_m { 
-    text-align: right; 
+   text-align: right; 
 }
 .vacancie_btn {
-    float: left !important;
-    margin-top: -20px;
-    text-align: left !important;
+   float: left !important;
+   margin-top: -20px;
+   text-align: left !important;
 }
 .custom_m .col-md-6 {
-    float: right;
-    text-align: right;
+   float: right;
+   text-align: right;
 }
 .circularPdfIcon{
-	 float: right;
+    float: right;
 }
 
 h2.nreqst.text-left {
-    float: right;
-    text-align: right;
-    width: 100%;
+   float: right;
+   text-align: right;
+   width: 100%;
 }
 
 .souqFilterBy,
 .souqOrderBy{
-	float: left;
+   float: left;
 }
 .accordion-toggle:after { 
-    float: left; 
+   float: left; 
 }
 
 .searchSrNoField{
-	line-height: normal;
+   line-height: normal;
 }
 
 
 
 .circ_search_fields .col-md-4,
 .circ_search_fields .col-md-6 {
-    float: right;
+   float: right;
 }
 
 
 .btn-updateVacancySts {
-	float: left;
+   float: left;
 }
 
 
 #language img{
-	margin: 15px 5px;
+   margin: 15px 5px;
 }
 /*  */
 .gtx-arrowbreadcrumb ul li a {
-  padding-left: 0;
-  padding-right: 30px;
+ padding-left: 0;
+ padding-right: 30px;
 }
 .gtx-arrowbreadcrumb ul li a:after {
-  right: auto;
-  left: -18px;
-  transform: scale(0.707) rotate(223deg);
+ right: auto;
+ left: -18px;
+ -webkit-transform: scale(0.707) rotate(223deg);
+     -ms-transform: scale(0.707) rotate(223deg);
+         transform: scale(0.707) rotate(223deg);
 }
 .gtx-arrowbreadcrumb .btn span {
-  margin: 0 0 0 10px;
+ margin: 0 0 0 10px;
 }
 /*  */
- .main_header{
-    direction:ltr;
- }
+.main_header{
+   direction:ltr;
+}
 .left-sidebar, .media-gallery, .owl{
-     direction:ltr; 
+    direction:ltr; 
 }
 .main_header .icons_box ul{direction: rtl;}
 .main_header .icons_box{float:right;}
 .main_header .logo_box {
-	float: left; text-align:left;
-    line-height: 45px;
-    border-radius: 0 0 30px 0;
+   float: left; text-align:left;
+   line-height: 45px;
+   border-radius: 0 0 30px 0;
 }
- .sidebar-menu ul, .sidebar-menu ul li{
-     padding-left:0;
-     padding-right:15px;
-     
+.sidebar-menu ul, .sidebar-menu ul li{
+    padding-left:0;
+    padding-right:15px;
+    
 }
 .main_left{
-	float:right;
+   float:right;
 }
- .sidebar-menu ul li a{
-     padding-left:0;
-     padding-right:20px;
-      font-weight: bold;
+.sidebar-menu ul li a{
+    padding-left:0;
+    padding-right:20px;
+     font-weight: bold;
 }
 .right-sidebar {
-	padding-right: 0px;
-	padding-left: 15px;
+   padding-right: 0px;
+   padding-left: 15px;
 }
 .departments {
-    padding-left: 0px;
-    float: right;
-    padding-right: 20px;
+   padding-left: 0px;
+   float: right;
+   padding-right: 20px;
 }
 .departments a {
-	float:right;
+   float:right;
 }
 .form_data .btn-group.bootstrap-select .dropdown-menu li a {
-    text-align: right;
+   text-align: right;
 }
 .bootstrap-select.btn-group .dropdown-toggle span.bs-caret span {
-    right: auto;
-    left: 0;
+   right: auto;
+   left: 0;
 }
 .attachments li {
-    list-style: none;
-    float: right;
-    padding-left: 0px;
-    padding-right: 25px;
+   list-style: none;
+   float: right;
+   padding-left: 0px;
+   padding-right: 25px;
 }
 .feed-button {
-	float:left;
-     margin: 5px 0px 7px 10px;
+   float:left;
+    margin: 5px 0px 7px 10px;
 }
 .tody-task img {
-    margin: -25px 0 0 10px;
-    float: left !important;
+   margin: -25px 0 0 10px;
+   float: left !important;
 }
 .filter-btn .filter-align{
-	float:right;
-	margin-top: 18px;
+   float:right;
+   margin-top: 18px;
 }
- .tody-task p img{
-    margin: 4px 0 0 0;
+.tody-task p img{
+   margin: 4px 0 0 0;
 }
- .tody-task > ul > li{
-     float:right;
+.tody-task > ul > li{
+    float:right;
 }
- .tody-task > ul.task-list > li{
-     float:right;
-     text-align:right;
+.tody-task > ul.task-list > li{
+    float:right;
+    text-align:right;
 }
- .tody-task > ul.task-list > li > i{
-     float:right;
-     margin-left:20px;
-     margin-right:0;
+.tody-task > ul.task-list > li > i{
+    float:right;
+    margin-left:20px;
+    margin-right:0;
 }
- .tody-task > ul.task-list > li > span{
-     float:left;
+.tody-task > ul.task-list > li > span{
+    float:left;
 }
- .tody-task > ul.task-list h6{
-	 float:right;
- }
+.tody-task > ul.task-list h6{
+    float:right;
+}
 .tody-task  > ul > li:nth-child(2),
 .tody-task  > ul > li:nth-child(3)
 {
-	border-left: none;
-	border-right: solid 1px rgba(151, 151, 151, 0.41);
+   border-left: none;
+   border-right: solid 1px rgba(151, 151, 151, 0.41);
 }
 .tody-task > ul.task-list > li:nth-child(2){
-	border-right:none;
+   border-right:none;
 }
- .post_thumb{
-     float:right;
-     margin-left:40px;
-     margin-right:0;
+.post_thumb{
+    float:right;
+    margin-left:40px;
+    margin-right:0;
 }
 
 .post-detail ul {
-	float: right !important;
-    margin-left: 0px;
-    margin-right: 0;
-    width: 100%;
+   float: right !important;
+   margin-left: 0px;
+   margin-right: 0;
+   width: 100%;
 }
 .post-detail ul li{
-	float:right;
-	border-right: none;
-	border-left: 1px solid #e9e9e9;
+   float:right;
+   border-right: none;
+   border-left: 1px solid #e9e9e9;
 }
 .post-detail ul li:last-child{
-	border-left: none;
+   border-left: none;
 }
 .post-detail ul li img {
-	    padding: 0 0px 3px 10px !important;
+       padding: 0 0px 3px 10px !important;
 }
- .info{
-     float:right;
+.info{
+    float:right;
 }
 .post_date{
-	float:right;
+   float:right;
 }
 .admin-btn{
-	float:left;
-    margin-left: 25px;
+   float:left;
+   margin-left: 25px;
 }
 .custom-widgets img {
-    float: left;
+   float: left;
 }
- .request-list ul li{
-     float:right;
-    padding: 20px 40px 5px 20px;
+.request-list ul li{
+    float:right;
+   padding: 20px 40px 5px 20px;
 }
- .request-list li img{
-     left:auto;
-     right:10px;
+.request-list li img{
+    left:auto;
+    right:10px;
 }
- .request-list li span{
-     float:left;
+.request-list li span{
+    float:left;
 }
- .my-requests .request-title span.icon{
-     float:left;
+.my-requests .request-title span.icon{
+    float:left;
 }
- .most-used-services .services-title span.icon{
-     float:left;
+.most-used-services .services-title span.icon{
+    float:left;
 }
- .file-directory .directory-title span.icon{
-     float:left;
+.file-directory .directory-title span.icon{
+    float:left;
 }
- .calendar .calendar-title span.icon{
-     float:left;
+.calendar .calendar-title span.icon{
+    float:left;
 }
- .best-employee .best-title span.icon{
-     float:left;
+.best-employee .best-title span.icon{
+    float:left;
 }
- .media-gallery .gallery-title span.icon{
-     float:left;
+.media-gallery .gallery-title span.icon{
+    float:left;
 }
- .services-list ul li{
-     padding:15px 20px 0px 0px;
+.services-list ul li{
+    padding:15px 20px 0px 0px;
 }
- .services-list ul span{
-     padding-left:0;
-     padding-right:15px;
+.services-list ul span{
+    padding-left:0;
+    padding-right:15px;
 }
- .media-gallery .gallery-title{
-     text-align:right;
-     direction:rtl;
+.media-gallery .gallery-title{
+    text-align:right;
+    direction:rtl;
 }
 
 .chosen-container-multi .chosen-choices li{
-	float:right !important;
+   float:right !important;
 
 }
 .chosen-container .chosen-drop
 {
-    left: auto !important;
-    right: -9000px;
+   left: auto !important;
+   right: -9000px;
 }
 .task_search {
-	float: left !important;
-    left: 30px;
-	right:auto;
+   float: left !important;
+   left: 30px;
+   right:auto;
 }
 
 tr.task-header th:first-child {
-    background-color: #bc0015;
-    border-radius: 0px 5px 0px 0px;
+   background-color: #bc0015;
+   border-radius: 0px 5px 0px 0px;
 }
 tr.task-header th:last-child {
-    background-color: #bc0015;
-    border-radius: 5px 0px 0px 0px;
+   background-color: #bc0015;
+   border-radius: 5px 0px 0px 0px;
 }
 .bar {
-    float: right;
+   float: right;
 }
 .table >thead>tr>th {
-	text-align:right;
+   text-align:right;
 }
 .task_opts_hndlr {
-    float: left;
+   float: left;
 }
 .task_opts i {
-    float: left;
+   float: left;
 }
 .task_opts{
-    left:0;
-	right:auto;
+   left:0;
+   right:auto;
 }
 .directory .file_new_folder a{
-	left: 35px;
-	right:auto;
+   left: 35px;
+   right:auto;
 }
 .directory .file_new_folder a i {
-    padding-right: 0px;
-    padding-left: 15px;
+   padding-right: 0px;
+   padding-left: 15px;
 }
 .directory .post_thumb {
-    margin-left: 30px;
-    margin-right:0px;
+   margin-left: 30px;
+   margin-right:0px;
 }
 .directory .info i.fa.fa-user {
-    margin-left: 10px;
-    margin-right:0px;
+   margin-left: 10px;
+   margin-right:0px;
 }
 .counter_count .count_data{
-	float:right !important;
+   float:right !important;
 }
 .total, .completed, .pending {
-    margin-bottom: 10px;
+   margin-bottom: 10px;
 }
 .login_img{
-    float: right;
+   float: right;
 }
 .login_img img {
-    float: left;
-	-webkit-transform: scaleX(-1);
-	-moz-transform: scaleX(-1);
-	-o-transform: scaleX(-1);
+   float: left;
+   -webkit-transform: scaleX(-1);
+   -moz-transform: scaleX(-1);
+   -o-transform: scaleX(-1);
 }
 .login_detail{
-	float:right;
+   float:right;
 }
 .login_form label{
-	    padding: 10px 25px 0 0px;
+       padding: 10px 25px 0 0px;
 }
 .login_form input[type=text]:hover,
 .login_form input[type=password]:hover {
-    border-left: none;
-    border-right: 4px solid #bc0015;
+   border-left: none;
+   border-right: 4px solid #bc0015;
 }
 input[type=checkbox] {
-    margin: 0 0px 0 10px;
+   margin: 0 0px 0 10px;
 }
 .remember_box a{
-	float: left;
+   float: left;
 }
 .file_buttons .btn span {
-    margin-right: 0;
-    margin-left: 10px;
+   margin-right: 0;
+   margin-left: 10px;
 }
 .file_buttons .btn {
-    padding: 6px 10px 6px 20px;
+   padding: 6px 10px 6px 20px;
 }
 .file_buttons ul li:not(:last-child)::after {
-    content: "\f060";
+   content: "\f060";
 
 }
 .popup_title_heading { 
-    float: right;
-    width: 100%;
+   float: right;
+   width: 100%;
 }
 .gtx-event-calendar .event_add_icon {
-    float: left; 
+   float: left; 
 }
 
 
 
 .file_ .sidebar-menu ul li {
-    list-style: none;
-    padding-right: 13px;
-    padding-left: 0;
+   list-style: none;
+   padding-right: 13px;
+   padding-left: 0;
 }
 .file_ .sidebar-menu ul li a {
-    padding-left: 0;
-    padding-right: 10px;
-   
+   padding-left: 0;
+   padding-right: 10px;
+  
 }
 .file_accordian > button {
-    text-align: right;
+   text-align: right;
 }
 .file_accordian > button span {
-    float: left;
+   float: left;
 }
 .main-heading .breadcrumb>li+li:before {
-    content: "\f104";
-    font-size: 16px;
-    color: #989898;
-    font-family: fontawesome;
-    float: right;
+   content: "\f104";
+   font-size: 16px;
+   color: #989898;
+   font-family: fontawesome;
+   float: right;
 }
 .files_item .name {float: right;text-align: right;}
 .files_item .icons {
-    float: left!important;
-    text-align: left!important;
-	right:auto;
-	left:0;
+   float: left!important;
+   text-align: left!important;
+   right:auto;
+   left:0;
 }
 .gtx-gridview .inner{padding: 40px 20px 45px;}
 .gtx-gridview .files_item{float:right;}
@@ -387,122 +389,122 @@ input[type=checkbox] {
 .dir_file_name{float:right;}
 
 .files_item .icons .share_pane{
-    text-align: left!important;
+   text-align: left!important;
 }
 .files_item .left .departments {
-    padding-left: 20px;
-    float: right;
-    padding-right: 0;
+   padding-left: 20px;
+   float: right;
+   padding-right: 0;
 }
 .files_item .name img { margin-right: 0; margin-left: 20px;}
 .file_.folder .files_item .inner {
-    padding: 30px 20px;
-    background-color: #f9f9f9;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+   padding: 30px 20px;
+   background-color: #f9f9f9;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
 }
 .folder .files_item .name {
-    float: none;
-    text-align: center;
+   float: none;
+   text-align: center;
 }
 .file_.folder .files_item .icons {
-    float: none!important;
-    text-align: center!important;
+   float: none!important;
+   text-align: center!important;
 }
 .file_.folder .files_item .icons .share_pane{
-    float: none!important;
-    text-align: center!important;
+   float: none!important;
+   text-align: center!important;
 }
 .file_ .heading {
-    float: right;
+   float: right;
 }
 .style ul {
-    text-align: left;
+   text-align: left;
 }
 .style ul li:not(:last-child) {
-    margin-right: 0;
-    margin-left: 10px;
+   margin-right: 0;
+   margin-left: 10px;
 }
 div#sug_search_btn{
-	right:auto;
-	left:16px;
+   right:auto;
+   left:16px;
 }
 .modify_btn {
-    margin-right: 50px;
-	margin-left:0px;
+   margin-right: 50px;
+   margin-left:0px;
 }
 .ann_checkmark{
-	left:0px;
-	    right: 20px;
+   left:0px;
+       right: 20px;
 }
 span.ann_checkmark p{
-	margin-left:0px;
-	margin-right:30px !important;
+   margin-left:0px;
+   margin-right:30px !important;
 }
 .updates_fields .update_attachment {
-    margin-left: 0px; 
-    width: 90%;
-    text-align: right;
+   margin-left: 0px; 
+   width: 90%;
+   text-align: right;
 }
 
 /*
 .file-chooser__input{
-	direction:rtl;
-	transform: translate(300px, 0px) scale(4);
+   direction:rtl;
+   transform: translate(300px, 0px) scale(4);
 }*/
 .discussion_comment .comment_detail .comment_button i,
 .discussion_comment .comment_detail .date i
- {
-    margin-right: 0px;
-    margin-left: 6px;
+{
+   margin-right: 0px;
+   margin-left: 6px;
 }
 .discussion_comment .comment_detail{
-	margin-left:0px;
-	margin-right:80px;
+   margin-left:0px;
+   margin-right:80px;
 }
 .discussion_comment .user_img{
-	float:right;
+   float:right;
 }
 .reply_discussion_comment {
-	padding-left:0;
-	padding-right:100px;
+   padding-left:0;
+   padding-right:100px;
 }
 .achivement_detail .achivement_img {
-    float: right;
-   /*  margin-right: 20px;
-    margin-left: 20px; */
+   float: right;
+  /*  margin-right: 20px;
+   margin-left: 20px; */
 }
 .btm-row, .btm-row ul{
-	float:right;
+   float:right;
 }
 .btm-row a{
-	float:left;
+   float:left;
 }
 .btm-row ul li img{
-	    padding: 0 0 0px 8px;
+       padding: 0 0 0px 8px;
 }
- 
- .soqu_dtl_img {
-    border-radius: 50px;
-    width: 30px;
-    float: right;
-    margin-left: 10px;
+
+.soqu_dtl_img {
+   border-radius: 50px;
+   width: 30px;
+   float: right;
+   margin-left: 10px;
 }
 @media only screen and (max-device-width: 620px){
 .banner .caption {left: 0% !important; right: 0% !important; margin-top: 0px !important;}
 }
- 
+
 .souq_comment_form .form-group button.comment_btn{
-	  right: auto;
-    left: 10px;
+     right: auto;
+   left: 10px;
 }
 .souq_large_comment .user_img{
-	float:right;
+   float:right;
 }
 .souq_large_comment .souq_large_comment_detail{
-	    margin-left: 0px;
-	    margin-right: 40px;
+       margin-left: 0px;
+       margin-right: 40px;
 }
 /* #mybutton .office-boy, #mybutton .assistance{right:auto; left:20px;} */
 /* #mybutton .tech-support{right:auto;left:85px;} */
@@ -511,65 +513,65 @@ margin-left: 0px;
 margin-right: 0px;
 }
 .rtl a.gtx-profile-pic {
-  left: auto;
-  right: 15px;
+ left: auto;
+ right: 15px;
 }
 .rtl .caption-profile {
-  padding-right: 245px;
+ padding-right: 245px;
 }
 .rtl .gtx-btn-group {
-  float: left;
+ float: left;
 }
 #main-sec .main_left {
-    background-color: #fff;
-    width: 22%;
+   background-color: #fff;
+   width: 22%;
 }
 .rtl .gtx-header-left,.rtl .gtx-header-left span.ico-gtx {
-  float: right;
+ float: right;
 }
 .rtl .gtx-header-left span.ico-gtx {
-  margin-right: 0;
-  margin-left: 18px;
+ margin-right: 0;
+ margin-left: 18px;
 }
 .rtl .gtx-header-left span.ico-gtx:after {
-  left: auto;
-  right: -42px;
+ left: auto;
+ right: -42px;
 }
 .rtl .gtx-row-form.gtx-cal {
-  background-position: 15px center;
+ background-position: 15px center;
 }
 .rtl .gtx-row-form.gtx-check label input {
-  right: auto;
-  left: 10px;
+ right: auto;
+ left: 10px;
 }
 .rtl .gtx-content-profile .row div[class*="col-"] {
-  float: right;
+ float: right;
 }
 .add_file_new_folder a{
-	right:auto;
-	left:35px;
+   right:auto;
+   left:35px;
 }
 .disc-add-form .col-md-6 { 
-    float: right; 
+   float: right; 
 }
 .gtx-filter > ul > li:before{
-	left: auto;
-	right: 0;
+   left: auto;
+   right: 0;
 }
 .gtx-filter > ul > li{
-	padding-left:0px;
-	padding-right:25px;
-	margin-right: 0px;
-	margin-left: 20px;
+   padding-left:0px;
+   padding-right:25px;
+   margin-right: 0px;
+   margin-left: 20px;
 }
 .gtx-date time:after {
-	left:auto;
-	margin-left: 0px;
-    right: 100%;
-    margin-right: 15px;
+   left:auto;
+   margin-left: 0px;
+   right: 100%;
+   margin-right: 15px;
 }
 .created_by_list{
-	margin-left: -60px;
+   margin-left: -60px;
 margin-right: 0px;
 }
 .file_accordian > button, .file_accordian .file_user_folder, .file_accordian .file_user_activity, .file_accordian .file_user_files{ text-align:right;}
@@ -582,7 +584,7 @@ margin-right: 0px;
 .job_fields_popup, .edu_fields_popup, .achivement_fields_popup, .add_manager_popup,
 .users_files_popup, .users_activity_popup,.users_activity_edit_popup, .add_skills_popup,
 .certification_popup, .post_group_popup, .honours_popup, .add_event_popup,
- .projects_popup
+.projects_popup
 { left:-827px; right: auto;}
 .active .post_popup,
 .active_event_popup .add_event_popup,
@@ -608,115 +610,116 @@ margin-right: 0px;
 .active_honours_activity .honours_popup,
 .active_projects_activity .projects_popup
 { 
-	left:0px; right:auto;     
-	transition: all .4s ease-in-out .2s;
-    -webkit-transition: all .4s ease-in-out .2s;
+   left:0px; right:auto;     
+   -o-transition: all .4s ease-in-out .2s;     
+   transition: all .4s ease-in-out .2s;
+   -webkit-transition: all .4s ease-in-out .2s;
 }
-	.inline{ margin-left:15px; margin-right:0px;}
-	.up_img_box .cloud_img{left:0; right:auto;}
+   .inline{ margin-left:15px; margin-right:0px;}
+   .up_img_box .cloud_img{left:0; right:auto;}
 #gtx-job-history .table tr td img,
 #gtx-education .table tr td img,
 #gtx-achievements .table tr td img{
-	margin-right:0px;
-	margin-left:20px;
+   margin-right:0px;
+   margin-left:20px;
 }
 #gtx-job-history .table tbody tr:hover,
 #gtx-education .table tbody tr:hover,
 #gtx-achievements .table tbody tr:hover{
-    border-left: 0px! important;
-    border-right: 4px solid #bc0015 !important;
+   border-left: 0px! important;
+   border-right: 4px solid #bc0015 !important;
 }
 input.custom-range {
-    margin-right: 6px;
+   margin-right: 6px;
 }
 .left-circle{
-	right:0;
+   right:0;
 }
 .right-circle{
-	right:auto;
-	    left: -12px;
+   right:auto;
+       left: -12px;
 }
 .gtx-achiev-wrapp.gtx-text-cards .gtx-card-wrapp {
-    padding-right: 48px;
+   padding-right: 48px;
 }
 .shukran{
-	right:auto;
-	left:70px;
+   right:auto;
+   left:70px;
 }
 .shukran p{
-	text-align:left;
+   text-align:left;
 
 }
 .updates .skill_add_button{
-	right:auto;
-	left:30px;
+   right:auto;
+   left:30px;
 }
 .portfolio_list .skill-grid, .portfolio_list .skill-grid * {
-    text-align: right;
+   text-align: right;
 }
 .portfolio_list .skill-grid, .portfolio_list .skill-grid * {
-    text-align: right;
+   text-align: right;
 }
 .portfolio_list .skill-img {
-    float: right;
-    margin-top: -40px;
+   float: right;
+   margin-top: -40px;
 }
 .portfolio_list .gtx-wrapper {
-    float: right;
+   float: right;
 }
 .portfolio_list .share_links {
-    float: left;
-    text-align: left;
+   float: left;
+   text-align: left;
 
 }
 .portfolio_list .share_links ul li {
-    float: left;
+   float: left;
 }
 .portfolio_list .skill-grid:hover {
-    border-left: 0px solid #bc0015;
-    border-right: 14px solid #bc0015;
+   border-left: 0px solid #bc0015;
+   border-right: 14px solid #bc0015;
 }
 #options ul#filter li:not(:last-child) {
-    margin-right: 0px;
-    margin-left: 40px;
+   margin-right: 0px;
+   margin-left: 40px;
 }
 #options ul li {
-    float: right;
+   float: right;
 }
 .gird-list {
-    float: left;
-    margin-right: 0px;
-    margin-left: -25px;
+   float: left;
+   margin-right: 0px;
+   margin-left: -25px;
 }
 .portfolio_list .rank-label{
-	left:auto;
-	right:125px;
+   left:auto;
+   right:125px;
 }
 .rank-label {
-	right: auto;
-	left: 40px;
+   right: auto;
+   left: 40px;
 }
 .profile_image_ .gtx-profile-image, .gallery_name, .gallery_media_search{
-	    float: right;
+       float: right;
 }
 .profile_image_ .upload_img_ {
-    float: right;
-	margin-left:0px;
-	margin-right: 30px;
+   float: right;
+   margin-left:0px;
+   margin-right: 30px;
 }
 .gtx-form-section i{
-	right:auto;
-	left:10px;
+   right:auto;
+   left:10px;
 }
 .gtx-header-right, .gallery_media, .gallery_filter{
-	float:left;
+   float:left;
 }
 .achivement_search {right:auto; left:30px; text-align:right;}
 .achivement_search .search i, .souq .souq_search{float:left;}
 /* .discussion .updates, .souq .updates {float: right;} */
 .disc_title, .disc_start, .disc_end {
-    float: right;
-    margin-bottom: 15px;
+   float: right;
+   margin-bottom: 15px;
 }
 table.calendar tbody tr td{right:30% !important;}
 ul#hall table.calendar tbody tr td{right:0% !important;}
@@ -730,9 +733,9 @@ table.calendar tbody tr td{right:30% !important;}
 .file_directory .file_user_activity span.title, .file_directory .file_user_folder span.title { float: right;}
 .file_directory span.gtx-breadcrumbs { float: right; margin-right: 10px;}
 @media screen and (max-device-width: 1920px) and (min-device-width: 1440px) {
-	div#souq_gallery_demo{
-    float: right;
-	}
+   div#souq_gallery_demo{
+   float: right;
+   }
 }
 ul#hall table.calendar tbody tr td span.meet_room1 {left: 0%; right: 50%; width:400% !important;}
 ul#hall table.calendar tbody tr td span.meet_room11 {right: 50%;}
@@ -783,7 +786,7 @@ ul#employee table.calendar tbody tr td span.meet_r5 {right:30%; width:270%;}
 span.files_checkmark p {margin-left: 0px !important; margin-right: 30px !important;}
 .tab_alert_message ul{float: left; }
 .tab_alert_message ul li{
-    margin: -5px 0px -10px 5px;}
+   margin: -5px 0px -10px 5px;}
 .tab_alert_message p{padding: 15px 25px 0 0px;}
 .gtx-row-form.gtx-cal {background: url(../images/calender.png) no-repeat left 15px center #fff;}
 .manager_padding {position: relative; padding-right: 0px !important; padding-left: 5px !important; float: right;}
@@ -804,21 +807,21 @@ label.check_box.check_active.special_two {float: left;}
 .discount_n_offer .discussion_comment .comment_detail p:after{right:auto; left:0; padding:0px;}
 .discount_n_offer .post-detail ul{}
 .post-detail ul {
-    /*width: calc(100% + 12.9%);
-    margin-left:-4.5%;*/
-    width: 100%;
-    margin-left: 0; 
+   /*width: calc(100% + 12.9%);
+   margin-left:-4.5%;*/
+   width: 100%;
+   margin-left: 0; 
 }
 .ellipsisParagraph::after {
-     right: auto;
-    left:20px;
-    bottom: 79px;
+    right: auto;
+   left:20px;
+   bottom: 79px;
 }
 .comment .comment_detail { 
-    float: left; 
+   float: left; 
 }
 .file_user_folder ul {
-    float: left; 
+   float: left; 
 }
 .comment .user_img{float: right;}
 .departments li{float: right;}
@@ -826,30 +829,29 @@ label.check_box.check_active.special_two {float: left;}
 .gtx-event-calendar .fc-view-container{direction:rtl;}
 .gtx-event-calendar .fc-toolbar .fc-left{float: right;}
 .gtx-event-calendar .fc-right{margin-right:0px; margin-left: 120px; float: left;}
- 
+
 .dot{left:0px; right: 170px;}
 .events-list h3 img, .events-list time img{left:0px; right:80px;}
 .ann_rtl_subject, .ann_rtl_topic, .news_rtl_category, .news_rtl_high {float: right;}
 .for_rtl_version{float:right;}
 .for_ltr_version{float:left !important;}
 img.more_images_add{right: auto; left: 20px;}
-.new-galley-label img{left:auto; right: 14px;    
-    -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+.new-galley-label img{left:auto; right: 14px;
+   -webkit-transform: scaleX(-1);
+   -ms-transform: scaleX(-1);
+       transform: scaleX(-1);
 }
- .tab_alert_message .fa-arrow-left {
-    margin-left: 10px;
-    margin-right: 0 !important;
+.tab_alert_message .fa-arrow-left {
+   margin-left: 10px;
+   margin-right: 0 !important;
 }
 .score-history-wrap.org-wrapper img.saeed_img {float: right; margin-right:0px; margin-left: 15px;}
 .new-gallery-title{float: right;}
 .high_importance .checkmark{left: auto; right: 4px;}
 /*.checkmark {
-    top: 0;
-    right: -40px;
-    left: 0;
+   top: 0;
+   right: -40px;
+   left: 0;
 }*/
 .fc-left {margin-left:0px; margin-right: 68px;}
 .man_detail img, .subti_detail img{float: right;}
@@ -871,7 +873,7 @@ img.hr_icon{float: right; margin-right:0px ;margin-left: 10px;}
 .cardUser{left:auto; right: 335px;}
 a.closeCard{margin-right:0px; margin-left: 22px;float: left;}
 .cardUser ul li{float: right;}
-.cardUser:after{filter: drop-shadow(5px 0px 2px #efefef); border-right:none; border-left: 27px solid #fff; left:auto; right: -25px;}
+.cardUser:after{-webkit-filter: drop-shadow(5px 0px 2px #efefef);filter: drop-shadow(5px 0px 2px #efefef); border-right:none; border-left: 27px solid #fff; left:auto; right: -25px;}
 .card-hr form label{float: right;}
 .card-hr form .upload-btn{margin-right: 10px;}
 .request-documents span{float: right;}
@@ -879,617 +881,625 @@ a.closeCard{margin-right:0px; margin-left: 22px;float: left;}
 .special_two, .assign_search button.search_button{float:left;}
 .score-history-wrap.org-wrapper .col-1 img.saeed_img {float: right;margin-right:0px;margin-left:15px;}
 .gtx-content-profile2 .row div[class*="col-"], .gtx-content-profile .row div[class*="col-"] {
-    padding: 0 10px;
-    float: right;
+   padding: 0 10px;
+   float: right;
 }
 .division-col{
-	float:right;
+   float:right;
 } 
 .add_dis_popup .position, .add_dis_popup .department {
-    margin-top: 20px;
-    float: right;
+   margin-top: 20px;
+   float: right;
 }
 .post-one .col-md-6 {
-    float: right;
+   float: right;
 }
- .post-two .col-md-6 {
-    float: right;
+.post-two .col-md-6 {
+   float: right;
 }
- .post-three .col-md-6 {
-    float: right;
+.post-three .col-md-6 {
+   float: right;
 }
- .marquee {
-    direction: ltr;
+.marquee {
+   direction: ltr;
 }
 .saeedsericesifram{
-    float: left !important;
-    position: absolute;
-    left: 0px !important; 
-    right:auto !important;
+   float: left !important;
+   position: absolute;
+   left: 0px !important; 
+   right:auto !important;
 }
- .toggle-wrap {
-       transform: rotate(180deg);
+.toggle-wrap {
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg);
 }
 .disc-add-form .col-md-6 {
-    float: right;
+   float: right;
 }
 .souq_floating { 
-    float: right;
+   float: right;
 }
- 
+
 .gtx-souq-content .col-md-3 { 
-    float: right;
+   float: right;
 }
- .post-four .col-md-6 {
-    float: right;
+.post-four .col-md-6 {
+   float: right;
 }
- .post-five .col-md-6 {
-    float: right;
+.post-five .col-md-6 {
+   float: right;
 }
 .zoomin img { 
-    margin-right: 15px;
+   margin-right: 15px;
 }
 .post-detail.col-md-11.col-md-offset-1 {
-    margin: 0;
-    width: 100%;
-    padding: 0 35px 0 30px;
+   margin: 0;
+   width: 100%;
+   padding: 0 35px 0 30px;
 }
 .textEmoji.emojionearea .emojionearea-button{
-	left: 3px !important; 
-    right: auto !important;
+   left: 3px !important; 
+   right: auto !important;
 }
 .textEmoji.emojionearea .emojionearea-picker { 
-    left: -270px !important;
-    right: auto !important;
+   left: -270px !important;
+   right: auto !important;
 }
 .active .comment_form, .active_dis_form .comment_form {
-    right: auto !important; 
+   right: auto !important; 
 }
 .tab_alert_message .col-md-6 {
-    float: left;
+   float: left;
 }
 
 #slider-item { 
-    direction: ltr;
+   direction: ltr;
 }
 
 .post-col-name {
-    float: right;
+   float: right;
 }
 .most-used-services .services-title {
-    text-align: left; 
-    direction: ltr; 
+   text-align: left; 
+   direction: ltr; 
 }
 
 .comment_form .form-group button.comment_btn { 
-  float: left; 
-    margin-left: 5px;
+ float: left; 
+   margin-left: 5px;
 }
- .comment_form form input.form-control { 
-    padding-left: 60px;
+.comment_form form input.form-control { 
+   padding-left: 60px;
 }
 .mylinks-head {
-    direction: rtl;
-    float: right;
-    width: 100%;
-    text-align: right;
+   direction: rtl;
+   float: right;
+   width: 100%;
+   text-align: right;
 }
 
 .item ul li, .file-directory-owl .upload_item, .new-owl-carosssusel .upload_item {
-     float: right;
-    text-align: right;
+    float: right;
+   text-align: right;
 }
 
 .item ul li img, .file-directory-owl .upload_item img, .new-owl-carosssusel .upload_item img {
-     float: right;
+    float: right;
 }
 
 .input-group.stylish-input-group.pull-right { 
-    direction: ltr;
+   direction: ltr;
 }
- .post-date {
-    float: left; 
-    direction: ltr;   
+.post-date {
+   float: left; 
+   direction: ltr;   
 }
 .soqu_img { 
-     float: right;
-    margin-left: 10px;
-    margin-top: 5px;
+    float: right;
+   margin-left: 10px;
+   margin-top: 5px;
 }
 .updates {
-    padding-right: 20px;
+   padding-right: 20px;
 }
 .souq-post i {
-    margin-left: 10px;
+   margin-left: 10px;
 }
 .souq_comment_form form input.form-control { 
-	 padding-right: 60px; 
+    padding-right: 60px; 
 }
 .updates-souq{
-	float:right;
+   float:right;
 }
 .delet-img { 
-    float: right;  
+   float: right;  
 }
 .image-uplaod img { 
-    float: right; 
+   float: right; 
 }
 .most-used-services .services-title { 
-    direction: ltr; 
+   direction: ltr; 
 }
 .item ul li span.file_name, .file-directory-owl .upload_item span.file_name, .new-owl-carosssusel .upload_item span.file_name {
-  text-align: right;
-    margin-top: 8px;
+ text-align: right;
+   margin-top: 8px;
 }
 .item ul li img, .file-directory-owl .upload_item img, .new-owl-carosssusel .upload_item img {
-    float: right;
+   float: right;
 }
 
 .owl-carousel { 
-    direction: ltr;   
+   direction: ltr;   
 }
 .comment-emojis.focused .emojionearea-picker.emojionearea-picker-position-right.emojionearea-filters-position-top.emojionearea-search-position-top {
-    margin-right: 0 !important;
-    margin-top: -270px !important;
-    float: left !important;
-    position: absolute;
-    right: 60% !important;
+   margin-right: 0 !important;
+   margin-top: -270px !important;
+   float: left !important;
+   position: absolute;
+   right: 60% !important;
 }
 .request-head p, .inbox-head p, .mylinks-head p, .orgunit-head p {
-    right: 30px;
+   right: 30px;
 }
 
 .souq-content h6 {
-    float: left; 
-    text-align: left; 
+   float: left; 
+   text-align: left; 
 }
 .souq-content h5 a {  
-    text-align: right;
+   text-align: right;
 }
 .post-date .fa {
-    float: right;
-    margin-left: 10px;
+   float: right;
+   margin-left: 10px;
 }
 .like-post {
-    float: left;  
-    width: 19%; 
+   float: left;  
+   width: 19%; 
 }
 
 li a { 
-    color: #000;
+   color: #000;
 }
 /*
 .souq_larger_comment .user_img img {
-    left: auto;
-    right: 30px;
+   left: auto;
+   right: 30px;
 }*/
 .fa-phone {
-    transform: rotate(260deg);
+   -webkit-transform: rotate(260deg);
+       -ms-transform: rotate(260deg);
+           transform: rotate(260deg);
 }
 .souq_larger_comment .col-md-1 {
-    float: right;
-    width: 10%;
-    text-align: center; 
-    padding-left: 7px;
-    margin-left: 0px;
+   float: right;
+   width: 10%;
+   text-align: center; 
+   padding-left: 7px;
+   margin-left: 0px;
 }.souq_comment_form {
-    margin: 0;
-    padding-left: 0;
-    width: 85%;
-    float: right;
+   margin: 0;
+   padding-left: 0;
+   width: 85%;
+   float: right;
 }
 .dataTables_wrapper .dataTables_filter input {
-    margin-right: 0.5em; 
+   margin-right: 0.5em; 
 }
 table.dataTable thead .sorting_desc {
-    text-align: right;
+   text-align: right;
 }
 table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
-     text-align: right;  
+    text-align: right;  
 }
 #mybutton .assistance {
-     right: auto; 
-    left: 20px;
+    right: auto; 
+   left: 20px;
 }
 .vacancie_thumb { 
-    margin-left: 40px; 
-    margin-right: 0;
-    float: right;
+   margin-left: 40px; 
+   margin-right: 0;
+   float: right;
 }
 .vacancie-info h5 { 
-    text-align: right; 
+   text-align: right; 
 }
 .vacancie_data ul { 
-    padding: 0 90px 0 0px; 
-    text-align: right;
+   padding: 0 90px 0 0px; 
+   text-align: right;
 }
 .vacancie_data ul li {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding: 7px 0;
-    text-align: right;
+   float: right;
+   width: 50%;
+   margin: 0;
+   padding: 7px 0;
+   text-align: right;
 }
 .vacancie_data ul li i { 
-    margin-right: 0;
-    margin-left: 10px;
-    text-align: right;
+   margin-right: 0;
+   margin-left: 10px;
+   text-align: right;
 }
 
 .vacancie-info {
-    float: right; 
+   float: right; 
 }
 .vacancie_data {
-    float: right;
+   float: right;
 }
 .news_publish_date {
-    float: right;
+   float: right;
 }
 .vacanice_fields .col-md-6 {
-    float: right;
+   float: right;
 }
 .gtx-event-calendar .event_add_icon {
-    float: left;
-    margin-top: 0;
-    margin-right: 0;
-    position: relative;
-    z-index: 99999;
-    margin-left: 30px;
+   float: left;
+   margin-top: 0;
+   margin-right: 0;
+   position: relative;
+   z-index: 99999;
+   margin-left: 30px;
 }
 .scoreHistory img { 
-    margin-left: 4px;
+   margin-left: 4px;
 }
 .vacancie-info h4 {
-    text-align: right;
+   text-align: right;
 }
 #mybutton .office-boy {
-     right: auto; 
-    left: 20px;
+    right: auto; 
+   left: 20px;
 }
 
 .office_boy_popup {
-       right: 40%; 
+      right: 40%; 
 }
 .active_office_boy_popup .combined-Shape:before {
-    left: -20px;
-    right: auto; 
-    transform: rotate(180deg); 
+   left: -20px;
+   right: auto; 
+   -webkit-transform: rotate(180deg); 
+       -ms-transform: rotate(180deg); 
+           transform: rotate(180deg); 
 }
- 
+
 .tech-support { 
-    right: auto; 
-    left: 85px;
+   right: auto; 
+   left: 85px;
 }
- 
+
 
 .file-list {
-    float: left;
-    width: 92%;
+   float: left;
+   width: 92%;
 }
 
 .d-flex.justify-content-center.centertext {
-    display: inline-block;
+   display: inline-block;
 }
 
 .btn-browse-file {
-      top: 3px;  
-    left: 15px;
+     top: 3px;  
+   left: 15px;
 }
 .check_box {
-      float: left;
+     float: left;
 }
 .arabic-checkmark{
-	right: 60px;
+   right: 60px;
 }
 
 .col-md-6.col-sm-12.col-xs-12.sectoeSection {
-    float: right;
+   float: right;
 }
- 
+
 .bootstrap-select.btn-group .dropdown-toggle .filter-option {
-     text-align: right;
+    text-align: right;
 }
 .updates_fields .col-md-8 {
-    float: right;
+   float: right;
 }
- .add_dis_popup .file-chooser, .souq_add_popup .file-chooser { 
-    padding: 15px 20px;
+.add_dis_popup .file-chooser, .souq_add_popup .file-chooser { 
+   padding: 15px 20px;
 }
 #addUpdateSkillForm .col-md-6.col-sm-12.col-xs-12 {
 
-    float: right;
+   float: right;
 
 }
 
 .add_dis_popup .updates_fields .update_body {
-    margin-right: 15px; 
+   margin-right: 15px; 
 }
- 
+
 .footer_text { 
-    float: left;
+   float: left;
 }
 .footer_logo { 
-    border-radius: 30px 0 0 0 !important;
-    float: right !important; 
+   border-radius: 30px 0 0 0 !important;
+   float: right !important; 
 }
 .footer_text img {
-        left: 10px !important;
-    right: auto !important;
-    bottom: -10px !important;
+       left: 10px !important;
+   right: auto !important;
+   bottom: -10px !important;
 }
 footer {
-   right: 0px; 
+  right: 0px; 
 }
- 
+
 .remove_gallery_form {
-    margin-top: 25px !important;
+   margin-top: 25px !important;
 }
 
 .tab_alert_message ul li img { 
-    margin-: -0 0 7px; 
+   margin-: -0 0 7px; 
 }
 
 .tab_alert_message .col-md-6 span {
-    margin-top: 8px;  
+   margin-top: 8px;  
 }
 .counter_count .col-md-4 {
-    float: right;
+   float: right;
 }
 .featured .col-md-6 {
-    float: right;
+   float: right;
 }
 #success_alert .modal-content img { 
-    right: auto !important;
-    left: 0;
+   right: auto !important;
+   left: 0;
 }
 
 .add_manager_popup .col-md-3 {
-    float: right;
+   float: right;
 }
 .add_manager_popup .col-md-3 label{
-    float: right;
+   float: right;
 }
 
 .org-user-links-form .col-md-2 {
-    float: right;
+   float: right;
 }
 .org-user-links-form .col-md-2 label{
-    float: right;
+   float: right;
 }
- 
+
 .add_dis_popup .news-input {
-    margin: 0 15px;
-    width: 96%;
+   margin: 0 15px;
+   width: 96%;
 }
 .add_dis_popup .add_dis_date { 
-    margin-right: 0;
+   margin-right: 0;
 }
 
 .add_dis_date .col-md-3 {
-    float: right;
+   float: right;
 }
 .popup_title_heading { 
-    margin: 30px 15px; 
+   margin: 30px 15px; 
 }
 .add_dis_date .check_box.check_active {
-    float: right;
+   float: right;
 }
 
 .users_folder_popup .check_box.check_active {
-    float: right;
+   float: right;
 }
 .users_foile_popup .check_box.check_active {
-    float: right;
+   float: right;
 }
 .users_files_popup .search_button i, .users_activity_popup .search_button i {
-    margin-right: 0;
-    margin-left: 10px;
+   margin-right: 0;
+   margin-left: 10px;
 }.add_gallery {
-    float: left;
+   float: left;
 }
 .add_discount {
-     right: auto; 
-    left: 40px;
+    right: auto; 
+   left: 40px;
 }
 .tab_alert_message {
-     float: left;
-    width: 100%;
-    padding: 5px 0;
+    float: left;
+   width: 100%;
+   padding: 5px 0;
 }
 .updates_fields_popup .check_box.check_active {
-    float: right;
+   float: right;
 }
 .updates_fields_popup .col-md-6{
-    float: right; 
+   float: right; 
 }
 .new_media_gallery_popup .col-md-6  {
-    float: right;
+   float: right;
 }
 .degree-col{
-	   float: right;
+      float: right;
 }
 .radio {
-    width: 30%; 
+   width: 30%; 
 }
 .users_files_popup .col-md-6 {
-    float: right;
+   float: right;
 }
 .users_files_popup .check_box.check_active{
-	 float: right;
+    float: right;
 }
 .users_folder_popup .col-md-6 {
-    float: right;
+   float: right;
 }
 .post_header .col-md-6 {
-    float: right;
+   float: right;
 }
 .gtx-form-section .col-sm-6 {
-    float: right;
+   float: right;
 }.gtx-row-field {
-    padding: 0 10px;
+   padding: 0 10px;
 }
 .saeedsericesifram {
-    float: right !important;
-    width: 78%;
+   float: right !important;
+   width: 78%;
 }
 .profile_skill_count .nav-item { 
-    float: right;
+   float: right;
 }
 .fancybox-thumbs {
-    right: auto !important; 
-    left: 0;
+   right: auto !important; 
+   left: 0;
 }
 .fancybox-show-thumbs .fancybox-inner {
-    right: 0 !important;
+   right: 0 !important;
 }
 
 .add_skills_popup .title_heading {
-    margin: 30px 10px; 
+   margin: 30px 10px; 
 }
 
 #hotTopicUntilDiv .col-md-6 {
-    float: right;
+   float: right;
 }
 #skillFilterForm .col-md-6 {
-    float: right;
+   float: right;
 }
- 
+
 .post-one { 
-    padding: 15px 10px 0 0px !important; 
+   padding: 15px 10px 0 0px !important; 
 }
 
 .discountItemMainDiv {
-    float: right;
+   float: right;
 }
 #addAnncForm .col-md-6 {
-    float: right;
+   float: right;
 }
 #addNewsForm .col-md-6 {
-    float: right;
+   float: right;
 }
 .post-date-detail i {
-    margin-left: 10px;
-    margin-right:0;
+   margin-left: 10px;
+   margin-right:0;
 } 
 
 .add_dis_popup .position, .add_dis_popup .department {
-    margin-top: 20px;
-    float: right;
+   margin-top: 20px;
+   float: right;
 }
 
 .col-md-6.position {
-    float: right;
+   float: right;
 }
 
 .groupTags, .imageAttachment, .imageUploaded {
-    float: right;
+   float: right;
 }
 
 @media screen and (min-device-width: 250px) and (max-device-width: 767px) {
 .main_header .icons_box { 
-    margin-top: 10px;
+   margin-top: 10px;
 }	
-	
+   
 .main_header .icons_box ul li {
-    float: right;
-    margin: 0 3%;
+   float: right;
+   margin: 0 3%;
 }
 .post-detail {
-    padding: 0;
-    margin: 0;
+   padding: 0;
+   margin: 0;
 }
 
 .featured::before {
-  right: auto;
+ right: auto;
 left: -1px; 
 top: -10px;
 }
 .featured::after {
-    right: auto;
-    left: 0;
-    top: -10px;
+   right: auto;
+   left: 0;
+   top: -10px;
 }
 .file_directory .main-heading {
-    margin-bottom:10px;
+   margin-bottom:10px;
 }
- .main_header .icons_box ul li { 
-    float: right; 
+.main_header .icons_box ul li { 
+   float: right; 
 }
 .file_accordian > button, .file_accordian .file_user_folder, .file_accordian .file_user_activity, .file_accordian .file_user_files {
-    padding: 70px 16px 20px 20px;
+   padding: 70px 16px 20px 20px;
 }
 .radio {
-    width: auto; 
+   width: auto; 
 }
 
 .sidebar-menu.active { 
-    top: 50px !important;
+   top: 50px !important;
 }
 
 .deleteMediaAlbum {
-    margin-top: -55px;
+   margin-top: -55px;
 }
 .add_discount { 
-    float: left;
+   float: left;
 }
 .new_title_bg tr th, #gtx-orguser-links .table tr td, #gtx-job-history .table tr td, #gtx-education .table tr td, #gtx-achievements .table tr td {
-     padding: 8px; 
+    padding: 8px; 
 }
 
 .plus_button_links {
-    margin: -10px auto auto 10px !important;
+   margin: -10px auto auto 10px !important;
 }
 
 .tab_alert_message ul li {
-    float: right;
-    margin: 0px 0px 0px 5px !important;
-    text-align: right !important;
+   float: right;
+   margin: 0px 0px 0px 5px !important;
+   text-align: right !important;
 }
 .updates_fields_popup .col-md-3 {
-    float: right;
-    width: 25%;
-    padding-left: 0;
-    margin-right: 0;
-    padding-right: 0;
+   float: right;
+   width: 25%;
+   padding-left: 0;
+   margin-right: 0;
+   padding-right: 0;
 }
 .file-list {
-    float: left;
-    width: 85%;
+   float: left;
+   width: 85%;
 }
 .fc-left {
-    margin-left: 0px;
-    margin-right: 0;
+   margin-left: 0px;
+   margin-right: 0;
 }
- 
+
 
 .dataTables_wrapper .dataTables_filter input { 
-    width: 100%; 
+   width: 100%; 
 }
 .form_add_test_table .score-history-wrap {
-      box-shadow: none;  
+     -webkit-box-shadow: none;
+             box-shadow: none;  
 }
 .employee_record { 
-    box-shadow: none; 
-    padding: 0 0;
+   -webkit-box-shadow: none; 
+           box-shadow: none; 
+   padding: 0 0;
 }
 
 .dataTables_wrapper .dataTables_filter input {
-    margin-right: 0 !important;
+   margin-right: 0 !important;
 }
 .col-md-6.position {
-    float: right;
-    width: 100%;
+   float: right;
+   width: 100%;
 }
 .discountItemMainDiv {
-    float: right;
-    width: 100%;
-    padding:0;
+   float: right;
+   width: 100%;
+   padding:0;
 }
 .dis_popup .attached_files img, .add_dis_popup .attached_files img {
 
-    margin: 30px 2px 10px 2px;
-    border-right: 0; 
-    border-left: 1px solid #ececec;
+   margin: 30px 2px 10px 2px;
+   border-right: 0; 
+   border-left: 1px solid #ececec;
 
 }
 
@@ -1510,123 +1520,122 @@ top: -10px;
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-	.tab_alert_message .col-md-6 span {
-    margin-top: 0;
+   .tab_alert_message .col-md-6 span {
+   margin-top: 0;
 }
 .main_header .logo_box {  
-    border-radius: 0;
+   border-radius: 0;
 }	
 
 
 .dis_popup .attached_files img, .add_dis_popup .attached_files img {
-    border-right: 0; 
-    border-left: 1px solid #ececec;
+   border-right: 0; 
+   border-left: 1px solid #ececec;
 
 }
 .tab_alert_message .col-md-6 {
-    float: left;
-    width: 50%;
+   float: left;
+   width: 50%;
 }	
 .main_header .icons_box ul li { 
-    float: right;
+   float: right;
 }
 .post-detail.col-md-11.col-md-offset-1 {
-    margin: 10px 0 0 0;
-    float: right;
+   margin: 10px 0 0 0;
+   float: right;
 }	
 .gtx-souq-content .col-md-3 {
-      float: right;
+     float: right;
 }
 .souq_comment_form {
-    margin: 0;
-    padding-left: 30px !important;
-    width: 83% !important;
-    float: left !important;
+   margin: 0;
+   padding-left: 30px !important;
+   width: 83% !important;
+   float: left !important;
 }	
 .active_office_boy_popup .combined-Shape {
-     margin-left: 100px; 
-    left: 38%;
+    margin-left: 100px; 
+   left: 38%;
 }	
- 
-	
+
+   
 .tab_alert_message ul li { 
-    margin: 0 0 0px 10px;
+   margin: 0 0 0px 10px;
 }	
-	
+   
 .tab_alert_message .fa-arrow-left {
-    margin: 8px 0 0 4px !important;
+   margin: 8px 0 0 4px !important;
 }.col-md-6.position {
-    float: right;
-    width: 100%;
+   float: right;
+   width: 100%;
 }	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 }
 @media screen and (min-device-width: 1024px) and (max-device-width: 1390px) {
- 
+
 .post_popup, .updates_fields_popup, .new_media_gallery_popup, .org_popup, .souq_add_popup, .modify_fields_popup, .users_folder_popup, .skill_fields_popup, .dis_popup, .add_dis_popup, .job_fields_popup, .edu_fields_popup, .achivement_fields_popup, .add_manager_popup, .users_files_popup, .users_activity_popup, .users_activity_edit_popup, .add_skills_popup, .certification_popup, .post_group_popup, .honours_popup, .add_event_popup, .projects_popup {
-    left: -100%;
-    right: auto;
+   left: -100%;
+   right: auto;
 }	
 .discount_n_offer .discussion_comment .comment_detail h3 {
-     width: 130px;
+    width: 130px;
 }	
 .discount_n_offer .discount_offer h2 {
-   width: 135px;
+  width: 135px;
 }	
- 
+
 .manager-text { 
-    width: 70%;
+   width: 70%;
 }
 
 .tab_alert_message .col-md-6 span {
-    margin-top: -7px;
-    margin-bottom: 10px;
-	
+   margin-top: -7px;
+   margin-bottom: 10px;
+   
 }
 }
 
 #manager_alert .modal-footer .search_button {
-      right: auto; 
-    left: 0;
+     right: auto; 
+   left: 0;
 }
 #manager_alert .modal-footer p {
- right: 20px;
-    padding: 0 25px;
-    position: relative;
-    text-align: right;
+right: 20px;
+   padding: 0 25px;
+   position: relative;
+   text-align: right;
 }
 #manager_alert .modal-footer h3 {
-    width: 70%;
-     margin: 40px 20px 0 0;
-     text-align: right;
-    max-width: 100%;
-    float: right;
+   width: 70%;
+    margin: 40px 20px 0 0;
+    text-align: right;
+   max-width: 100%;
+   float: right;
 }
 
 #manager_alert .modal-footer img, #req_user_skill_modal .modal-footer img, #thankyou_notes_modal .modal-footer img {
-     float: right; 
+    float: right; 
 }
 li.manager-text {
-    float: left;
-    width: 100%;
-    text-align: left;
-    padding-left: 70px;
+   float: left;
+   width: 100%;
+   text-align: left;
+   padding-left: 70px;
 }
 
 .saeedcircmain h5 {
-	text-align: right !important;
+   text-align: right !important;
 }
-
 
 
 

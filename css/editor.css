@@ -14,12 +14,10 @@ You should have received a copy of the GNU General Public License along with thi
    background-color: #67A754;
   background-image: url(images/radial_bg.png);
   background-position: center center;
-  background-repeat: no-repeat; 
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#B3ECFF), to(#7EDEFF)); /* Safari 4-5, Chrome 1-9 */ /* Can't specify a percentage size? Laaaaaame. */
-  background: -webkit-radial-gradient(circle, #B3ECFF, #7EDEFF); /* Safari 5.1+, Chrome 10+ */
-  background: -moz-radial-gradient(circle, #B3ECFF, #7EDEFF); /* Firefox 3.6+ */
+  background-repeat: no-repeat; /* Safari 4-5, Chrome 1-9 */ /* Can't specify a percentage size? Laaaaaame. */ /* Safari 5.1+, Chrome 10+ */ /* Firefox 3.6+ */
   background: -ms-radial-gradient(circle, #B3ECFF, #7EDEFF); /* IE 10 */
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
     color: #FFFFFF;
     padding: 40px 0;
     position: relative;
@@ -68,7 +66,8 @@ h2.demo-text{font-family: 'Roboto', sans-serif!important; font-size:45px; font-w
   margin-top:10px;
   font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;background: #FFFFFF;
 background: #FFFFFF;
-box-shadow: 0 13px 11px 0 rgba(0,0,0,0.05);
+-webkit-box-shadow: 0 13px 11px 0 rgba(0,0,0,0.05);
+        box-shadow: 0 13px 11px 0 rgba(0,0,0,0.05);
 border-radius: 5px;
   
   }
@@ -240,9 +239,7 @@ pre {
 }
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
 }
 .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
@@ -308,19 +305,17 @@ h1{
 /*** Drop Down Menu***/
 .dropdown-submenu
 {position:relative;}
-.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;border-radius:0 6px 6px 6px;}
 .dropdown-submenu:hover>.dropdown-menu{display:block;}
 .dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
 .dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
-.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;border-radius:6px 0 6px 6px;}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
   color: #fff;
   text-decoration: none;
   background-color: #0081c2;
-  background-image: -moz-linear-gradient(top,#08c,#0077b3);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));
-  background-image: -webkit-linear-gradient(top,#08c,#0077b3);
   background-image: -o-linear-gradient(top,#08c,#0077b3);
+  background-image: -webkit-gradient(linear,left top, left bottom,from(#08c),to(#0077b3));
   background-image: linear-gradient(to bottom,#08c,#0077b3);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);

@@ -29,7 +29,8 @@
   -webkit-object-fit: cover;
   -moz-object-fit: cover;
   -ms-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #custom-left-sidebar .custom-left-sidebar-header h2 {
   display: inline-block;
@@ -75,8 +76,7 @@
   color: #fff;
   border-radius: 3px;
   -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 #custom-menu-list-holder a:focus,

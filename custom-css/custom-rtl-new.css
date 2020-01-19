@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /*inbox  css here!*/
 .cp-l {
   float: left;
@@ -187,6 +189,8 @@ body {
   position: relative !important;
   left: 0 !important;
   top: 15px !important;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
   float: left !important;
 }
@@ -199,6 +203,8 @@ body {
     position: relative !important;
     left: 0 !important;
     top: 90px !important;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
     float: left !important;
   }
@@ -346,12 +352,15 @@ body {
 
 /*task managment*/
 .task-topic-admin .set_panel1 {
+  display: -ms-grid;
   display: grid;
 }
 .task-topic-admin .set_panel1 {
+  display: -ms-grid;
   display: grid;
 }
 .sector_option .set_panel1 {
+  display: -ms-grid;
   display: grid;
 }
 .cus-heg-on-lg {
@@ -474,6 +483,10 @@ body {
   float: left;
 }
 .events-custom .bottom-icons .d-flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 .updates span {
@@ -524,6 +537,7 @@ body {
 .survey-admin .f-loc {
   position: absolute;
   top: 35px;
+  right: -webkit-calc(100% - 40px);
   right: calc(100% - 40px);
 }
 .cus-pic-dir.mar-cus-b {

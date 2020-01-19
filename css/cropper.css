@@ -8,7 +8,7 @@
  * Date: 2018-10-24T13:07:11.429Z
  */
 
-.cropper-container {
+ .cropper-container {
   direction: ltr;
   font-size: 0;
   line-height: 0;
@@ -78,8 +78,10 @@
 .cropper-dashed.dashed-h {
   border-bottom-width: 1px;
   border-top-width: 1px;
+  height: -webkit-calc(100% / 3);
   height: calc(100% / 3);
   left: 0;
+  top: -webkit-calc(100% / 3);
   top: calc(100% / 3);
   width: 100%;
 }
@@ -88,8 +90,10 @@
   border-left-width: 1px;
   border-right-width: 1px;
   height: 100%;
+  left: -webkit-calc(100% / 3);
   left: calc(100% / 3);
   top: 0;
+  width: -webkit-calc(100% / 3);
   width: calc(100% / 3);
 }
 
