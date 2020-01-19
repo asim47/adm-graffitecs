@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.showLoadingDash {
+	text-align: center;
+}
+.showLoadingDocUpload {
+	margin: 0 0 0 20px; 
+}
+.hide {
+  display: none !important;
+}
+
+/* .ellipsisParagraph{
+	width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+} */
+
+.noMoreResults{
+text-align: center; 
+padding-top: 3%;
+}
+
+
+.loaderdiv {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width: 128px;
+  height: 128px;
+  margin: -64px 0 0 -64px;
+  border-radius: 50%;
+
+  border: 3px solid transparent;
+  border-top-color: #fff;
+
+  display: inline-block;
+  opacity: 1;
+  animation: lp 2s linear infinite;
+}
+
+.noContentFileDir{
+	color: #999;
+    font-size: 16px;
+}
+
+
+.post-write-comments-highlight{
+	border: 1px solid #467eff !important;
+}
+
+.border-red{
+	border: 1px solid #467eff !important;
+}
+
+
+ .policyDelIcon{
+ 	padding-right: 10%;
+    color: #bc0015 !important;
+ }
+ 
+ .policyDelIcon :hover{
+    color: #000 !important;
+ }
+ 
+ 
+ .userDelIcon{
+ 	padding-right: 10%;
+    
+ }
+ 
+ .userDelIcon :hover{
+    color: #000 !important;
+ }
+ 
+ 

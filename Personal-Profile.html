@@ -1,0 +1,2787 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Adm</title>
+		<!-- Responsive -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		   <!--  ADM Code strts here-->
+		   <link data-cssvarsponyfill="true" href="css/themes/theme-org-1.css" rel="stylesheet"> 
+		 <!-- Custom Styles-->
+		 <link href="css/custom/custom-styles.css?version=2.0" rel="stylesheet">
+		 <link href="css/custom/animate.css?version=1.1" rel="stylesheet">
+		 <link href="css/custom/croppie.css?version=1.1" rel="stylesheet">
+		 
+		
+		
+		<!-- For English only -->
+		<!--<c:if test="${i18n.language == 'en'}">-->
+			<link rel="stylesheet" href="css/custom/alertify/alertify.min.css" />
+			<link rel="stylesheet" href="css/custom/alertify/themes/default.min.css" />
+		<!--</c:if>-->
+		
+		<script type="text/javascript" src="js/custom/alertify/alertify.min.js?version=1.1"></script>
+		
+		
+		<!-- StyleSheets -->
+		
+		<link data-cssvarsponyfill="true" href="css/bootstrap.css?version=1.2" rel="stylesheet"> 
+		<link href="css/owl.carousel.css?version=1.1" rel="stylesheet">
+		<link href="css/owl.theme.default.css?version=1.1" rel="stylesheet">
+		<link href="css/animate.css?version=1.1" rel="stylesheet">
+		<link href="css/material-icons.css?version=1.1" rel="stylesheet">
+		<link href="css/style-ui.css?version=1.1" rel="stylesheet">
+		<link href="css/font-awesome.min.css?version=1.3" rel="stylesheet">
+		<link href="css/fancybox.min.css?version=1.1" rel="stylesheet">
+		
+		
+		<!-- New -->
+		<link href="css/datepicker.css?version=1.1" rel="stylesheet">
+		<link data-cssvarsponyfill="true" href="css/component-chosen.css?version=2.2" rel="stylesheet">
+		<link data-cssvarsponyfill="true" href="css/swiper.css?version=1.2" rel="stylesheet">
+		
+		<link href="css/calender/fullcalendar.min.css?version=1.4" rel="stylesheet">
+		<link media="print" href="css/calender/fullcalendar.print.min.css?version=1.3" rel="stylesheet">
+	  
+		
+		<link href="css/jquery.easy_slides.css?version=1.1" rel="stylesheet">
+		<link href="css/dropzone.css" rel="stylesheet">
+	  
+		<link href="css/cropper.css" rel="stylesheet">
+		
+		<link data-cssvarsponyfill="true" href="css/style.css?version=10.2" rel="stylesheet">
+		<link href="css/responsive.css?version=5.0" rel="stylesheet">
+		<link href="css/emojionearea.min.css" rel="stylesheet"> 
+	
+		<!-- For Arabic only -->
+		<!--<c:if test="${i18n.language == 'ar'}">-->
+			<!-- <link href="css/rtl.css?version=10.1" rel="stylesheet"> -->
+		<!--</c:if>-->
+		
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+		
+		   <link href="css/custom/jquery.dataTables.css?version=3.0" rel="stylesheet" type="text/css">
+		   <link href="css/custom/buttons.dataTables.min.css?version=2.1" rel="stylesheet" type="text/css">
+		   
+	
+		 <link href="css/tagging.css?version=1.2" rel="stylesheet" type="text/css">
+		<link href="css/jquery.datetimepicker.min.css?version=1.3" rel="stylesheet" type="text/css">
+		<link data-cssvarsponyfill="true" href="css/bootstrap-tagsinput.css?version=1.5" rel="stylesheet" type="text/css">
+		<link href="css/app.css?version=1.4" rel="stylesheet" type="text/css"> 
+		
+		
+		
+		<link data-cssvarsponyfill="true" href="css/latest.css?version=6.5" rel="stylesheet">
+		<link data-cssvarsponyfill="true" href="css/timeline.css?version=2.1" rel="stylesheet">
+		<link href="css/material-switch.css?version=1.5" rel="stylesheet">
+		<link data-cssvarsponyfill="true" href="css/eval-style.css?version=2.5" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+		
+		<!-- For Arabic only -->
+		<!--<c:if test="${i18n.language == 'ar' }">-->
+			<!-- <link data-cssvarsponyfill="true" href="css/timeline.rtl.css?version=3.0" rel="stylesheet">
+			<link data-cssvarsponyfill="true" href="css/latest.rtl.css?version=6.5" rel="stylesheet">
+			<link href="css/material-switch-rtl.css?version=2.1" rel="stylesheet">
+			<link href="css/override-rtl.css?version=2.2" rel="stylesheet">
+			<link data-cssvarsponyfill="true" href="css/eval-style-rtl.css?version=2.5" rel="stylesheet"> -->
+				
+		<!--</c:if>-->
+				 
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="custom-css/style.css" rel="stylesheet">
+		
+		<link href="custom-css/style-new.css" rel="stylesheet">
+
+		 <!-- <link href="css/rtl.css" rel="stylesheet">
+		 <link href="custom-css/custom-rtl.css" rel="stylesheet"> -->
+	
+	
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<!--jquery-->
+<style>
+
+
+		</style>
+	</head>
+
+<body>
+	<header>
+ 
+		<div class="header-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="main_header">
+						<div class="logo_box">
+							<div class="logo_inner">
+								<a href="index.html"><img src="images/log0.png" /></a>
+							</div>
+						</div>
+						<div class="icons_box">
+							<ul>
+								<li>
+									<button type="button" class="navbar-toggle" data-toggle="collapse"
+										data-target="#myNavbar" id="myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</li>
+								<li><a href="#"><img src="images/logout.png" /></a></li>
+								<li><a href="#"><img src="images/bell.png" /></a></li>
+								<li><a href="assign-managers-rtl.html"><img src="images/Arabic-flag.png"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header-top End -->
+	</header>
+
+	<main class="main_body">
+		<section class="main_banner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="banner">
+						<img src="images/banner.png">
+						<div class="col-md-12 col-sm-12 caption centertext">
+							<h6> Welcme to </h6>
+							<h2> Abu Dhabi Municipality </h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- Section End -->
+		<section id="main-sec">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left Sidebar Start -->
+					<div class="col-md-2 col-sm-2 col-left main_left">
+						<div class="left">
+							<div class="left-sidebar">
+								<a href="profile.html"><img class="profile-img" src="images/profile.png" alt="img"></a>
+								<img class="edit-img" src="images/edit.png">
+								<div class="caption text-center">
+									<h4>Mohammad Ali</h4>
+									<p>Department Manager</p>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star unchecked"></span>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="scores">
+								<ul>
+									<li>
+										<p>Your Scores</p><span>3000</span>
+									</li>
+									<li>
+										<p>Annual Leaves</p><span>30</span>
+									</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+							<div class="departments">
+								<a href="#">Designer</a>
+								<a href="#">Developer</a>
+								<a href="#">SEO</a>
+								<a href="#">Abode Edge Animate</a>
+								<a href="#" data-toggle="modal" data-target="#profile_skills">+</a>
+							</div>
+
+							<!--skills modal-->
+							<div id="profile_skills" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- Modal content-->
+									<div class="modal-content">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<div class="modal-body">
+											<form action="">
+												<div class="col-sm-12 gtx-row-field">
+													<label>Add multiple skills with comma separated/press enter
+														key</label>
+													<input type="text" class="form-control" name="skills"
+														data-role="tagsinput"
+														placeholder="Enter skill with comma separated/enter press">
+												</div>
+
+											</form>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="sidebar-menu">
+								<ul>
+									<li><img src="images/dashboard.png" alt="img"><a href="index.html"
+											class="preloader">Dashboard</a></li>
+									<li><img src="images/file.png" alt="img"><a href="chart.html">File Directory</a>
+									</li>
+									<li><img src="images/achivements.png" alt="img"><a
+											href="achivements.html">Achievements</a></li>
+									<li class="active"><img src="images/task.png" alt="img"><a
+											href="tasks.html">Tasks</a></li>
+									<li><img src="images/skils.png" alt="img"><a href="skills-directory.html">Skills
+											Directory</a></li>
+									<li><img src="images/saeed-services.png" alt="img"><a
+											href="saeed-services.html">Saeed Services</a></li>
+									<li><img src="images/discussion-form.png" alt="img"><a
+											href="discussion.html">Discussion Form</a></li>
+									<li><img src="images/suggestion.png" alt="img"><a
+											href="suggestion.html">Suggestions</a></li>
+									<li><img src="images/media-gallery.png" alt="img"><a href="gallery.html">Media
+											Gallery</a></li>
+									<li><img src="images/my-Links.png" alt="img"><a href="my-links.html">My Links</a>
+									</li>
+									<li><img src="images/news.png" alt="img"><a href="news.html">News</a></li>
+									<li><img src="images/intranet-system.png" alt="img"><a
+											href="internal-system.html">Internal System</a></li>
+									<li><img src="images/annoucements.png" alt="img"><a
+											href="announcement.html">Announcements</a></li>
+									<li><img src="images/events.png" alt="img"><a href="events.html">Events</a></li>
+									<li><img src="images/employee.png" alt="img"><a
+											href="employee-of-month.html">Employee for the Month</a></li>
+									<li><img src="images/shared-folder.png" alt="img"><a
+											href="division-shared-folder.html">Division shared folders</a></li>
+									<li><img src="images/adm.png" alt="img"><a href="souq.html">ADM Souq</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Left Sidebar End -->
+
+
+
+
+
+
+					<!-- Specialist Start -->
+					<div class="col-md-8 col-middle"> 
+						<div class="middle-sec">
+							<div class="my-profile custom-new-generic-page">
+								<div class="row">
+									<div class="col-12 col-sm-12 col-lg-12">
+									<div class="aadm-surveys-heading monter-font"> 
+									<h3>My Profile</h3>
+									<span class="cus-cent-top-header">
+									<img src="images/home-icon-silhouette.svg" alt=""></span>
+									<span class="cus-top-heading cus-colr-heading">My Profile</span> 
+									</div>
+									</div>
+								</div>
+								<!--tabs header start-->
+								<div class="tabs-header card">
+									<ul class="nav nav-pills ">
+										<li class=" col active">
+											<a data-toggle="pill" href="#pref-menu1" class="btn btn-light task-dir cus-serv-tab-1-part">
+												<div class="text-center cus-serv-tab-1">
+													<!-- <img src="images/personal-details-tabs-1.svg" alt=""> -->
+												</div>
+												<p class=" my-prifile-task-info">Personal Detail</p>
+											</a>
+										</li>
+										<li class=" col">
+											<a data-toggle="pill" href="#pref-menu2" class="btn btn-light task-dir cus-serv-tab-2-part no-radius">
+												<div class="text-center cus-serv-tab-2">
+													<!-- <img src="images/personal-details-tabs-2.svg" alt=""> -->
+												</div>
+												<p class=" my-prifile-task-info">Skills</p>
+											</a>
+										</li>
+										<li class=" col">
+											<a data-toggle="pill" href="#pref-menu3" class="btn btn-light task-dir cus-serv-tab-3-part no-radius">
+												<div class="text-center cus-serv-tab-3">
+													<!-- <img src="images/personal-details-tabs-3.svg" alt=""> -->
+												</div>
+												<p class=" my-prifile-task-info">Job History</p>
+											</a>
+										</li>
+										<li class=" col">
+											<a data-toggle="pill" href="#pref-menu4" class="btn btn-light task-dir cus-serv-tab-4-part no-radius">
+												<div class="text-center cus-serv-tab-4">
+													<!-- <img src="images/personal-details-tabs-4.svg" alt=""> -->
+												</div>
+												<p class=" my-prifile-task-info">Education</p>
+											</a>
+										</li>
+										<li class=" col">
+											<a data-toggle="pill" href="#pref-menu5" class="btn btn-light task-dir cus-serv-tab-5-part right-radius">
+												<div class="text-center cus-serv-tab-5">
+													<!-- <img src="images/personal-details-tabs-5.svg" alt=""> -->
+												</div>
+												<p class=" my-prifile-task-info">Achievements</p>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- Tab panes -->
+								<div class="tab-content mb-5 gap">
+									<div id="pref-menu1" class="tab-pane fade in active">
+										<!--Here is all markup of single tabs-->
+										<div class="card card-profile no-border">
+											<div class="container-fluid">
+												<div class="row  mb-3">
+													<div class="col-12 col-sm-6">
+														<div class="align-center-IH">
+															<span class="profile-left-border"></span>
+															<img src="images/profile/male.png" alt="" height="50" width="50">
+															<h4 class="d-inline-block ml-3 my-prof-pr-det mr-2 pro-heading"><strong>Personal Detail</strong></h4>
+														</div>
+													</div>
+													<div class="col-12 col-sm-6">
+														<button type="button" class="btn profile-skills-btn mt-3">Save
+														</button>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-sm-12">
+														<form class="my-prf-cus-selct-op form-input-style">
+															<div class="form-row bor-bot-row mb-2">
+																<div class="form-group col-md-6 pro-gap">
+																  <label for="inputEmail4">First Name Arabic</label>
+																  <input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Last name Arabic</label>
+																	<input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">First Name English</label>
+																	<input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Last name English</label>
+																	<input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Gender</label>
+																	<select class="custom-select " id="">
+																			<option selected disabled></option>
+																		<option  value="ma">Male</option>
+																		<option value="fm">Female</option>
+																		<option value="tg">transGender</option>
+																	</select>
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Grade</label>
+																	<select class="custom-select" id="">
+																		<option selected disabled></option>
+																		<option value="a">Grade A</option>
+																		<option value="b">Grade B</option>
+																
+																	</select>
+																</div>
+																<div class="form-group col-md-12 pro-gap">
+																<div class="profile-border"></div></div>
+
+															</div>
+															
+															<div class="form-row bor-bot-row mb-2">
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Email</label>
+																	<input type="email" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Mobile</label>
+																	<input type="number" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">linkedIn Profile</label>
+																	<input type="text" class="form-control cl-al-f-inp" id="">
+																		<i class="fa fa-linkedin f-loc"></i>
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																		<label for="inputEmail4">Skype</label>
+																		<input type="text" class="form-control cl-al-f-inp" id="">
+																		<i class="fa fa-skype f-loc"></i>
+																</div>
+																<div class="form-group col-md-12 pro-gap">
+																<div class="profile-border"></div></div>
+															</div>
+															<div class="form-row bor-bot-row mb-2">
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Nationality</label>
+																	<input type="text" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<!-- <label for="inputEmail4">Date Of Birth</label>
+																	<input type="text" class="form-control" id=""> -->
+																	<div class="cp-r cuspl-0 pr-0 rep-cus-col-date w-100">
+																		<label for="inputsm">Date Of Birth</label>
+																		<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																			<input class="span2 form-control gry-clo cl-al-f-inp" size="16" type="text" value="12-02-2012">
+																			<i class="fa fa-calendar f-loc"></i>
+																		</div>
+																	</div>
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Industry</label>
+																	<input type="text" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<div class="cp-r cuspl-0 pr-0 rep-cus-col-date w-100">
+																			<label for="inputsm">Date Of Birth</label>
+																			<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																				<input class="span3 form-control gry-clo cl-al-f-inp" size="16" type="text" value="12-02-2012">
+																				<i class="fa fa-calendar f-loc"></i>
+																			</div>
+																	</div>
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Staff Number</label>
+																	<input type="number" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Direct Manager</label>
+																	<input type="text" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Job Title</label>
+																	<input type="text" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Landline (Ext.)</label>
+																	<input type="text" class="form-control" id="">
+																</div>
+																<div class="form-group col-md-12 pro-gap">
+																<div class="profile-border"></div></div>
+															</div>
+															<div class="form-row bor-bot-row mb-2">
+																<div class="form-group col-md-12">
+																	<label for="inputEmail4">Sector</label>
+																	<select class="custom-select" id="">
+																		<option selected disabled></option>
+																		<option value="a">Grade A</option>
+																		<option value="b">Grade B</option>
+																	</select>	
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Department</label>
+																	<select class="custom-select" id="">
+																		<option selected disabled></option>
+																		<option value="a">Grade A</option>
+																		<option value="b">Grade B</option>
+																	</select>	
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Section</label>
+																	<select class="custom-select" id="">
+																		<option selected disabled></option>
+																		<option value="a">ENg </option>
+																		<option value="b">Arabic</option>
+																	</select>	
+																</div>
+																<div class="form-group col-md-12 pro-gap">
+																<div class="profile-border"></div></div>
+															</div>
+															<div class="form-row bor-bot-row mb-2">
+																
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Building</label>
+																	<select class="custom-select no-bag" id="">
+																			<option selected disabled></option>
+																		<option  value="1f">1st Floor</option>
+																		<option value="2f">2nd Floor</option>
+																		<option value="3f">3rd Floor</option>
+																	</select>
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Floor</label>
+																	<input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Office</label>
+																	<input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-6 pro-gap">
+																	<label for="inputEmail4">Zone</label>
+																	<input type="text" class="form-control" id="" >
+																</div>
+																<div class="form-group col-md-12">
+																	<label for="inputEmail4">Office</label>
+																	<textarea class="form-control" id="" rows="5"></textarea>
+																</div>
+																<div class="form-group col-md-12 pro-gap">
+																<div class="profile-border"></div></div>
+															</div>	
+															<div class="form-row bor-bot-row mb-2 justify-content-lg-between no-border">	
+																<div class="form-group col-md-6 pro-gap border pt-5 pb-3 cus-wid-my-prof-img-drag" style="border-radius: 4px;">
+																	<div class="text-center">
+																		<img src="images/profile/male.png" alt="" class="my-prof-drg-img-bot">
+																		<p style="padding-top: 15px;">Abdallah Hussein Alhodaly</p>
+																	</div>
+																</div>
+																<div class="form-group col-md-6 pro-gap border pt-5 pb-3 cus-wid-my-prof-img-drag" style="border-radius: 4px;">
+																	<label for="img-drag-here" class="text-center w-100 drag-lable-celct">
+																		<img src="images/upload.svg" alt="">
+																		<p style="padding-top: 8px; color:#666666">Drag your file here to upload</p>
+																		<div class="separator">OR</div>
+																		<p class="bg-dark p-3 d-inline-block text-white rounded browse-btn">Browse</p>
+																	</label>
+																	<input id="img-drag-here" type='file' value="browser" onchange="readURL(this)" />
+																</div>
+															</div>
+
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--end here 1st tabs-->
+									<div id="pref-menu2" class="tab-pane fade">
+											<!--Here is all markup of single tabs-->
+											<div class="card pb-5 card-profile no-border">
+												<div class="container-fluid">
+													<div class="row mb-3">
+														<div class="col-12 col-sm-6">
+															<div class="align-center-IH">
+																<span class="profile-left-border"></span>
+																<img src="images/profile/male.png" alt="" height="50" width="50">
+																<h4 class="d-inline-block ml-3 my-prof-skils mr-2 pro-heading"><strong>Skills</strong></h4>
+															</div>
+														</div>
+														<div class="col-12 col-sm-6 add_skills">
+															<button type="button" class="btn profile-skills-btn mt-3" data-toggle="modal" 
+															data-target="#skils-popup">Add
+															</button>
+															<form>
+																<div class="modal right fade" id="skils-popup" role="dialog">
+																	<div class="modal-dialog modal-lg">
+																		<!-- Modal content-->
+																		<div class="modal-content">
+																
+																			<h4 class="project-model-title">Add Skills</h4>
+																
+																			<div class="modal-body">
+																				<form>
+																					<div class="row">
+																						<div class="form-group col-12">
+																							<label class="label_text">Categories</label>
+																							<select class="form-control set_option ach-input pop-feil-s-c">
+																								<option>Suport Service</option>
+																								<option>IT Service</option>
+																								<option>Super Service</option>
+																								<option>Option Service</option>
+																							</select>
+																						</div>
+																						<!-- <div class="form-group col-md-6 pro-gap">
+																							<label for="inputEmail4">Gender</label>
+																							<select class="custom-select " id="">
+																								<option>Suport Service</option>
+																								<option>IT Service</option>
+																								<option>Super Service</option>
+																								<option>Option Service</option>
+																							</select>
+																						</div> -->
+																					</div>
+																					<div class="row">
+																						<div class="form-group col-12">
+																							<label class="label_text ">Sub Categories</label>
+																							<select class="form-control set_option ach-input pop-feil-s-c">
+																								<option>Suport Service</option>
+																								<option>IT Service</option>
+																								<option>Super Service</option>
+																								<option>Option Service</option>
+																							</select>
+																						</div>
+																					</div>
+																					<div class="row set-score-range">
+																						<div class="slidecontainer col-12">
+																							<label class="label_text " style="margin-bottom: 38px !important;">Score</label>
+																							<label class="skill-range-holder">
+																								<input type="range" min="1" max="100" value="50" class="slider" id="skillrange">
+																								<span id='skillrangevalue'>0</span>
+																							</label>
+																						</div>
+																					</div>
+																
+																					<button type="button" class="btn btn-primary pro-btn-save-bg save-modal-btn us-cus-pop-btn"
+																						data-dismiss="modal ">Add</button>
+																					<button type="button" class="btn btn-dark cancel-modal-btn us-cus-pop-btn"
+																						data-dismiss="modal">Cancel</button>
+																
+																				</form>
+																			</div>
+																
+																		</div>
+																
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+							 
+
+ 
+
+
+
+
+													<div class="row mb-3 mt-4">
+														<div class="col-sm-12 p-0">
+															<div class=" col-sm-12 col-md-6 col-lg-3 text-center mb-3 fr-rtl nav-tabs active" id="nav-tab" role="tablist">
+																<div class="card skil-card-heig nav-item active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+																	<h5>Technical Skills</h5>
+																	<div class="numb">
+																		<span class="sing-num-1-cus df-c-al-c">1</span>	
+																	</div>
+																	<div class="row w-100 mt-3">
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar technical-progress bg-warning"></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus ">
+																				<div class="progress-bar technical-progress bg-warning"></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar technical-progress bg-warning"></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																		    <div class="progress-bar technical-progress bg-warning"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--one skils end here-->
+															<div class=" col-sm-12 col-md-6 col-lg-3 text-center mb-3 fr-rtl" id="voc-skils">
+																<div class="card skil-card-heig nav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+																	<h5>Vocational Skills</h5>
+																	<div class="numb">
+																		
+																	<span class=" df-c-al-c">0</span>	
+																	</div>
+																	<div class="row w-100 mt-3">
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar vocational-progress bg-light" ></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																			 <div class="progress-bar vocational-progress bg-light" ></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																		 <div class="progress w-100 prog-hi bg-prog-cus">
+																	     <div class="progress-bar vocational-progress bg-light" ></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																		 <div class="progress-bar vocational-progress bg-light"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+
+  
+
+															<!--2nd skils end here-->
+															<div class=" col-sm-12 col-md-6 col-lg-3 text-center mb-3 fr-rtl" id="lang-skills">
+																<div class="card skil-card-heig nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+																	<h5>Language Skills</h5>
+																	<div class="numb">
+																		<span class="sing-num-2-cus df-c-al-c">2</span>
+																	</div>
+																	<div class="row w-100 mt-3">
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi">
+																				<div class="progress-bar language-progress bg-success"></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi">
+																				<div class="progress-bar language-progress bg-success"></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar language-progress bg-light"></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar language-progress bg-light"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--3rd skils end here-->
+															<div class=" col-sm-12 col-md-6 col-lg-3 text-center mb-3 fr-rtl" id="person-skils">
+																<div class="card skil-card-heig nav-item " id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">
+																	<h5>Personal Skills</h5>
+																	<div class="numb">
+																		<span class=" df-c-al-c">0</span>
+																	</div>
+																	<div class="row w-100 mt-3">
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar personal-progress  bg-warning" ></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar personal-progress  bg-warning" ></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																				<div class="progress-bar  personal-progress bg-warning" ></div>
+																			</div>
+																		</div>
+																		<div class="col-3 p-1">
+																			<div class="progress w-100 prog-hi bg-prog-cus">
+																			<div class="progress-bar personal-progress  bg-warning"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--4th skils end here-->
+														</div>
+													</div>
+
+ 
+
+
+
+
+
+													<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+														<div class="col-sm-12 my-prof-skil p-0  tab-pane fade active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+															<h4 style="margin-bottom: 23px !important;color: #666666;"><strong>Technical Skills</strong></h4>
+															<div class="progress w-100 bg-prog-cus">
+																<div class="progress-bar technical-progress bg-li-gr-prog-my-prof fr-rtl"> 95%</div>
+															</div>
+															<p class="text-center" style="color:#ababab;padding-top:15px">Web pages design skills</p>
+														</div>
+														<div class="col-sm-12 my-prof-skil p-0 tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+															<h4 style="margin-bottom: 23px !important;color: #666666;"><strong>Vocational  Skills</strong></h4>
+															<div class="progress w-100 bg-prog-cus">
+														   <div class="progress-bar vocational-progress bg-li-gr-prog-my-prof fr-rtl"> 85%</div>
+															</div>
+															<p class="text-center" style="color:#ababab;padding-top:15px">Web pages design skills</p>
+														</div>
+														<div class="col-sm-12 my-prof-skil p-0  tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+															<h4 style="margin-bottom: 23px !important;color: #666666;"><strong>Language Skills</strong></h4>
+															<div class="progress w-100 bg-prog-cus">
+																<div class="progress-bar language-progress bg-li-gr-prog-my-prof fr-rtl" style="width:25%"> 25%</div>
+															</div>
+															<p class="text-center" style="color:#ababab;padding-top:15px">Web pages design skills</p>
+														</div>
+														<div class="col-sm-12 my-prof-skil p-0 tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+															<h4 style="margin-bottom: 23px !important;color: #666666;"><strong>Personal  Skills</strong></h4>
+															<div class="progress w-100 bg-prog-cus">
+																<div class="progress-bar personal-progress bg-li-gr-prog-my-prof fr-rtl" style="width:55%"> 55%</div>
+															</div>
+															<p class="text-center" style="color:#ababab;padding-top:15px">Web pages design skills</p>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+									</div>
+									<!--end here 1st tabs-->
+									<div id="pref-menu3" class="tab-pane fade">
+											<!--Here is all markup of single tabs-->
+											<div class="card card-profile no-border">
+												<div class="container-fluid">
+													<div class="row  mb-3">
+														<div class="col-12 col-sm-6">
+															<div class="align-center-IH">
+																<span class="profile-left-border"></span>
+																<img src="images/profile/male.png" alt="" height="50" width="50">
+																<h4 class="d-inline-block ml-3 my-prof-job-his mr-2 pro-heading"><strong>Job History</strong></h4>
+															</div>
+														</div>
+														<div class="col-12 col-sm-6 job-history">
+															<button type="button" class="btn profile-skills-btn mt-3" data-toggle="modal" data-target="#custom-job-history-Modal">Add
+															</button>
+															<div class="modal right fade" id="custom-job-history-Modal" role="dialog">
+																	<div class="modal-dialog modal-lg">
+																	<!-- Modal content-->
+																		<div class="modal-content">
+																			
+																					<h4 class="project-model-title">Job History</h4>
+																					  
+																			<div class="modal-body">
+																			  <form>
+																				<div class="row">
+																					<div class="form-group col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+																						<label class="label_text">Company</label>
+																						<input type="text" class="form-control set_input ach-input">
+																					 </div>
+																					<div class="form-group col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+																						<label class="label_text">Job Title</label>
+																						<input type="text" class="form-control set_input ach-input">
+																					</div>
+																				</div>
+																				<div class="row">
+																					<div class="form-group col-12">
+																						<label class="label_text">major Responsibility</label>
+																						<input type="text" class="form-control set_input ach-input">
+																					</div>
+																				</div>
+																				<div class="row set_margin_label">
+																					<div class="form-group col-12">
+																						<label class="label_text">Summary</label>
+																						<textarea class="form-control" rows="5" id="comment"></textarea>
+																					</div>
+																				</div>
+																				<div class="row">
+																					<div class="form-group col-12">
+																						<label class="label_text ">Industry</label>
+																							<select class="form-control set_option ach-input pop-feil-s-c">
+																								<option>Suport Service</option>
+																								<option>IT Service</option>
+																								<option>Super Service</option>
+																								<option>Option Service</option>
+																							</select>
+																					</div>
+																				</div>
+																				<div class="row mb-3">
+																					<div class='form-group col-12 col-xl-6 col-lg-6'>
+																						<label class="label_text">From Date</label>
+																						<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																								<input class="span3 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																								<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																							</div>										 
+																						</div>
+																						<div class='form-group col-12 col-xl-6 col-lg-6'>
+																							<label class="label_text">To Date</label>
+																							<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																								<input class="span3 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																								<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																							</div>									 
+																						</div>		
+																				</div>
+																				
+																				<button type="button" class="btn btn-primary pro-btn-save-bg save-modal-btn us-cus-pop-btn" data-dismiss="modal">Add</button>
+																				<button type="button" class="btn btn-dark cancel-modal-btn us-cus-pop-btn" data-dismiss="modal">Cancel</button>
+																				
+																			</form>
+																			</div>
+																		
+																		</div>
+																		
+																	  </div>
+																	</div>
+
+														</div>
+													</div>
+													<div class="row mb-3 mt-4">
+														<div class="col-sm-12">
+															<div class="table-responsive" style="border-radius: 3px;">
+																<table class="table table-striped edu-table">
+																	<thead class=" table-bordered rounded-circle">
+																		<tr class="bg-light">
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Title
+																				</a>
+																			</th>
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Company
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																			Years of Experience
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark" style="min-width: 150px; width: 150px;">
+																				<a href="#" class="text-dark d-inline-block">
+																					Edit
+																				</a>
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody class="task-mang">
+																		<tr class="parent">
+																			<td>1234</td>
+																			<td>abc collage</td>
+																			<td>Iceland</td>
+																			<td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																					<a href="#" data-toggle="modal" data-target="#job-history-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																		<tr class="parent">
+																			<td>1234</td>
+																			<td>abc collage</td>
+																			<td>Iceland</td>
+																			<td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																					<a href="#" data-toggle="modal" data-target="#job-history-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/> </a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!--inbox-custom-table class will add in table-->
+																 
+															</div>
+														</div>
+													</div>
+													<!--end here 1st achevements-->
+												</div>
+											</div>
+										</div>
+									<!--end here 1st tabs-->
+									<div id="pref-menu4" class="tab-pane fade">
+										<!--Here is all markup of single tabs-->
+										<div class="card card-profile">
+											<div class="container-fluid">
+												<div class="row  mb-3">
+													<div class="col-12 col-sm-6">
+														<div class="align-center-IH">
+															<span class="profile-left-border"></span>
+															<img src="images/profile/male.png" alt="" height="50" width="50">
+															<h4 class="d-inline-block ml-3 my-prof-edu mr-2 pro-heading"><strong>Education</strong></h4>
+														</div>
+													</div>
+													<div class="col-12 col-sm-6 certificate-page">
+														<button type="button" class="btn profile-skills-btn  mt-3" data-toggle="modal"
+															data-target="#custom-certificate-Modal">Add
+														</button>
+														<div class="modal right fade" id="custom-certificate-Modal" role="dialog">
+															<div class="modal-dialog modal-lg">
+																<!-- Modal content-->
+																<div class="modal-content">
+																	<div class="modal-title edu-t">
+																		<h4>Education</h4>
+																	</div>
+																	<div class="modal-body">
+																		<form>
+																			<div class="row">
+																				<div class=" form-group  col-12 col-xl-6 col-sm-12 col-lg-6 col-md-12">
+																					<label class="certificate-page-text certificate-text" for="inst">Educational Institute</label>
+																					<input type="text" class="form-control ach-input" id="inst">
+																				</div>
+																				<div class=" form-group  col-12 col-xl-6 col-sm-12 col-lg-6 col-md-12 ">
+																					<label class="certificate-text " for="country">Country</label>
+																					<select class="form-control ach-input pop-feil-s-c">
+																						<option value="Afghanistan">Afghanistan</option>
+																						<option value="Åland Islands">Åland Islands</option>
+																						<option value="Albania">Albania</option>
+																						<option value="Algeria">Algeria</option>
+																						<option value="American Samoa">American Samoa</option>
+																						<option value="Andorra">Andorra</option>
+																						<option value="Angola">Angola</option>
+																						<option value="Anguilla">Anguilla</option>
+																						<option value="Antarctica">Antarctica</option>
+																						<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+																						<option value="Argentina">Argentina</option>
+																						<option value="Armenia">Armenia</option>
+																						<option value="Aruba">Aruba</option>
+																						<option value="Australia">Australia</option>
+																						<option value="Austria">Austria</option>
+																						<option value="Azerbaijan">Azerbaijan</option>
+																						<option value="Bahamas">Bahamas</option>
+																						<option value="Bahrain">Bahrain</option>
+																						<option value="Bangladesh">Bangladesh</option>
+																						<option value="Barbados">Barbados</option>
+																						<option value="Belarus">Belarus</option>
+																						<option value="Belgium">Belgium</option>
+																						<option value="Belize">Belize</option>
+																						<option value="Benin">Benin</option>
+																						<option value="Bermuda">Bermuda</option>
+																						<option value="Bhutan">Bhutan</option>
+																						<option value="Bolivia">Bolivia</option>
+																						<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+																						<option value="Botswana">Botswana</option>
+																						<option value="Bouvet Island">Bouvet Island</option>
+																						<option value="Brazil">Brazil</option>
+																						<option value="British Indian Ocean Territory">British Indian Ocean Territory
+																						</option>
+																						<option value="Brunei Darussalam">Brunei Darussalam</option>
+																						<option value="Bulgaria">Bulgaria</option>
+																						<option value="Burkina Faso">Burkina Faso</option>
+																						<option value="Burundi">Burundi</option>
+																						<option value="Cambodia">Cambodia</option>
+																						<option value="Cameroon">Cameroon</option>
+																						<option value="Canada">Canada</option>
+																						<option value="Cape Verde">Cape Verde</option>
+																						<option value="Cayman Islands">Cayman Islands</option>
+																						<option value="Central African Republic">Central African Republic</option>
+																						<option value="Chad">Chad</option>
+																						<option value="Chile">Chile</option>
+																						<option value="China">China</option>
+																						<option value="Christmas Island">Christmas Island</option>
+																						<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+																						<option value="Colombia">Colombia</option>
+																						<option value="Comoros">Comoros</option>
+																						<option value="Congo">Congo</option>
+																						<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic
+																							of The</option>
+																						<option value="Cook Islands">Cook Islands</option>
+																						<option value="Costa Rica">Costa Rica</option>
+																						<option value="Cote D'ivoire">Cote D'ivoire</option>
+																						<option value="Croatia">Croatia</option>
+																						<option value="Cuba">Cuba</option>
+																						<option value="Cyprus">Cyprus</option>
+																						<option value="Czech Republic">Czech Republic</option>
+																						<option value="Denmark">Denmark</option>
+																						<option value="Djibouti">Djibouti</option>
+																						<option value="Dominica">Dominica</option>
+																						<option value="Dominican Republic">Dominican Republic</option>
+																						<option value="Ecuador">Ecuador</option>
+																						<option value="Egypt">Egypt</option>
+																						<option value="El Salvador">El Salvador</option>
+																						<option value="Equatorial Guinea">Equatorial Guinea</option>
+																						<option value="Eritrea">Eritrea</option>
+																						<option value="Estonia">Estonia</option>
+																						<option value="Ethiopia">Ethiopia</option>
+																						<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+																						<option value="Faroe Islands">Faroe Islands</option>
+																						<option value="Fiji">Fiji</option>
+																						<option value="Finland">Finland</option>
+																						<option value="France">France</option>
+																						<option value="French Guiana">French Guiana</option>
+																						<option value="French Polynesia">French Polynesia</option>
+																						<option value="French Southern Territories">French Southern Territories</option>
+																						<option value="Gabon">Gabon</option>
+																						<option value="Gambia">Gambia</option>
+																						<option value="Georgia">Georgia</option>
+																						<option value="Germany">Germany</option>
+																						<option value="Ghana">Ghana</option>
+																						<option value="Gibraltar">Gibraltar</option>
+																						<option value="Greece">Greece</option>
+																						<option value="Greenland">Greenland</option>
+																						<option value="Grenada">Grenada</option>
+																						<option value="Guadeloupe">Guadeloupe</option>
+																						<option value="Guam">Guam</option>
+																						<option value="Guatemala">Guatemala</option>
+																						<option value="Guernsey">Guernsey</option>
+																						<option value="Guinea">Guinea</option>
+																						<option value="Guinea-bissau">Guinea-bissau</option>
+																						<option value="Guyana">Guyana</option>
+																						<option value="Haiti">Haiti</option>
+																						<option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands
+																						</option>
+																						<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+																						<option value="Honduras">Honduras</option>
+																						<option value="Hong Kong">Hong Kong</option>
+																						<option value="Hungary">Hungary</option>
+																						<option value="Iceland">Iceland</option>
+																						<option value="India">India</option>
+																						<option value="Indonesia">Indonesia</option>
+																						<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+																						<option value="Iraq">Iraq</option>
+																						<option value="Ireland">Ireland</option>
+																						<option value="Isle of Man">Isle of Man</option>
+																						<option value="Israel">Israel</option>
+																						<option value="Italy">Italy</option>
+																						<option value="Jamaica">Jamaica</option>
+																						<option value="Japan">Japan</option>
+																						<option value="Jersey">Jersey</option>
+																						<option value="Jordan">Jordan</option>
+																						<option value="Kazakhstan">Kazakhstan</option>
+																						<option value="Kenya">Kenya</option>
+																						<option value="Kiribati">Kiribati</option>
+																						<option value="Korea, Democratic People's Republic of">Korea, Democratic People's
+																							Republic of</option>
+																						<option value="Korea, Republic of">Korea, Republic of</option>
+																						<option value="Kuwait">Kuwait</option>
+																						<option value="Kyrgyzstan">Kyrgyzstan</option>
+																						<option value="Lao People's Democratic Republic">Lao People's Democratic Republic
+																						</option>
+																						<option value="Latvia">Latvia</option>
+																						<option value="Lebanon">Lebanon</option>
+																						<option value="Lesotho">Lesotho</option>
+																						<option value="Liberia">Liberia</option>
+																						<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+																						<option value="Liechtenstein">Liechtenstein</option>
+																						<option value="Lithuania">Lithuania</option>
+																						<option value="Luxembourg">Luxembourg</option>
+																						<option value="Macao">Macao</option>
+																						<option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former
+																							Yugoslav Republic of</option>
+																						<option value="Madagascar">Madagascar</option>
+																						<option value="Malawi">Malawi</option>
+																						<option value="Malaysia">Malaysia</option>
+																						<option value="Maldives">Maldives</option>
+																						<option value="Mali">Mali</option>
+																						<option value="Malta">Malta</option>
+																						<option value="Marshall Islands">Marshall Islands</option>
+																						<option value="Martinique">Martinique</option>
+																						<option value="Mauritania">Mauritania</option>
+																						<option value="Mauritius">Mauritius</option>
+																						<option value="Mayotte">Mayotte</option>
+																						<option value="Mexico">Mexico</option>
+																						<option value="Micronesia, Federated States of">Micronesia, Federated States of
+																						</option>
+																						<option value="Moldova, Republic of">Moldova, Republic of</option>
+																						<option value="Monaco">Monaco</option>
+																						<option value="Mongolia">Mongolia</option>
+																						<option value="Montenegro">Montenegro</option>
+																						<option value="Montserrat">Montserrat</option>
+																						<option value="Morocco">Morocco</option>
+																						<option value="Mozambique">Mozambique</option>
+																						<option value="Myanmar">Myanmar</option>
+																						<option value="Namibia">Namibia</option>
+																						<option value="Nauru">Nauru</option>
+																						<option value="Nepal">Nepal</option>
+																						<option value="Netherlands">Netherlands</option>
+																						<option value="Netherlands Antilles">Netherlands Antilles</option>
+																						<option value="New Caledonia">New Caledonia</option>
+																						<option value="New Zealand">New Zealand</option>
+																						<option value="Nicaragua">Nicaragua</option>
+																						<option value="Niger">Niger</option>
+																						<option value="Nigeria">Nigeria</option>
+																						<option value="Niue">Niue</option>
+																						<option value="Norfolk Island">Norfolk Island</option>
+																						<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+																						<option value="Norway">Norway</option>
+																						<option value="Oman">Oman</option>
+																						<option value="Pakistan">Pakistan</option>
+																						<option value="Palau">Palau</option>
+																						<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied
+																						</option>
+																						<option value="Panama">Panama</option>
+																						<option value="Papua New Guinea">Papua New Guinea</option>
+																						<option value="Paraguay">Paraguay</option>
+																						<option value="Peru">Peru</option>
+																						<option value="Philippines">Philippines</option>
+																						<option value="Pitcairn">Pitcairn</option>
+																						<option value="Poland">Poland</option>
+																						<option value="Portugal">Portugal</option>
+																						<option value="Puerto Rico">Puerto Rico</option>
+																						<option value="Qatar">Qatar</option>
+																						<option value="Reunion">Reunion</option>
+																						<option value="Romania">Romania</option>
+																						<option value="Russian Federation">Russian Federation</option>
+																						<option value="Rwanda">Rwanda</option>
+																						<option value="Saint Helena">Saint Helena</option>
+																						<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+																						<option value="Saint Lucia">Saint Lucia</option>
+																						<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+																						<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines
+																						</option>
+																						<option value="Samoa">Samoa</option>
+																						<option value="San Marino">San Marino</option>
+																						<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+																						<option value="Saudi Arabia">Saudi Arabia</option>
+																						<option value="Senegal">Senegal</option>
+																						<option value="Serbia">Serbia</option>
+																						<option value="Seychelles">Seychelles</option>
+																						<option value="Sierra Leone">Sierra Leone</option>
+																						<option value="Singapore">Singapore</option>
+																						<option value="Slovakia">Slovakia</option>
+																						<option value="Slovenia">Slovenia</option>
+																						<option value="Solomon Islands">Solomon Islands</option>
+																						<option value="Somalia">Somalia</option>
+																						<option value="South Africa">South Africa</option>
+																						<option value="South Georgia and The South Sandwich Islands">South Georgia and The
+																							South Sandwich Islands</option>
+																						<option value="Spain">Spain</option>
+																						<option value="Sri Lanka">Sri Lanka</option>
+																						<option value="Sudan">Sudan</option>
+																						<option value="Suriname">Suriname</option>
+																						<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+																						<option value="Swaziland">Swaziland</option>
+																						<option value="Sweden">Sweden</option>
+																						<option value="Switzerland">Switzerland</option>
+																						<option value="Syrian Arab Republic">Syrian Arab Republic</option>
+																						<option value="Taiwan, Province of China">Taiwan, Province of China</option>
+																						<option value="Tajikistan">Tajikistan</option>
+																						<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+																						<option value="Thailand">Thailand</option>
+																						<option value="Timor-leste">Timor-leste</option>
+																						<option value="Togo">Togo</option>
+																						<option value="Tokelau">Tokelau</option>
+																						<option value="Tonga">Tonga</option>
+																						<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+																						<option value="Tunisia">Tunisia</option>
+																						<option value="Turkey">Turkey</option>
+																						<option value="Turkmenistan">Turkmenistan</option>
+																						<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+																						<option value="Tuvalu">Tuvalu</option>
+																						<option value="Uganda">Uganda</option>
+																						<option value="Ukraine">Ukraine</option>
+																						<option value="United Arab Emirates">United Arab Emirates</option>
+																						<option value="United Kingdom">United Kingdom</option>
+																						<option value="United States">United States</option>
+																						<option value="United States Minor Outlying Islands">United States Minor Outlying
+																							Islands</option>
+																						<option value="Uruguay">Uruguay</option>
+																						<option value="Uzbekistan">Uzbekistan</option>
+																						<option value="Vanuatu">Vanuatu</option>
+																						<option value="Venezuela">Venezuela</option>
+																						<option value="Viet Nam">Viet Nam</option>
+																						<option value="Virgin Islands, British">Virgin Islands, British</option>
+																						<option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+																						<option value="Wallis and Futuna">Wallis and Futuna</option>
+																						<option value="Western Sahara">Western Sahara</option>
+																						<option value="Yemen">Yemen</option>
+																						<option value="Zambia">Zambia</option>
+																						<option value="Zimbabwe">Zimbabwe</option>
+																					</select>
+																				</div>
+																			</div>
+																			<div class="row">
+																				<div class=" form-group col-12 col-xl-6 col-sm-12 col-lg-6 col-md-12">
+																					<label class="certificate-text" for="spec">Specialization</label>
+																					<input type="text" class="form-control ach-input" id="spec">
+																				</div>
+													
+																				<div class=" form-group col-12 col-xl-6 col-sm-12 col-lg-6 col-md-12">
+																					<label class="certificate-text" for="deg">Degree</label>
+																					<input type="text" class="form-control ach-input" id="deg">
+																				</div>
+																			</div>
+													
+																			<div class="row mb-3">
+																				<div class='form-group col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12'>
+																					<label class="certificate-text" class="label_text">From Date</label>
+																					<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																						<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																						<i class="fa fa-calendar f-loc cus-spec"></i>
+																					</div>
+																				</div>
+													
+																				<div class='form-group col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12'>
+																					<label class="certificate-text" class="label_text">To Date</label>
+																					<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																						<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																						<i class="fa fa-calendar f-loc cus-spec"></i>
+																					</div>
+																				</div>
+																			</div>
+													
+													
+																			<button type="button"
+																				class="btn btn-default  certificate-save-colour save-modal-btn us-cus-pop-btn "
+																				data-dismiss="modal">Save</button>
+																			<button type="button"
+																				class="btn btn-default  certificate-cancel-colour2 cancel-modal-btn us-cus-pop-btn"
+																				data-dismiss="modal">Cancel</button>
+																		</form>
+																	</div>
+																</div>
+															</div>
+													
+														</div>
+													</div>
+												</div>
+												<div class="row mb-3 mt-4">
+													
+													<div class="col-sm-12">
+														<div class="table-responsive" style="border-radius: 3px;">
+																<table class="table table-striped edu-table">
+																	<thead class=" table-bordered rounded-circle">
+																		<tr class="bg-light">
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Title
+																				</a>
+																			</th>
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Education Center
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Country
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark" style="min-width: 150px; width: 150px;">
+																				<a href="#" class="text-dark d-inline-block">
+																					Edit
+																				</a>
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody class="task-mang">
+																			<tr class="parent">
+																			<td>1234</td>
+																			<td>abc collage</td>
+																			<td>Iceland</td>
+																			<td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																					<a href="#" data-toggle="modal" data-target="#education-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																			<tr class="parent">
+																			<td>1234</td>
+																			<td>abc collage</td>
+																			<td>Iceland</td>
+																			<td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																					<a href="#" data-toggle="modal" data-target="#education-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																			<tr class="parent">
+																			<td>1234</td>
+																			<td>abc collage</td>
+																			<td>Iceland</td>
+																			<td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																				<a href="#" data-toggle="modal" data-target="#education-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+														</div>
+													</div>
+												</div>
+												<!--end here 1st achevements-->
+									
+											</div>
+										</div>
+									</div>
+									<!--end here 1st tabs-->
+									<div id="pref-menu5" class="tab-pane fade">
+											<!--Here is all markup of single tabs-->
+											<div class="card card-profile">
+												<div class="container-fluid">
+													<div class="row mb-3">
+														<div class="col">
+															<div class="align-center-IH">
+																<span class="profile-left-border"></span>
+																<img src="images/profile/male.png" alt="" height="50" width="50">
+																<h4 class="d-inline-block ml-3 my-prof-ach mr-2 pro-heading"><strong>Achievements</strong></h4>
+															</div>
+														</div>
+													</div>
+													<div class="row mb-3 mt-4">
+														<div class="col-12 col-sm-8 col-8 col-lg-10">
+															<h5 class="thm-colr mr-3 achevements-sec-headings"><strong>Certification</strong></h5>
+														</div>
+														<div class="col-12 col-sm-4 col-4 mb-md-4 col-lg-2 Certification">
+															<button type="button" class="btn profile-skills-btn" data-toggle="modal" data-target="#custom-job-certification-Modal">Add
+															</button>
+															<!-- Modal -->
+															<div class="modal right fade" id="custom-job-certification-Modal" role="dialog">
+																<div class="modal-dialog modal-lg">
+																	<!-- Modal content-->
+																	<div class="modal-content">
+															
+																		<h4 class="project-model-title ">Certification</h4>
+															
+																		<div class="modal-body">
+																			<form>
+																				<div class="row">
+																					<div class="form-group col-12 col-xl-6 col-lg-6 col-md-6">
+																						<label class="label_text">Certification Name</label>
+																						<input type="text" class="form-control set_input ach-input">
+																					</div>
+															
+																					<div class="form-group col-12 col-xl-6 col-lg-6 col-md-6">
+																						<label class="label_text">License Number</label>
+																						<input type="text" class="form-control set_input ach-input">
+																					</div>
+																				</div>
+																				<div class="row">
+																					<div class='form-group col-12 col-xl-6 col-lg-6'>
+																						<label class="label_text">From Date</label>
+																						<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																							<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																							<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																						</div>
+																					</div>
+																					<div class='form-group col-12 col-xl-6 col-lg-6'>
+																						<label class="label_text">To Date</label>
+																						<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																							<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																							<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																						</div>
+																					</div>
+																					<div class="col-12 col-xl-6">
+																						<div class="certification-checkbox px-3">
+																							<div class="task-checkbox w-100">
+																						<label class="usman-container ">
+																						<input type="checkbox">
+																						<span class="checkmark"></span>Create on behalf of someone
+																						</label>
+																						</div>
+																						</div>
+																					</div>
+															
+															
+																				</div>
+															
+																				<div class="row">
+																					<div class="form-group col-12">
+																						<label class="label_text">Certificate URL</label>
+																						<input type="text" class="form-control set_input ach-input">
+																					</div>
+																				</div>
+															
+																				<button type="button" class="btn btn-primary pro-btn-save-bg save-modal-btn us-cus-pop-btn"
+																					data-dismiss="modal">Save</button>
+																				<button type="button" class="btn btn-dark cancel-modal-btn us-cus-pop-btn"
+																					data-dismiss="modal">Cancel</button>
+															
+																			</form>
+																		</div>
+															
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+														<di	v class="col-sm-12">
+															<div class="table-responsive">
+																<!--inbox-custom-table class will add in table-->
+																<table class="table table-striped certification-table">
+																	<thead class=" table-bordered rounded-circle">
+																		<tr class="bg-light">
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Title
+																				</a>
+																			</th>
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					License Number
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark" style="min-width: 150px; width: 150px;">
+																				<a href="#" class="text-dark d-inline-block">
+																					Edit
+																				</a>
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody class="task-mang"> 
+																	 
+																			<tr class="parent">
+																			<td>Larry</td>
+																			<td class="cus-data-elips">Saeed Changes</td>
+																			 <td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																				<a href="#" data-toggle="modal" data-target="#certification-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+													<!--end here 1st achevements-->
+									
+													
+													<div class="row mb-3 mt-4">
+														<div class="col-12 col-sm-8 col-8 col-lg-10">
+															<h5 class="thm-colr mr-3 achevements-sec-headings"><strong>Honours & Awards</strong></h5>
+														</div>
+														<div class="col-12 col-sm-4 col-4 mb-md-4 col-lg-2 pop-up-page">
+															<button type="button" class="btn profile-skills-btn" data-toggle="modal"
+																data-target="#custom-honour-Modal">Add
+															</button>
+															<!-- Modal -->
+															<div class="modal right fade" id="custom-honour-Modal" role="dialog">
+																<div class="modal-dialog modal-lg">
+														
+																	<!-- Modal content-->
+																	<div class="modal-content">
+														
+																		<div class="modal-title h-a-t">
+																			<h4>Honours And Awards</h4>
+																		</div>
+														
+																		<div class="modal-body">
+																			<form>
+																				<div class="row">
+																					<div class=" form-group col-12">
+																						<label class="pop-up-page-text" for="title">Title</label>
+																						<input type="text" class="form-control ach-input" id="title">
+																					</div>
+																				</div>
+														
+																				<div class="row">
+																					<div class=" form-group col-12">
+																						<label class="pop-up-page-text" for="associated">Associated with</label>
+																						<textarea class="form-control" rows="5" id="associated"></textarea>
+																					</div>
+																				</div>
+														
+																				<div class="row">
+																					<div class=" form-group col-12 col-xl-6 col-sm-12 col-lg-6 col-md-12">
+																						<label class="pop-up-page-text" for="issuer">Issuer</label>
+																						<input type="text" class="form-control ach-input" id="issuer">
+																					</div>
+														
+														
+																					<div class='form-group col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12'>
+																						<label class="pop-up-page-text" class="label_text">To Date</label>
+																						<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																							<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																							<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="row mb-3">
+																					<div class="form-group col-12 ">
+																						<label class="pop-up-page-text" for="description">Description</label>
+																						<textarea class="form-control" rows="5" id="description"></textarea>
+																					</div>
+																				</div>
+																				<button type="button"
+																					class="btn btn-default  pop-up-save-colour save-modal-btn us-cus-pop-btn"
+																					data-dismiss="modal">Save</button>
+																				<button type="button"
+																					class="btn btn-default  pop-up-cancel-colour2 cancel-modal-btn us-cus-pop-btn"
+																					data-dismiss="modal">Cancel</button>
+																			</form>
+																		</div>
+																	</div>
+																</div>
+														
+															</div>
+														</div>
+														<div class="col-sm-12">
+															<div class="table-responsive">
+																<!--inbox-custom-table class will add in table-->
+																<table class="table table-striped edu-table">
+																	<thead class=" table-bordered rounded-circle">
+																		<tr class="bg-light">
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Title
+																				</a>
+																			</th>
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Issuer
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Date
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark" style="min-width: 150px; width: 150px;">
+																				<a href="#" class="text-dark d-inline-block">
+																					Edit
+																				</a>
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody class="task-mang"> 
+
+																			<tr class="parent">
+																			<td>Larry</td>
+																			<td class="cus-data-elips">Saeed Changes</td>
+																			 <td class="cus-data-elips">Saeed Changes</td>
+																			 <td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																				<a href="#" data-toggle="modal" data-target="#honours-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+													<!--end here 2nd achvements-->
+													<div class="row mb-3 mt-4 achivements_add_project">
+														<div class="col-12 col-sm-8 col-8 col-lg-10">
+															<h5 class="thm-colr mr-3 achevements-sec-headings"><strong>Projects</strong></h5>
+														</div>
+														<div class="col-12 col-sm-4 col-4 mb-md-4 col-lg-2 achivements_add_project">
+															<button type="button" class="btn profile-skills-btn" data-toggle="modal" data-target="#custom-projects-Modal">Add
+																</button>
+																<div class="modal right fade" id="custom-projects-Modal" role="dialog">
+																		<div class="modal-dialog modal-lg">
+																		<!-- Modal content-->
+																			<div class="modal-content">
+																			
+																						<h4 class="project-model-title">Projects</h4>
+																						 
+																				<div class="modal-body">
+																				  <form>
+																					<div class="row">
+																						<div class="form-group col-12">
+																							<label class="label_text">Project Name</label>
+																							<input type="text" class="form-control set_input ach-input">
+																						</div>
+																					</div>
+																					<div class="row">
+																						<div class='form-group col-12 col-xl-6 col-lg-6'>
+																							<label class="label_text">From Date</label>
+																							<div class="input-append date " id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																									<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																									<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																								</div>										 
+																							</div>
+																							<div class='form-group col-12 col-xl-6 col-lg-6'>
+																								<label class="label_text">To Date</label>
+																								<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+																									<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+																									<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+																								</div>										 
+																							</div>
+																						<div class="col-12  col-lg-6 col-xl-6 ">
+																						 		<div class="certification-checkbox px-3">
+																							<div class="task-checkbox w-100">
+																						<label class="usman-container ">
+																						<input type="checkbox">
+																						<span class="checkmark"></span>Still Going Project
+																						</label>
+																						</div>
+																						</div>
+																						</div> 
+																							
+																								
+																					</div>
+																				  
+																					<div class="row set_margin_label">
+																						<div class="form-group col-12">
+																							<label class="label_text">Associated with</label>
+																							<textarea class="form-control" rows="5" id="comment"></textarea>
+																						</div>
+																					</div>
+																					<div class="row">
+																						<div class="form-group col-12">
+																							<label class="label_text">Project Name</label>
+																							<input type="text" class="form-control set_input ach-input">
+																						</div>
+																					</div>
+																					
+																					<div class="row set_margin_label">
+																						<div class="form-group col-12">
+																							<label class="label_text">Associated with</label>
+																							<textarea class="form-control" rows="5" id="comment"></textarea>
+																						</div>
+																					</div>
+																					
+																					
+																					<button type="button" class="btn btn-primary pro-btn-save-bg save-modal-btn us-cus-pop-btn" data-dismiss="modal">Save</button>
+																					<button type="button" class="btn btn-dark cancel-modal-btn us-cus-pop-btn" data-dismiss="modal">Cancel</button>
+																					
+																				</form>
+																				</div>
+																			
+																			</div>
+																			
+																		  </div>
+																		</div>
+														</div>
+														<div class="col-sm-12">
+															<div class="table-responsive">
+																<!--inbox-custom-table class will add in table-->
+																
+																<table class="table table-striped edu-table">
+																	<thead class=" table-bordered rounded-circle">
+																		<tr class="bg-light">
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																					Title
+																				</a>
+																			</th>
+																			<th scope="col" class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																				Start Date
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark">
+																				<a href="#" class="text-dark d-inline-block">
+																						On Going
+																				</a>
+																			</th>
+																			<th scope="col " class="text-dark" style="min-width: 150px; width: 150px;">
+																				<a href="#" class="text-dark d-inline-block">
+																				Edit
+																				</a>
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody class="task-mang">
+																			<tr class="parent">
+																			<td>Larry</td>
+																			<td class="cus-data-elips">Saeed Changes</td>
+																			 <td class="cus-data-elips">Saeed Changes</td>
+																			 <td class="text-center ">
+																			
+																				<div class=" icon-left  my-prof-icon-w-45">
+																				<a href="#" data-toggle="modal" data-target="#projects-popup">
+																					<img src="images/discount-edit.png"/> </a>
+																				</div>
+																				<div class="icon-right my-prof-icon-w-45">
+																				<a href="#">	
+																				<img  class="removeDiv" src="images/delete-button.png"/></a>
+																				</div>
+																			
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+													
+													<!--end here 3rd achvements-->
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Specialist End -->
+
+
+
+
+					<!-- Right Sidebar Start -->
+					<div class="col-md-2 col-sm-2 col-right main_right">
+						<div class="right-sidebar">
+							<div class="custom-widgets">
+								<span>Customize Widgets</span>
+								<img src="images/del.png" alt="img">
+								<img src="images/addWidget.png" alt="img">
+							</div>
+							<div class="clearfix"></div>
+							<div class="sortable" id="sortable">
+								<!-- custom widgets end -->
+								<div class="my-requests">
+									<div class="request-title">
+										<span class="title">Requests</span>
+										<span class="icon"><a href="#request_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="collapse in" id="request_demo">
+										<ul class="tab_header">
+											<li><a data-toggle="pill" href="#inbox">My Inbox (10)</a></li>
+											<li class="active"><a data-toggle="pill" href="#requests">My Requests
+													(5)</a></li>
+										</ul>
+										<div class="request-list">
+											<div class="new-owl-theme">
+												<div class="tab-content">
+													<div id="requests" class="tab-pane fade in active">
+														<div class="new-owl-carousel owl-carousel owl-theme">
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>788667888778 788667888778</p><span
+																	class="tooltiptext">788667888778</span><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>345686743358</p><span
+																	class="tooltiptext">345686743358345686743358</span><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>098785647546</p><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+
+														</div>
+													</div>
+													<div id="inbox" class="tab-pane fade">
+														<div class="new-owl-carousel owl-carousel owl-theme">
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>345686743358</p><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>788667888778</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>098785647546</p><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- My requests end -->
+								<div class="most-used-services">
+									<div class="services-title">
+										<span class="title">Most Used Services</span>
+										<span class="icon"><a href="#services_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="services-list collapse in" id="services_demo">
+										<ul>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Construction Permits System</span></a></li>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Tasjeel (Tawtheeq) System</span></a></li>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Commodities Sales</span></a></li>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Lands Services</span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- Most used end -->
+								<div class="file-directory">
+									<div class="directory-title">
+										<span class="title">File Directory</span>
+										<span class="icon"><a href="#directory_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="file-upload collapse in" id="directory_demo">
+										<form class="md-form dragupload">
+											<div class="file-field box__input">
+												<div class="z-depth-1-half mb-4">
+													<img src="images/upload-icon.png" alt="img">
+												</div>
+												<div class="d-flex justify-content-center centertext">
+													<span>Drag your file here to upload or</span>
+													<span class="btn default btn-file">
+														<label for="fileupload" class="fileinput-new"> Upload
+															Manually</label>
+														<input type="file" class="textbox wp95 fl fileupload fileInput"
+															name="files" id="fileupload">
+													</span>
+													<button style="display: none;" type="submit"
+														class="box__button">Upload</button>
+												</div>
+											</div>
+											<div style="display: none;" class="box__uploading">Uploading&hellip;</div>
+											<div style="display: none;" class="box__success">Done! <a href="?"
+													class="box__restart" role="button">Upload more?</a></div>
+											<div style="display: none;" class="box__error">Error! <span></span>. <a
+													href="?" class="box__restart" role="button">Try again!</a></div>
+										</form>
+										<section id="demos">
+											<div class="row owl">
+												<div class="col-md-12">
+													<div class="owl-carousel owl-theme new-owl-carosssusel centertext">
+														<div class="item">
+															<ul>
+																<li class="upload_item">
+																	<img src="images/pdf.png" alt="img"><span
+																		class="file_name">new.pdf</span><span>Shared
+																		with 5 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/word.png" alt="img"><span
+																		class="file_name">requirements.doc</span><span>Shared
+																		with 2 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/guidelines.png" alt="img"><span
+																		class="file_name">guidelines</span><span>6/18/2018</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+															</ul>
+														</div>
+														<div class="item">
+															<ul>
+																<li class="upload_item">
+																	<img src="images/pdf.png" alt="img"><span
+																		class="file_name">new.pdf</span><span>Shared
+																		with 5 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/word.png" alt="img"><span
+																		class="file_name">requirements.doc</span><span>Shared
+																		with 2 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/guidelines.png" alt="img"><span
+																		class="file_name">guidelines</span><span>6/18/2018</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+															</ul>
+														</div>
+														<div class="item">
+															<ul>
+																<li class="upload_item">
+																	<img src="images/pdf.png" alt="img"><span
+																		class="file_name">new.pdf</span><span>Shared
+																		with 5 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/word.png" alt="img"><span
+																		class="file_name">requirements.doc</span><span>Shared
+																		with 2 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/guidelines.png" alt="img"><span
+																		class="file_name">guidelines</span><span>6/18/2018</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- file directory end -->
+								<div class="calendar">
+									<div class="calendar-title">
+										<span class="title">Calendar</span>
+										<span class="icon"><a href="#calendar_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="collapse in" id="calendar_demo">
+										<ul class="tab_header">
+											<li><a data-toggle="pill" href="#employee">Employee Calendar</a></li>
+											<li class="active"><a data-toggle="pill" href="#hall">Hall Reservation</a>
+											</li>
+										</ul>
+										<div class="tab-content">
+											<ul id="hall" class="tab-pane fade in active">
+												<table
+													class="calendar table table-condensed table-responsive table-bordered">
+													<thead>
+														<tr>
+															<td></td>
+															<td>10:00</td>
+															<td>11:00</td>
+															<td>12:00</td>
+															<td>13:00</td>
+															<td>14:00</td>
+															<td>15:00</td>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<th>Meeting Room 1</th>
+															<td><span class="meet_room1 tag bg_blue">10:30 -
+																	14:30</span></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_room11 tag bg_yellow">14:00</span>
+															</td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 2</th>
+															<td><span class="meet_room2 tag bg_coral">10:30 -
+																	12:30</span></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_room22 tag bg_coral">14:00</span></td>
+															<td><span class="meet_room222 tag bg_purple">14:50</span>
+															</td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 3</th>
+															<td><span class="meet_room3 tag bg_blue">10:0</span></td>
+															<td><span class="meet_room33 tag bg_aqua">11:00 - 12</span>
+															</td>
+															<td></td>
+															<td><span class="meet_room333 tag bg_yellow">13:00 -
+																	15:30</span></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 4</th>
+															<td><span class="meet_room4 tag bg_purple">10:00 -
+																	15:50</span></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 5</th>
+															<td><span class="meet_room5 tag bg_aqua">10:00 -
+																	12:50</span></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_room55 tag bg_blue">13:0</span></td>
+															<td></td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+											</ul>
+											<ul id="employee" class="tab-pane fade">
+												<table
+													class="calendar table table-condensed table-responsive table-bordered">
+													<thead>
+														<tr>
+															<td></td>
+															<td>10:00</td>
+															<td>11:00</td>
+															<td>12:00</td>
+															<td>13:00</td>
+															<td>14:00</td>
+															<td>15:00</td>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<th>Meeting Room 1</th>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_r1 tag bg_yellow">14:00</span></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 2</th>
+															<td><span class="meet_r2 tag bg_coral">10:30 - 12:30</span>
+															</td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_r21 tag bg_purple">14:50</span></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 3</th>
+															<td></td>
+															<td><span class="meet_r3 tag bg_aqua">11:00 - 12:00</span>
+															</td>
+															<td></td>
+															<td><span class="meet_r32 tag bg_yellow">13:00 -
+																	15:30</span></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 4</th>
+															<td><span class="meet_r4 tag bg_purple">10:00 - 13:50</span>
+															</td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 5</th>
+															<td><span class="meet_r5 tag bg_aqua">10:00 - 12:50</span>
+															</td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- calendar end -->
+								<div class="best-employee">
+									<div class="best-title">
+										<span class="title">Employee of the month</span>
+										<span class="icon"><a href="#employee_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="employee-detail text-center collapse in" id="employee_demo">
+										<img src="images/Group.png" alt="img">
+										<h4>Mohammad Saleh</h4>
+										<p>Month of JUNE</p>
+										<button class="btn btn-style btn-red">View Profile</button>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- employee of the month end -->
+								<div class="media-gallery">
+									<div class="gallery-title">
+										<span class="title">Media Gallery</span>
+										<span class="icon"><a href="#gallery_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="media_gallery collapse in" id="gallery_demo">
+										<div id="jssor_1"
+											style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:780px;overflow:hidden;visibility:hidden;">
+											<!-- Loading Screen -->
+											<div data-u="loading" class="jssorl-009-spin"
+												style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+												<img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+													src="images/spin.svg" alt="img" />
+											</div>
+											<div data-u="slides"
+												style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:580px;overflow:hidden;">
+												<div>
+													<img data-u="image" src="images/media-1.png" alt="img" />
+													<img data-u="thumb" src="images/media-1.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/303x191.png" alt="img" />
+													<img data-u="thumb" src="images/303x191.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/media-1.png" alt="img" />
+													<img data-u="thumb" src="images/media-1.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/303x191.png" alt="img" />
+													<img data-u="thumb" src="images/303x191.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/media-1.png" alt="img" />
+													<img data-u="thumb" src="images/media-1.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/303x191.png" alt="img" />
+													<img data-u="thumb" src="images/303x191.png" alt="img" />
+												</div>
+											</div>
+											<!-- Thumbnail Navigator -->
+											<div data-u="thumbnavigator" class="jssort101"
+												style="position:absolute;left:0px;bottom:0px;width:980px;height:220px;background-color:#f9f9f9; padding:5px;"
+												data-autocenter="1" data-scale-bottom="0.75">
+												<div data-u="slides">
+													<div data-u="prototype" class="p"
+														style="width:200px;height:150px; border-radius: 5px;">
+														<div data-u="thumbnailtemplate" class="t"></div>
+													</div>
+												</div>
+											</div>
+											<!-- Arrow Navigator -->
+											<div data-u="arrowleft" class="jssora106"
+												style="width:55px;height:55px;top:620px;left:30px;" data-scale="0.75">
+												<svg viewBox="0 0 16000 16000"
+													style="position:absolute;top:0;left:0;width:100%;height:100%;">
+													<circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+													<polyline class="a"
+														points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+													<line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+												</svg>
+											</div>
+											<div data-u="arrowright" class="jssora106"
+												style="width:55px;height:55px;top:620px;right:30px;" data-scale="0.75">
+												<svg viewBox="0 0 16000 16000"
+													style="position:absolute;top:0;left:0;width:100%;height:100%;">
+													<circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+													<polyline class="a"
+														points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+													<line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- #endregion Jssor Slider End -->
+								<!-- media gallery end -->
+							</div>
+						</div>
+					</div>
+					<!-- Right Sidebar End -->
+
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- Section End -->
+	</main>
+	<div class="modal fade" id="manager_alert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Search Employee</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body updates_fields">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-6 disc_title">
+							<label class="update_search">Name</label>
+							<input type="text" placeholder="Example" class="search_by_filter">
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6 disc_title">
+							<label class="update_search">Staff No</label>
+							<input type="text" placeholder="Example" class="search_by_filter">
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 disc_title">
+							<label class="update_search">E-mail</label>
+							<input type="text" placeholder="Example@mail.com" class="search_by_filter">
+						</div>
+						<div class="assing_popup_button">
+							<button class="search_button">Search</button>
+						</div>
+					</div>
+				</div>
+				<h2>Showing Results</h2>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+ 
+
+
+   			 <div class="modal right fade" id="education-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">  
+                <div class="add-organization-link-popup">
+                <h3>Edit Education</h3>
+                 <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Title</label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+                <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Education Center </label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+				  <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Country </label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>  
+            	<div class="row mt-4">
+                <div class="col-md-12 mt-3">
+               <button type="button" class="btn suggestion-submint-btn us-cus-pop-btn">Add</button>
+               <button type="button" class="btn suggestion-cancel-btn us-cus-pop-btn" data-dismiss="modal">Cancel</button>
+               </div>
+                </div>  
+                </div>
+                </div>
+                </div>  
+                </div>
+
+
+
+
+ 				<div class="modal fade right" id="job-history-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">  
+                <div class="add-organization-link-popup">
+                <h3>Edit Job History</h3>
+                 <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Title</label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+                <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Company</label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+				  <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Years of Experience </label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>  
+            	<div class="row mt-4">
+                <div class="col-md-12 mt-3">
+               <button type="button" class="btn suggestion-submint-btn us-cus-pop-btn">Add</button>
+               <button type="button" class="btn suggestion-cancel-btn us-cus-pop-btn" data-dismiss="modal">Cancl</button>
+               </div>
+                </div>  
+                </div>
+                </div>
+                </div>  
+                </div> 
+
+
+
+
+
+                <div class="modal fade right" id="certification-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">  
+                <div class="add-organization-link-popup">
+                <h3>Edit Certification</h3>
+                 <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Title</label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+                <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">License Number  </label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div> 
+            	<div class="row mt-4">
+                <div class="col-md-12 mt-3">
+               <button type="button" class="btn suggestion-submint-btn us-cus-pop-btn">Add</button>
+               <button type="button" class="btn suggestion-cancel-btn us-cus-pop-btn" data-dismiss="modal">Cancl</button>
+               </div>
+                </div>   
+                </div>
+                </div>
+                </div>  
+                </div> 
+
+
+
+				<div class="modal fade right" id="honours-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">  
+                <div class="add-organization-link-popup">
+                <h3>Edit Honours & Awardsy</h3>
+                 <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Title</label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+                <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Issuer </label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+				  <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Date  </label> 
+				<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+				<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+				<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+				</div>	
+				</div>
+				</div>  
+            	<div class="row mt-4">
+                <div class="col-md-12 mt-3">
+               <button type="button" class="btn suggestion-submint-btn us-cus-pop-btn">Add</button>
+               <button type="button" class="btn suggestion-cancel-btn us-cus-pop-btn" data-dismiss="modal">Cancl</button>
+               </div>
+                </div>   
+                </div>
+                </div>
+                </div>  
+                </div> 
+
+
+
+
+               <div class="modal fade right" id="projects-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg" role="document">
+                 <div class="modal-content">  
+                <div class="add-organization-link-popup">
+                <h3>Edit Projects</h3>
+                 <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Title</label>
+				 <input type="text" placeholder="Example" class="form-control search_by_filter">	
+				</div>
+				</div>
+                 <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">Start Date </label> 
+				<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+				<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+				<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+				</div>	
+				</div>
+				</div>  
+				  <div class="row">
+                 <div class="col-md-12 mt-4">
+                 <label class="update_search">On Going </label> 
+				<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+				<input class="span2 form-control gry-clo cl-al-f-inp ach-input" size="16" type="text" value="12-02-2012">
+				<i class="fa fa-calendar f-loc pr-2 cus-spec"></i>
+				</div>	
+				</div>
+				</div>  
+            	<div class="row mt-4">
+                <div class="col-md-12 mt-3">
+               <button type="button" class="btn suggestion-submint-btn us-cus-pop-btn">Add</button>
+               <button type="button" class="btn suggestion-cancel-btn us-cus-pop-btn" data-dismiss="modal">Cancl</button>
+               </div>
+                </div>   
+                </div>
+                </div>
+                </div>  
+                </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/chart.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	
+	<script type="text/javascript" src="js/emoji/config.js"></script>
+	<script type="text/javascript" src="js/emoji/util.js"></script>
+	<script type="text/javascript" src="js/emoji/jquery.emojiarea.js"></script>
+	<script type="text/javascript" src="js/emoji/emoji-picker.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/fancybox.min.js"></script>
+	<script type="text/javascript" src="js/moment.min.js"></script>
+	<script type="text/javascript" src="js/datepicker.min.js"></script>
+	<script type="text/javascript" src="js/choosen.min.js"></script>
+	<script src="js/jssor.slider.min.js" type="text/javascript"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/sticky-kit.min.js"></script>
+	<script src="js/isotope.min.js"></script> -->
+	<script src="js/jquery.js?version=1.2"></script>
+<script src="js/bootstrap.min.js?version=1.3"></script>
+<script src="js/owl.carousel.js?version=1.2"></script>
+
+
+<!-- New -->
+<script src="js/swiper.min.js?version=1.2"></script>
+<script src="js/chart.js?version=1.2"></script>
+<script src="js/dropzone.js?version=1.2"></script>
+
+ <script src="js/editor.js?version=1.4"></script>	
+
+<script type="text/javascript" src="js/jquery.nicescroll.min.js?version=1.2"></script>
+
+
+
+<script type="text/javascript" src="js/jquery-ui.js?version=1.2"></script>
+
+<!-- New -->
+<script type="text/javascript" src="js/fancybox.min.js?version=1.2"></script>
+<script type="text/javascript" src="js/moment.min.js?version=1.2"></script>
+
+
+<script type="text/javascript" src="js/datepicker.min.js?version=1.2"></script>
+
+<script type="text/javascript" src="js/choosen.min.js?version=1.2"></script>
+
+<!-- New -->
+<script src="js/jssor.slider.min.js?version=1.2" type="text/javascript"></script>
+
+<script src="js/jquery.easy_slides.js?version=1.2"></script>
+
+<script src="js/jquery-circle-progress.js?version=1.2"></script>
+
+<!-- <script src="js/emojiarea.js?version=1.0"></script>-->
+
+<script src="js/cropper.js?version=1.2"></script>
+<script src="js/custom.js?version=3.6"></script> 
+
+<!-- <script src="js/emojiarea.js"></script>-->
+<script src="js/sticky-kit.min.js?version=1.2"></script>
+
+<!-- New -->
+<script src="js/isotope.min.js?version=1.2"></script>
+
+
+
+
+<script type="text/javascript" src="js/custom/ajaxfileupload.js?version=1.4"></script>
+<script type="text/javascript" src="js/custom/croppie.min.js?version=1.4"></script>
+<script type="text/javascript" src="js/custom/jquery.dataTables.min.js?version=1.3"></script>
+<script type="text/javascript" src="js/custom/datatable-functions.js"></script>
+
+<script type="text/javascript" src="js/custom/jquery.marquee.min.js"></script>
+<script type="text/javascript" src="js/custom/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/emojionearea.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-slider.js"></script>
+
+<script type="text/javascript" src="js/calender/fullcalendar.min.js?version=1.5"></script>
+<script type="text/javascript" src="js/calender/gcal.min.js?version=1.4"></script>
+<script type="text/javascript" src="js/calender/locale-all.js?version=1.4"></script>
+
+
+
+<script type="text/javascript" src="js/jquery.datetimepicker.js?version=1.4"></script>
+
+<script type="text/javascript" src="js/bootstrap-tagsinput.js?version=1.9"></script>
+
+
+ <script type="text/javascript" src="js/typeahead.js?version=1.4"></script>
+<script type="text/javascript" src="js/app.js?version=2.3"></script>
+<script type="text/javascript" src="js/app_bs3.js?version=1.8"></script>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.span2').datepicker();
+$('.span3').datepicker(); 
+$('.removeDiv').on('click', function() {
+$(this).parents('.parent').remove();
+});
+$("#nav-tab").click(function() {
+$(this).siblings().removeClass("active");
+$(this).addClass("active"); 
+}); 
+$("#voc-skils").click(function() {
+$(this).siblings().removeClass("active");
+$(this).addClass("active"); 
+});
+$("#lang-skills").click(function() {
+$(this).siblings().removeClass("active");
+$(this).addClass("active"); 
+});
+$("#person-skils").click(function() {
+$(this).siblings().removeClass("active");
+$(this).addClass("active"); 
+$('.progress .progress-bar').css("width",
+function() {
+return $(this).attr("aria-valuenow") + "%";
+}
+)
+});
+
+
+});
+</script>
+
+		<script type="text/javascript">
+			// See documentation for option details
+			// Toggle commented options to see effects
+			cssVars({
+			  // fixNestedCalc: false,
+			   onlyVars: true,
+			  // preserve: true,
+			  // updateURLs: false,
+			  // variables: { '--font-family': 'helvetica' },
+			  // ----------
+			  onlyLegacy: true,
+			  include: '[data-cssvarsponyfill="true"]',
+			  
+			  
+			});
+		
+		</script>
+ <!-- $(".margin_for_panel, #nav-profile-tab").click(function() {
+	$(this).siblings().removeClass("active-task-bg-gry");
+	$(this).addClass("active-task-bg-gry"); 
+	}); -->
+	<script>
+
+
+		function readURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function (e) {
+					$(".my-prof-drg-img-bot").attr("src",e.target.result);
+				};
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+ 											
+		
+			$("body").on('mousemove', '#skillrange', function(){
+					var rangeValue = $(this).val();
+					$(this).next().css("left",rangeValue/2+"%");
+					$("#skillrangevalue").text(rangeValue + "%");
+				});
+		</script> 
+		
+</body>
+
+</html>

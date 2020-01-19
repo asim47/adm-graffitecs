@@ -1,0 +1,47 @@
+.custom-status-block > div > .col-lg-8 {
+  float: right;
+}
+.custom-feedback-block > .row > .col-lg-2 {
+  float: right;
+}
+.custom-feedback-block .col-lg-8.col-md-12 {
+  float: right;
+}
+.custom-feedback-block .custom-margin-holder .col-lg-9.col-md-12 {
+  float: right;
+}
+.custom-feedback-block .custom-smileys {
+  float: left;
+}
+.custom-al-alanaat.best-employee .employee-detail p {
+  text-align: right;
+}
+@media only screen and (max-device-width: 1200px) {
+  .custom-feedback-block .satisfaction-image {
+    width: 200px;
+    margin: 0 auto 30px;
+  }
+  .custom-feedback-block {
+    text-align: center;
+  }
+  .custom-feedback-block .custom-smileys {
+    float: none;
+    margin: 30px 0 0;
+  }
+  .custom-feedback-block .custom-smileys li {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .custom-status-block > div > .col-lg-8,
+  .custom-feedback-block .custom-margin-holder .col-lg-9.col-md-12,
+  .custom-feedback-block .col-lg-8.col-md-12 {
+    float: none;
+  }
+  .custom-news-block {
+    margin: 0;
+  }
+  .custom-news-block {
+    margin: 30px 0 0;
+  }
+}

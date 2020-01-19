@@ -1,0 +1,150 @@
+/* .event-calendar-wrapper span.events{
+	font-size: 28px;
+	color: var(--themeColor1);
+	color: #2076ab;
+	font-weight: 500;
+} */
+
+.updates span{
+	color: #5b5b5b;
+}
+.events-set-main-calander{
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 25px;
+}
+.events-set-main{
+	border-radius: 7px;
+    background-color: #ffffff;
+    padding: 30px 20px 0 8px;
+    margin-bottom: 23px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) 
+}
+/* .events-set-main .gtx-event-calendar-set,
+.events-set-main #fullCalendar{
+	    position: relative;
+    z-index: 9999;
+} */
+
+	.upcomming-events {
+	    margin-top: 30px;
+	    margin-bottom: 16px;
+	}
+.upcomming-events h3 {
+    color: #1b6592;
+    font-weight: 600;
+}
+.events-set-main .events-img {
+    width: 60px;
+    float: left;
+    /* display: inline-block; */
+}
+.events-set-main .events-img img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.events-set-main .events-inner-content{
+	float: right;
+}
+.events-content-set {
+	overflow: hidden;
+	padding-left: 9px;
+}
+.events-content-set .events-content-inner h3{
+	margin: 0;
+    color: #303030;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.events-content-set .events-content-inner{
+	font-size: 12px;
+    font-weight: normal;
+    color: #989898;
+}
+
+.events-content-set .content-desc h4{
+	color: #d64f4f;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}  
+ .events-content-set .content-desc h6{
+	 color: #3879a0;
+    font-size: 14px;  
+
+}
+.events-content-set .content-desc span {
+    font-size: 13px;
+    color: #797070;
+}
+.events-content-set .content-desc h5 {
+    color: #000000;
+    font-weight: 500;
+}
+
+.events-content-set .content-desc h3 {
+       font-size: 16px;
+   /*  color: #7e7e7e; */
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.events-content-set .content-desc .time-date{
+    font-size: 13px;
+    color: #797070;
+    margin-bottom: 13px;
+}
+.events-content-set .content-desc p{
+	color: #797070;
+    font-weight: 500;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 24px
+}
+.events-content-set .content-desc .bottom-icons{
+	padding-top: 6px;
+	padding-bottom: 6px
+}
+button.fc-prev-button.fc-button.fc-state-default.fc-corner-left,
+button.fc-next-button.fc-button.fc-state-default.fc-corner-right
+ {
+    background: #171d29;
+    color: #fff;
+    margin-left: 5px;
+}
+
+/* Ending event page */
+
+/* Start assignreports */
+.assign-reports{
+    padding: 25px;
+    border-radius: 5px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cccccc;
+    height: 500px;
+}
+.assign-reports-inner h3{
+    color: #3c3c3c;
+    margin: 0 0 23px 0;
+}
+.assign-reports .assign-reports-inner .report-buttons {
+    padding-top: 25px;
+}
+.bottom-icons ul{
+    display:flex;
+    float: right;
+    list-style: none;
+  }
+  .bottom-icons ul > li{
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  .fc-toolbar.fc-header-toolbar{
+      width: 100%;
+  }
+  .fc-toolbar.fc-header-toolbar .fc-right{
+    width: 100%;
+}

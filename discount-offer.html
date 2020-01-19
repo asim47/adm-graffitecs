@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Adm</title>
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> -->
+        
+    <link data-cssvarsponyfill="true" href="css/themes/theme-org-1.css" rel="stylesheet">
+        <!-- 
+        <c:choose>
+            <c:when test="${not empty applicationUser.organization.id}">
+            <link data-cssvarsponyfill="true" href="css/themes/theme-org-${applicationUser.organization.id}.css?version=1.1" rel="stylesheet">
+            </c:when>
+            <c:otherwise>
+                <link data-cssvarsponyfill="true" href="css/themes/theme-defualt.css" rel="stylesheet">
+            </c:otherwise>
+        </c:choose>
+        -->
+        
+        <!-- Custom Styles-->
+        <link href="css/custom/custom-styles.css?version=2.0" rel="stylesheet">
+        <link href="css/custom/animate.css?version=1.1" rel="stylesheet">
+        <link href="css/custom/croppie.css?version=1.1" rel="stylesheet">
+        
+        
+        
+        
+        <!------------ Alertify --------------->
+    
+    <!-- For Arabic only -->
+    <!--<c:if test="${i18n.language == 'ar'}">-->
+        <!-- <link rel="stylesheet" href="css/custom/alertify/alertify.rtl.min.css" />
+        <link rel="stylesheet" href="css/custom/alertify/themes/default.rtl.min.css" /> -->
+    <!--</c:if>-->
+    
+    <!-- For English only -->
+    <!--<c:if test="${i18n.language == 'en'}">-->
+        <link rel="stylesheet" href="css/custom/alertify/alertify.min.css" />
+        <link rel="stylesheet" href="css/custom/alertify/themes/default.min.css" />
+    <!--</c:if>-->
+    
+    <script type="text/javascript" src="js/custom/alertify/alertify.min.js?version=1.1"></script>
+    
+    
+    <!-- StyleSheets -->
+    
+    <link data-cssvarsponyfill="true" href="css/bootstrap.css?version=1.2" rel="stylesheet"> 
+    <link href="css/owl.carousel.css?version=1.1" rel="stylesheet">
+    <link href="css/owl.theme.default.css?version=1.1" rel="stylesheet">
+    <link href="css/animate.css?version=1.1" rel="stylesheet">
+    <link href="css/material-icons.css?version=1.1" rel="stylesheet">
+    <link href="css/style-ui.css?version=1.1" rel="stylesheet">
+    <link href="css/font-awesome.min.css?version=1.3" rel="stylesheet">
+    <link href="css/fancybox.min.css?version=1.1" rel="stylesheet">
+    
+    
+    <!-- New -->
+    <link href="css/datepicker.css?version=1.1" rel="stylesheet">
+    <link data-cssvarsponyfill="true" href="css/component-chosen.css?version=2.2" rel="stylesheet">
+    <link data-cssvarsponyfill="true" href="css/swiper.css?version=1.2" rel="stylesheet">
+    
+    <link href="css/calender/fullcalendar.min.css?version=1.4" rel="stylesheet">
+    <link media="print" href="css/calender/fullcalendar.print.min.css?version=1.3" rel="stylesheet">
+    
+    
+    <link href="css/jquery.easy_slides.css?version=1.1" rel="stylesheet">
+    <link href="css/dropzone.css" rel="stylesheet">
+    
+    <link href="css/cropper.css" rel="stylesheet">
+    
+    <link data-cssvarsponyfill="true" href="css/style.css?version=10.2" rel="stylesheet">
+    <link href="css/responsive.css?version=5.0" rel="stylesheet">
+    <link href="css/emojionearea.min.css" rel="stylesheet"> 
+
+    <!-- For Arabic only -->
+    <!--<c:if test="${i18n.language == 'ar'}">-->
+        <!-- <link href="css/rtl.css?version=10.1" rel="stylesheet"> -->
+    <!--</c:if>-->
+    
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    
+        <link href="css/custom/jquery.dataTables.css?version=3.0" rel="stylesheet" type="text/css">
+        <link href="css/custom/buttons.dataTables.min.css?version=2.1" rel="stylesheet" type="text/css">
+        
+
+        <link href="css/tagging.css?version=1.2" rel="stylesheet" type="text/css">
+    <link href="css/jquery.datetimepicker.min.css?version=1.3" rel="stylesheet" type="text/css">
+    <link data-cssvarsponyfill="true" href="css/bootstrap-tagsinput.css?version=1.5" rel="stylesheet" type="text/css">
+    <link href="css/app.css?version=1.4" rel="stylesheet" type="text/css"> 
+    
+    
+    
+    <link data-cssvarsponyfill="true" href="css/latest.css?version=6.5" rel="stylesheet">
+    <link data-cssvarsponyfill="true" href="css/timeline.css?version=2.1" rel="stylesheet">
+    <link href="css/material-switch.css?version=1.5" rel="stylesheet">
+    <link data-cssvarsponyfill="true" href="css/eval-style.css?version=2.5" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- For Arabic only -->
+    <!--<c:if test="${i18n.language == 'ar' }">-->
+        <!-- <link data-cssvarsponyfill="true" href="css/timeline.rtl.css?version=3.0" rel="stylesheet">
+        <link data-cssvarsponyfill="true" href="css/latest.rtl.css?version=6.5" rel="stylesheet">
+        <link href="css/material-switch-rtl.css?version=2.1" rel="stylesheet">
+        <link href="css/override-rtl.css?version=2.2" rel="stylesheet">
+        <link data-cssvarsponyfill="true" href="css/eval-style-rtl.css?version=2.5" rel="stylesheet"> -->
+            
+    <!--</c:if>-->
+                
+    
+            
+    <script src="js/jquery.js?version=1.2"></script>
+    <script type="text/javascript" src="js/custom/custom-controls.js?version=5.0"></script>
+        <script type="text/javascript" src="js/custom/pagination.js?version=1.3"></script>
+        <script type="text/javascript" src="js/custom/css-vars-ponyfill1.js"></script>
+
+    <script type="text/javascript">
+        // See documentation for option details
+        // Toggle commented options to see effects
+        cssVars({
+            // fixNestedCalc: false,
+            onlyVars: true,
+            // preserve: true,
+            // updateURLs: false,
+            // variables: { '--font-family': 'helvetica' },
+            // ----------
+            onlyLegacy: true,
+            include: '[data-cssvarsponyfill="true"]',
+            
+            
+        });
+    
+    </script>
+    
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="custom-css/style.css" rel="stylesheet">
+    <link href="custom-css/style-new.css" rel="stylesheet">
+    
+
+    <!--  <link href="css/rtl.css" rel="stylesheet">
+        <link href="custom-css/custom-rtl.css" rel="stylesheet">   --> 
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!--jquery-->
+<style>
+    ::-webkit-input-placeholder {
+font-style: italic;
+}
+:-moz-placeholder {
+font-style: italic;  
+}
+::-moz-placeholder {
+font-style: italic;  
+}
+:-ms-input-placeholder {  
+font-style: italic; 
+}
+</style>
+</head>
+
+<body>
+<header>
+<div class="header-top">
+<div class="container-fluid">
+<div class="row">
+<div class="main_header">
+<div class="logo_box">
+<div class="logo_inner">
+<a href="index.html"><img src="images/log0.png" /></a>
+</div>
+</div>
+<div class="icons_box">
+<ul>
+<li>
+<button type="button" class="navbar-toggle" data-toggle="collapse"
+data-target="#myNavbar" id="myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</li>
+<li><a href="#"><img src="images/logout.png" /></a></li>
+<li><a href="#"><img src="images/bell.png" /></a></li>
+<li><a href="assign-managers-rtl.html"><img src="images/Arabic-flag.png"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- header-top End -->
+</header>
+
+<main class="main_body">
+<section class="main_banner">
+<div class="container-fluid">
+<div class="row">
+<div class="banner">
+<img src="images/banner.png">
+<div class="col-md-12 col-sm-12 caption centertext">
+<h6> Welcme to </h6>
+<h2> Abu Dhabi Municipality </h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="clearfix"></div>
+<!-- Section End -->
+<section id="main-sec">
+<div class="container-fluid">
+<div class="row">
+<!-- Left Sidebar Start -->
+<div class="col-md-2 col-left main_left">
+<div class="left">
+<div class="left-sidebar">
+<a href="profile.html"><img class="profile-img" src="images/profile.png" alt="img"></a>
+<img class="edit-img" src="images/edit.png">
+<div class="caption text-center">
+<h4>Mohammad Ali</h4>
+<p>Department Manager</p>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star unchecked"></span>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="scores">
+<ul>
+<li>
+<p>Your Scores</p><span>3000</span>
+</li>
+<li>
+<p>Annual Leaves</p><span>30</span>
+</li>
+</ul>
+</div>
+<div class="clearfix"></div>
+<div class="departments">
+<a href="#">Designer</a>
+<a href="#">Developer</a>
+<a href="#">SEO</a>
+<a href="#">Abode Edge Animate</a>
+<a href="#" data-toggle="modal" data-target="#profile_skills">+</a>
+</div>
+
+<!--skills modal-->
+<div id="profile_skills" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<!-- Modal content-->
+<div class="modal-content">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<div class="modal-body">
+<form action="">
+<div class="col-sm-12 gtx-row-field">
+<label>Add multiple skills with comma separated/press enter
+key</label>
+<input type="text" class="form-control" name="skills"
+data-role="tagsinput"
+placeholder="Enter skill with comma separated/enter press">
+</div>
+
+</form>
+</div>
+</div>
+
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="sidebar-menu">
+<ul>
+<li><img src="images/dashboard.png" alt="img"><a href="index.html"
+class="preloader">Dashboard</a></li>
+<li><img src="images/file.png" alt="img"><a href="chart.html">File Directory</a>
+</li>
+<li><img src="images/achivements.png" alt="img"><a
+href="achivements.html">Achievements</a></li>
+<li class="active"><img src="images/task.png" alt="img"><a
+href="tasks.html">Tasks</a></li>
+<li><img src="images/skils.png" alt="img"><a href="skills-directory.html">Skills
+Directory</a></li>
+<li><img src="images/saeed-services.png" alt="img"><a
+href="saeed-services.html">Saeed Services</a></li>
+<li><img src="images/discussion-form.png" alt="img"><a
+href="discussion.html">Discussion Form</a></li>
+<li><img src="images/suggestion.png" alt="img"><a
+href="suggestion.html">Suggestions</a></li>
+<li><img src="images/media-gallery.png" alt="img"><a href="gallery.html">Media
+Gallery</a></li>
+<li><img src="images/my-Links.png" alt="img"><a href="my-links.html">My Links</a>
+</li>
+<li><img src="images/news.png" alt="img"><a href="news.html">News</a></li>
+<li><img src="images/intranet-system.png" alt="img"><a
+href="internal-system.html">Internal System</a></li>
+<li><img src="images/annoucements.png" alt="img"><a
+href="announcement.html">Announcements</a></li>
+<li><img src="images/events.png" alt="img"><a href="events.html">Events</a></li>
+<li><img src="images/employee.png" alt="img"><a
+href="employee-of-month.html">Employee for the Month</a></li>
+<li><img src="images/shared-folder.png" alt="img"><a
+href="division-shared-folder.html">Division shared folders</a></li>
+<li><img src="images/adm.png" alt="img"><a href="souq.html">ADM Souq</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Left Sidebar End -->
+
+
+
+
+
+
+<!-- Specialist Start -->
+<div class="col-md-10 col-middle discounts-page">
+<div class="aadm-surveys-heading"> 
+<h3>Discounts & Offers</h3>
+<span class="cus-cent-top-header">
+<img src="images/home-icon-silhouette.svg" alt=""></span>
+<span class="cus-top-heading cus-colr-heading">Discounts & Offers</span> 
+</div>
+
+<div class="row"> 
+<div class="col-md-10">
+
+</div>
+<div class="col-md-2">
+<button type="button"
+class="btn btn-success dic-off-btn-fl" data-toggle="modal" data-target="#add-task-mang-pop-my-ib">Add</button>
+</div>  
+</div>
+
+<div class="row mb-2"> 
+<div class="col-md-12 ">
+<form class="inbox-custom">
+  <label for="inputsm">Filter Result</label>  
+<input class="form-control input-sm" id="inputsm"
+type="text">
+</form>
+</div>
+</div> 
+
+
+<div class="discount-middle-sec">
+<div class="approval-page  dis-off-page"> 
+ 
+<div class="row">
+<div class="col-md-4 parent">
+<div class="card pt-4 cus-crd-hig-dis">
+<div class="row m-0">
+<div class="col-md-3 discount-img-col">
+<img src="images/discount-2.svg"  alt=""
+class="dis-off-card rounded-circle" height="50">
+</div>
+<div class="col-md-9 off-side-hig">
+<div class="col-12">
+<h5>
+<a href="#"><b>Larocity Jocality</b></a>
+</h5>
+</div>
+<div class="col-12">
+
+<h5> <a href="#"><b>15%</b></a>Sweet and Flowers
+</h5>
+</div>
+<div class="col-md-12"> 
+<p> 025514457</p>
+</div>
+<div class="col-12">
+
+<p class=" cus-con-hig-dis">Al Marjan Island Resort is
+pleased to offer special rates to Abu Dhabi
+Municipality employees or a discount of up to
+20%</p>
+</div>
+<hr class="cus-w-hr">
+<div class="col-md-12">
+<p class="dic-date-box"> 
+<span class="dic-dat-colr">From:</span>05/30/2019
+<span class="dic-dat-colr">To:</span>12/31/2019
+</p>
+</div>
+
+</div>
+</div>
+<div class="card-body pl-0 pr-0 bg-light ">
+<div class="doc-fot">
+<div class="row">
+<div
+class="col-md-3 text-center social-icons like">   
+<a href="#" class="like-counter ">
+<img src="images/like.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="like_clicks">13</a> 
+</div>
+<div
+class="col-md-3 text-center social-icons comment"> 
+<a href="#" class="comment-counter" data-toggle="modal" data-target="#dis-comment-pop">
+<img src="images/comment.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="comment_clicks">13</a>  
+
+</div>
+<div
+class="col-md-3 text-center social-icons add_comment-box">
+<img src="images/discount-edit.png" alt=""> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<span class="removeDiv">
+<img src="images/delete-button.png" alt="">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end card-->
+</div>
+<!--end one card of offer-->
+
+<div class="col-md-4 parent">
+<div class="card pt-4 cus-crd-hig-dis">
+<div class="row m-0">
+<div class="col-md-3 discount-img-col">
+<img src="images/discount-2.svg"  alt=""
+class="dis-off-card rounded-circle" height="50">
+</div>
+<div class="col-md-9 off-side-hig">
+<div class="col-12">
+<h5>
+<a href="#"><b>Larocity Jocality</b></a>
+</h5>
+</div>
+<div class="col-12">
+
+<h5><a href="#"><b>15%</b></a>Sweet and Flowers
+</h5>
+</div>
+<div class="col-md-12">
+
+<p> 025514457</p>
+</div>
+<div class="col-12">
+
+<p class="cus-con-hig-dis">Al Marjan Island Resort is
+pleased to offer special rates to Abu Dhabi
+Municipality employees or a discount of up to
+20%</p>
+</div>
+<hr class="cus-w-hr">
+<div class="col-md-12">
+<p class="dic-date-box"> 
+<span class="dic-dat-colr">From:</span>05/30/2019
+<span class="dic-dat-colr">To:</span>12/31/2019
+</p>
+</div>
+
+</div>
+</div>
+<div class="card-body pl-0 pr-0 bg-light ">
+<div class="doc-fot">
+<div class="row">
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="like-counter">
+<img src="images/like.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="like_clicks">13</a> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="comment-counter" data-toggle="modal" data-target="#dis-comment-pop">
+<img src="images/comment.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="comment_clicks">13</a>  
+</div>
+<div
+class="col-md-3 text-center social-icons add_comment-box">
+<img src="images/discount-edit.png" alt=""> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<span class="removeDiv">
+<img src="images/delete-button.png" alt="">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end card-->
+</div>
+<!--end one card of offer-->
+<div class="col-md-4 parent">
+<div class="card pt-4 cus-crd-hig-dis">
+<div class="row m-0">
+<div class="col-md-3 discount-img-col">
+<img src="images/discount-2.svg"  alt=""
+class="dis-off-card rounded-circle" height="50">
+</div>
+<div class="col-md-9 off-side-hig">
+<div class="col-12">
+<h5>
+<a href="#"><b>Larocity Jocality</b></a>
+</h5>
+</div>
+<div class="col-12">
+
+<h5><a href="#"><b>15%</b></a>Sweet and Flowers
+</h5>
+</div>
+<div class="col-md-12">
+
+<p> 025514457</p>
+</div>
+<div class="col-12">
+
+<p class="cus-con-hig-dis">Al Marjan Island Resort is
+pleased to offer special rates to Abu Dhabi
+Municipality employees or a discount of up to
+20%</p>
+</div>
+<hr class="cus-w-hr">
+<div class="col-md-12">
+<p class="dic-date-box"> 
+<span class="dic-dat-colr">From:</span>05/30/2019
+<span class="dic-dat-colr">To:</span>12/31/2019
+</p>
+</div>
+</div>
+</div>
+<div class="card-body pl-0 pr-0 bg-light ">
+<div class="doc-fot">
+<div class="row">
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="like-counter">
+<img src="images/like.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="like_clicks">13</a> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="comment-counter" data-toggle="modal" data-target="#dis-comment-pop">
+<img src="images/comment.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="comment_clicks">13</a>  
+</div>
+<div
+class="col-md-3 text-center social-icons add_comment-box">
+<img src="images/discount-edit.png" alt=""> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<span class="removeDiv">
+<img src="images/delete-button.png" alt="">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end card-->
+</div>
+<!--end one card of offer-->
+
+<div class="col-md-4 parent">
+<div class="card pt-4 cus-crd-hig-dis">
+<div class="row m-0">
+<div class="col-md-3 discount-img-col">
+<img src="images/discount-2.svg"  alt=""
+class="dis-off-card rounded-circle" height="50">
+</div>
+<div class="col-md-9 off-side-hig">
+<div class="col-12">
+<h5>
+<a href="#"><b>Larocity Jocality</b></a>
+</h5>
+</div>
+<div class="col-12">
+
+<h5><a href="#"><b>15%</b></a>Sweet and Flowers
+</h5>
+</div>
+<div class="col-md-12">
+<p> 025514457</p>
+</div>
+<div class="col-12">
+
+<p class="cus-con-hig-dis">Al Marjan Island Resort is
+pleased to offer special rates to Abu Dhabi
+Municipality employees or a discount of up to
+20%</p>
+</div>
+<hr class="cus-w-hr">
+<div class="col-md-12">
+<p class="dic-date-box"> 
+<span class="dic-dat-colr">From:</span>05/30/2019
+<span class="dic-dat-colr">To:</span>12/31/2019
+</p>
+</div>
+
+</div>
+</div>
+<div class="card-body pl-0 pr-0 bg-light ">
+<div class="doc-fot">
+<div class="row">
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="like-counter">
+<img src="images/like.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="like_clicks">13</a> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="comment-counter" data-toggle="modal" data-target="#dis-comment-pop">
+<img src="images/comment.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="comment_clicks">13</a>  
+</div>
+<div
+class="col-md-3 text-center social-icons add_comment-box">
+<img src="images/discount-edit.png" alt=""> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<span class="removeDiv">
+<img src="images/delete-button.png" alt="">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end card-->
+</div>
+<!--end one card of offer-->
+
+<div class="col-md-4 parent">
+<div class="card pt-4 cus-crd-hig-dis">
+<div class="row m-0">
+<div class="col-md-3 discount-img-col">
+<img src="images/discount-2.svg"  alt=""
+class="dis-off-card rounded-circle" height="50">
+</div>
+<div class="col-md-9 off-side-hig">
+<div class="col-12">
+<h5>
+<a href="#"><b>Larocity Jocality</b></a>
+</h5>
+</div>
+<div class="col-12"> 
+<h5><a href="#"><b>15%</b></a>Sweet and Flowers
+</h5>
+</div>
+<div class="col-md-12">
+<p> 025514457</p>
+</div>
+<div class="col-12">
+
+<p class="cus-con-hig-dis">Al Marjan Island Resort is
+pleased to offer special rates to Abu Dhabi
+Municipality employees or a discount of up to
+20%</p>
+</div>
+<hr class="cus-w-hr">
+<div class="col-md-12">
+<p class="dic-date-box"> 
+<span class="dic-dat-colr">From:</span>05/30/2019
+<span class="dic-dat-colr">To:</span>12/31/2019
+</p>
+</div>
+
+</div>
+</div>
+<div class="card-body pl-0 pr-0 bg-light ">
+<div class="doc-fot">
+<div class="row">
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="like-counter">
+<img src="images/like.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="like_clicks">13</a> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="comment-counter" data-toggle="modal" data-target="#dis-comment-pop">
+<img src="images/comment.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="comment_clicks">13</a>  
+</div>
+<div
+class="col-md-3 text-center social-icons add_comment-box">
+<img src="images/discount-edit.png" alt=""> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<span class="removeDiv">
+<img src="images/delete-button.png" alt="">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end card-->
+</div>
+<!--end one card of offer-->
+<div class="col-md-4 parent">
+<div class="card pt-4 cus-crd-hig-dis">
+<div class="row m-0">
+<div class="col-md-3 discount-img-col">
+<img src="images/discount-2.svg"  alt=""
+class="dis-off-card rounded-circle" height="50">
+</div>
+<div class="col-md-9 off-side-hig">
+<div class="col-12">
+<h5>
+<a href="#"><b>Larocity Jocality</b></a>
+</h5>
+</div>
+<div class="col-12">
+
+<h5><a href="#"><b>15%</b></a>Sweet and Flowers
+</h5>
+</div>
+<div class="col-md-12">
+<p> 025514457</p>
+</div>
+<div class="col-12">
+
+<p class="cus-con-hig-dis">Al Marjan Island Resort is
+pleased to offer special rates to Abu Dhabi
+Municipality employees or a discount of up to
+20%</p>
+</div>
+<hr class="cus-w-hr">
+<div class="col-md-12">
+<p class="dic-date-box"> 
+<span class="dic-dat-colr">From:</span>05/30/2019
+<span class="dic-dat-colr">To:</span>12/31/2019
+</p>
+</div>
+</div>
+</div>
+<div class="card-body pl-0 pr-0 bg-light ">
+<div class="doc-fot">
+<div class="row">
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="like-counter">
+<img src="images/like.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="like_clicks">13</a>  
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<a href="#" class="comment-counter" data-toggle="modal" data-target="#dis-comment-pop">
+<img src="images/comment.png" alt="img">
+<span class="click-comment"></span></a>
+<a id="comment_clicks">13</a>  
+</div>
+<div
+class="col-md-3 text-center social-icons add_comment-box">
+<img src="images/discount-edit.png" alt=""> 
+</div>
+<div
+class="col-md-3 text-center social-icons">
+<span class="removeDiv">
+<img src="images/delete-button.png" alt="">
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end card-->
+</div>
+<!--end one card of offer-->
+<!--end one card of offer-->
+</div> 
+
+
+<div class="row mt-2 pagination-row">
+<div class="col-md-6">
+<p>Showing 1 to 15 of 43 entries</p>
+</div>
+<div class="col-md-6 inbox-custom-rtl-tl">
+<nav aria-label="...">
+<ul
+class="pagination inbox-float-sm-left -inbox-float-md-right mt-0 approval">
+<li class="page-item disabled"><a class="page-link border-0"
+href="#">Previous</a></li>
+<li class="page-item active" aria-current="page">
+<span class="page-link">
+1
+<span class="sr-only">(current)</span>
+</span>
+</li>
+<li class="page-item"><a class="page-link border-0" href="#">2</a></li>
+<li class="page-item"><a class="page-link border-0" href="#">...</a>
+</li>
+<li class="page-item"><a class="page-link border-0" href="#">6</a></li>
+<li class="page-item disabled"><a class="page-link border-0"
+href="#">Next</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Specialist End -->
+
+
+
+
+<!-- Right Sidebar Start -->
+
+<!-- Right Sidebar End -->
+
+
+
+
+
+
+</div>
+</div>
+</section>
+<div class="clearfix"></div>
+<!-- Section End -->
+</main>
+<div class="modal fade" id="manager_alert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Search Employee</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body updates_fields">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-6 disc_title">
+<label class="update_search">Name</label>
+<input type="text" placeholder="Example" class="search_by_filter">
+</div>
+<div class="col-md-6 col-sm-6 col-xs-6 disc_title">
+<label class="update_search">Staff No</label>
+<input type="text" placeholder="Example" class="search_by_filter">
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12 disc_title">
+<label class="update_search">E-mail</label>
+<input type="text" placeholder="Example@mail.com" class="search_by_filter">
+</div>
+<div class="assing_popup_button">
+<button class="search_button">Search</button>
+</div>
+</div>
+</div>
+<h2>Showing Results</h2>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+<div class="modal-footer">
+<img src="images/assing_manager.jpg" alt="img">
+<h3>Muhammad Ali</h3>
+<p>Administration Department</p>
+<button class="search_button">Select</button>
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+  
+
+
+              <div class="modal fade" id="dis-comment-pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                 <div class="modal-content"> 
+                <!--post-->
+                <div class="discussion_comment">
+                <div class="user_img">
+                <img src="images/umq.png" alt="ADM">
+                </div>
+                <div class="comment_detail">
+                <h3>UMQ Muncipality</h3>
+                <span class="disc_desc" >Contrary to popular belief</span>
+                <div class="discount_offer"><h2><span class="offer_percentage">15 % </span>Company Discount</h2></div>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin. professor at Hampden-Sydney College in Virginia, 
+                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                and going through the cites of the word in classical literature, discovered the undoubtable source. 
+                Lorem Ipsum comes from sections.  </p>
+                <div class="date"><span>from :</span> 20/02/2018 - <span>To:</span> 20/02/2018</div>
+                <span class="disc_attachment" >Attachments</span>
+                <div class="attached_files">
+                <img src="images/dis_img.png" alt="img">
+                <img src="images/dis_file.png" alt="img">
+                <img src="images/dis_img.png" alt="img">
+                </div>
+                </div>
+                <div class="dis_comments post-detail">
+                <ul>
+                <li class="like"><a href="#"  class="like-counter"><img src="images/like.png" alt="img"><span class="click-text"></span></a><a id="clicks">11</a></li>
+                <li class="comment"><a href="#" class="comment-counter"><img src="images/comments.png" alt="img"><span class="click-comment"></span></a><a id="comment_clicks">13</a></li>                                       
+                </ul>
+                </div>
+                </div>
+                <!--comments-->
+                <div class="post_comments">
+                <div class="comment">
+                <div class="user_img">
+                <img src="images/user_img.png" alt="ADM">
+                </div>
+                <div class="comment_detail">
+                <h3>Adam Andrews</h3>
+                <div class="date">Monday, June 25-2018</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin quam et tincidunt eleifend. Suspendisse at laoreet dui.😀</p>
+                </div>
+                </div>
+
+                <div class="comment">
+                <div class="user_img">
+                <img src="images/user_img.png" alt="ADM">
+                </div>
+                <div class="comment_detail">
+                <h3>Joan Guerrero</h3>
+                <div class="date">Monday, June 25-2018</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin quam et tincidunt eleifend. Suspendisse at laoreet dui.
+                <br><br>
+                Vivamus molestie fringilla mollis. Morbi ac ipsum at lorem fermentum eleifend. Maecenas finibus augue.</p>
+                </div>
+                </div>
+
+                <div class="comment">
+                <div class="user_img">
+                <img src="images/user_img.png" alt="ADM">
+                </div>
+                <div class="comment_detail">
+                <h3>Joyce Fisher</h3>
+                <div class="date">Monday, June 25-2018</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin quam et tincidunt eleifend. Suspendisse at laoreet dui.😀</p>
+                </div>
+                </div>
+                </div>
+                <!--comment form-->
+                <div class="comment_form">
+                <form  method="post">
+                <div class="form-group">
+                <input type="text" name="comment" data-emojiable="true" placeholder="Write your comment…" class="form-control">
+                <button type="submit" class="comment_btn" data-dismiss="modal"><img src="images/sent-mail.png" alt="img"></button>
+                </div>
+                </form>
+                </div>
+                </div>
+                </div> 
+ 
+                </div> 
+ 
+
+
+
+
+
+
+    <div class="add_dis_popup">
+        <div class="post-one discount_n_offer">
+        <div class="updates_fields">
+            <!--post-->
+            <h3>Add Discount % Offers</h3>
+            <div class="row mt-4">
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                <label class="update_attachment">Company Logo</label>
+                                <div class="file-uploader__message-area">
+                                    </div>
+                                <div class="d-flex justify-content-center centertext" style="float:right;">
+                                     <span class="btn default btn-browse-file">        
+                                    <div class="file-chooser">
+                                    Browse
+                                    <input class="file-chooser__input" type="file">
+                                    </div>
+                                    </span>
+                                    </div>
+                                    </div>
+                                </div>
+                                 <div class="row mt-4">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <label class="update_search">Company Name</label>
+                                    <input type="text" placeholder="UMQ Muncipality" name="input_news" id="input_news">
+                                </div>
+                                </div>
+                                 <div class="row mt-4">
+                                        <div class="col-md-4">
+                                   <label class="update_search">Value in Percent</label>
+                                    <input type="text" placeholder="Example" name="input_news" id="input_news">
+                                  <!--  <label class="update_search">Percentage</label>
+                                    <div class="row">
+                                    <div id="comission" class="col-md-10">
+                                      <div class="right-circle">
+                                        <div class="right-inner-circle"></div>
+                                      </div>
+                                      <div class="left-circle">
+                                        <div class="left-inner-circle"></div>
+                                      </div>
+                                      <input class="custom-range skill-range" type="range" min="0" max="100" step="0">
+                                      <label>
+                                          <span id="comissionLabel">Value:</span> 
+                                         <span class="infoicon" tabindex="0" data-toggle="tooltip" title="Info about input field!" data-placement="bottom"></span> 
+                                      </label>
+                                    </div>
+                                    </div>-->
+                                    </div>
+                                    <div class="col-md-4">
+                                    <label class="update_search">Discount</label>
+                                    <input type="text" placeholder="Example" name="input_news" id="input_news">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="update_search">Coupan No</label>
+                                    <input type="text" placeholder="Example" name="input_news" id="input_news">
+                                </div>
+                            </div>
+                                <div class="row mt-4">
+                                    <div class="col-md-12">
+                                    <label class="update_body">Description</label>
+                                     <textarea class="news-input" rows="4" placeholder="Write here"></textarea>
+                                </div>
+                                </div>
+                                <div class="row mt-4 add_dis_date">
+                                                <div class="col-md-6 position">
+                                                  <label class="update_search">Start :</label>
+                                                    <div class="gtx-row-form gtx-cal">
+                                                        <input type="text" name="" class="date-picker" value="12/10/2015">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 department">
+                                                     <label class="update_search">End :</label>
+                                                    <div class="gtx-row-form gtx-cal">
+                                                        <input type="text" name="" class="date-picker" value="12/10/2015">
+                                                    </div>          
+                                                </div>
+                    </div>
+                    <div class="add_dis_button mt-4">
+                    <button class="Show_all">Add</button>
+                    <button class="cancel_button remove_form">Cancel</button>
+                    </div>
+            </div>
+                                
+            <!--comments-->
+
+            <!--comment form-->
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade add_task_manager" id="add-task-mang-pop-my-ib" role="dialog">
+                <div class="modal-dialog modal-lg" style="margin-top: 90px;">
+                <!-- Modal content-->
+                <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Add Discount % Offers</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                <img src="images/combined-shape.png"/></button>
+                </div>
+
+                <div class="modal-body updates_fields">   
+                 <div class="row">
+                 <div class="col-md-12 mt-3">
+                <label class="add-magazine-page-text" for="title">
+                Company Logo</label>
+                <div class="add-magazine-attachment-holder">
+                <input type="text" class="form-control add-magazine-h" id="title">
+                <label class="add-magazine-browse">Browse<input type="file"
+                class=" add-magazine-browse2 "></label>
+                </div>
+                </div>
+                </div>   
+
+
+                <div class="row">
+                <div class="col-md-12 mt-3">
+                <label class="label_text">Company Name</label>
+                <input type="text" class="form-control set_input">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-md-4 mt-3">
+                <label class="label_text">Value in percent</label>
+                <input type="text" class="form-control set_input">
+                </div>
+                <div class="col-md-4 mt-3">
+                <label class="label_text">Discount</label>
+                <input type="text" class="form-control set_input">
+                </div>
+                <div class="col-md-4 mt-3">
+                <label class="label_text">Coupan No</label>
+                <input type="text" class="form-control set_input">
+                </div>
+                </div> 
+                <div class="row">
+                <div class="col-md-12 mt-3"> 
+                <label class="label_text">Description</label>
+                <textarea class="form-control text-area" rows="5" id="comment"></textarea> 
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-md-6 mt-3">
+                <label class="album_title">Start :</label>
+                <div class="gtx-row-form gtx-cal">
+                <input type="text" name="" class="date-picker" value="12/10/2015">
+                </div>
+                </div>
+                <div class="col-md-6 mt-3">
+                <label class="album_title">End :</label>
+                <div class="gtx-row-form gtx-cal">
+                <input type="text" name="" class="date-picker" value="12/10/2015">
+                </div>          
+                </div>
+                </div> 
+                <div class="row mt-4">
+                <div class="col-md-12 text-center mt-3">
+               <button type="button" class="btn suggestion-submint-btn">Add</button>
+               <button type="button" class="btn suggestion-cancel-btn" data-dismiss="modal">Cancl</button>
+               </div>
+                </div>   
+                </div> 
+                </div> 
+                </div>
+
+
+
+
+
+
+<script src="js/jquery.js?version=1.2"></script>
+<script src="js/bootstrap.min.js?version=1.3"></script>
+<script src="js/owl.carousel.js?version=1.2"></script>
+
+
+<!-- New -->
+<script src="js/swiper.min.js?version=1.2"></script>
+<script src="js/chart.js?version=1.2"></script>
+<script src="js/dropzone.js?version=1.2"></script>
+
+ <script src="js/editor.js?version=1.4"></script>	
+
+<script type="text/javascript" src="js/jquery.nicescroll.min.js?version=1.2"></script>
+
+
+
+<script type="text/javascript" src="js/jquery-ui.js?version=1.2"></script>
+
+<!-- New -->
+<script type="text/javascript" src="js/fancybox.min.js?version=1.2"></script>
+<script type="text/javascript" src="js/moment.min.js?version=1.2"></script>
+
+
+<script type="text/javascript" src="js/datepicker.min.js?version=1.2"></script>
+
+<script type="text/javascript" src="js/choosen.min.js?version=1.2"></script>
+
+<!-- New -->
+<script src="js/jssor.slider.min.js?version=1.2" type="text/javascript"></script>
+
+<script src="js/jquery.easy_slides.js?version=1.2"></script>
+
+<script src="js/jquery-circle-progress.js?version=1.2"></script>
+
+<!-- <script src="js/emojiarea.js?version=1.0"></script>-->
+
+<script src="js/cropper.js?version=1.2"></script>
+<script src="js/custom.js?version=3.6"></script> 
+
+<!-- <script src="js/emojiarea.js"></script>-->
+<script src="js/sticky-kit.min.js?version=1.2"></script>
+
+<!-- New -->
+<script src="js/isotope.min.js?version=1.2"></script>
+
+
+
+
+<script type="text/javascript" src="js/custom/ajaxfileupload.js?version=1.4"></script>
+<script type="text/javascript" src="js/custom/croppie.min.js?version=1.4"></script>
+<script type="text/javascript" src="js/custom/jquery.dataTables.min.js?version=1.3"></script>
+<script type="text/javascript" src="js/custom/datatable-functions.js"></script>
+
+<script type="text/javascript" src="js/custom/jquery.marquee.min.js"></script>
+<script type="text/javascript" src="js/custom/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/emojionearea.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-slider.js"></script>
+
+<script type="text/javascript" src="js/calender/fullcalendar.min.js?version=1.5"></script>
+<script type="text/javascript" src="js/calender/gcal.min.js?version=1.4"></script>
+<script type="text/javascript" src="js/calender/locale-all.js?version=1.4"></script>
+
+
+
+<script type="text/javascript" src="js/jquery.datetimepicker.js?version=1.4"></script>
+
+<script type="text/javascript" src="js/bootstrap-tagsinput.js?version=1.9"></script>
+
+
+ <script type="text/javascript" src="js/typeahead.js?version=1.4"></script>
+<script type="text/javascript" src="js/app.js?version=2.3"></script>
+<script type="text/javascript" src="js/app_bs3.js?version=1.8"></script>
+<script type="text/javascript"> 
+   $(document).ready(function(){
+        $('a.like-counter').on('click', function(e){
+        e.preventDefault();
+        var clicks =  parseInt($(this).siblings('#like_clicks').text());
+        if($(this).find('.commented').length > 0){
+            $(this).find('img').removeClass('commented').attr('src', 'images/like.png');
+            clicks -= 1;
+            
+        }else{
+            $(this).find('img').addClass('commented').attr('src', 'images/likeHover.png');
+            clicks += 1;
+        }
+        $(this).siblings('#like_clicks').html(clicks);
+        $(this).siblings('#like_clicks').fadeOut(250).fadeIn(250);       
+        });
+    });
+</script>
+<script>
+$(document).ready(function(){
+  $('.removeDiv').on('click', function() {
+    $(this).parents('.parent').remove();
+  });
+
+  $("body").on('click','.main_body, .remove_form', function() {
+        $('body').removeClass('active_add_dis_form');
+    });
+
+
+  $("body").on('click','#main-sec .discount_n_offer .comment_detail h3, #main-sec .discount_n_offer .comment_detail .lstCompTitle, #main-sec .discount_n_offer .comment_detail .partnership_img, #main-sec .discount_n_offer .comment_detail h2, #main-sec .discount_n_offer .comment_detail p, #main-sec .discount_n_offer .user_img > img, .achivement_detail', function(e) {
+            e.stopPropagation();
+            $("body").toggleClass('active_dis_form');
+            $(".popup_close").css("display", "block");
+        });
+
+
+});
+</script>
+</body>
+
+</html>

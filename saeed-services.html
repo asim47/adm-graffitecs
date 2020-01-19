@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Adm</title>
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> -->
+		
+	<link data-cssvarsponyfill="true" href="css/themes/theme-org-1.css" rel="stylesheet">
+		<!-- 
+		<c:choose>
+			<c:when test="${not empty applicationUser.organization.id}">
+			<link data-cssvarsponyfill="true" href="css/themes/theme-org-${applicationUser.organization.id}.css?version=1.1" rel="stylesheet">
+			</c:when>
+			<c:otherwise>
+				<link data-cssvarsponyfill="true" href="css/themes/theme-defualt.css" rel="stylesheet">
+			</c:otherwise>
+		</c:choose>
+		-->
+		
+		<!-- Custom Styles-->
+		<link href="css/custom/custom-styles.css?version=2.0" rel="stylesheet">
+		<link href="css/custom/animate.css?version=1.1" rel="stylesheet">
+		<link href="css/custom/croppie.css?version=1.1" rel="stylesheet">
+		
+		
+		
+		
+		<!------------ Alertify --------------->
+	
+	<!-- For Arabic only -->
+	<!--<c:if test="${i18n.language == 'ar'}">-->
+		<!-- <link rel="stylesheet" href="css/custom/alertify/alertify.rtl.min.css" />
+		<link rel="stylesheet" href="css/custom/alertify/themes/default.rtl.min.css" /> -->
+	<!--</c:if>-->
+	
+	<!-- For English only -->
+	<!--<c:if test="${i18n.language == 'en'}">-->
+		<link rel="stylesheet" href="css/custom/alertify/alertify.min.css" />
+		<link rel="stylesheet" href="css/custom/alertify/themes/default.min.css" />
+	<!--</c:if>-->
+	
+	<script type="text/javascript" src="js/custom/alertify/alertify.min.js?version=1.1"></script>
+	
+	
+	<!-- StyleSheets -->
+	
+	<link data-cssvarsponyfill="true" href="css/bootstrap.css?version=1.2" rel="stylesheet"> 
+	<link href="css/owl.carousel.css?version=1.1" rel="stylesheet">
+	<link href="css/owl.theme.default.css?version=1.1" rel="stylesheet">
+	<link href="css/animate.css?version=1.1" rel="stylesheet">
+	<link href="css/material-icons.css?version=1.1" rel="stylesheet">
+	<link href="css/style-ui.css?version=1.1" rel="stylesheet">
+	<link href="css/font-awesome.min.css?version=1.3" rel="stylesheet">
+	<link href="css/fancybox.min.css?version=1.1" rel="stylesheet">
+	
+	
+	<!-- New -->
+	<link href="css/datepicker.css?version=1.1" rel="stylesheet">
+	<link data-cssvarsponyfill="true" href="css/component-chosen.css?version=2.2" rel="stylesheet">
+	<link data-cssvarsponyfill="true" href="css/swiper.css?version=1.2" rel="stylesheet">
+	
+	<link href="css/calender/fullcalendar.min.css?version=1.4" rel="stylesheet">
+	<link media="print" href="css/calender/fullcalendar.print.min.css?version=1.3" rel="stylesheet">
+	
+	
+	<link href="css/jquery.easy_slides.css?version=1.1" rel="stylesheet">
+	<link href="css/dropzone.css" rel="stylesheet">
+	
+	<link href="css/cropper.css" rel="stylesheet">
+	
+	<link data-cssvarsponyfill="true" href="css/style.css?version=10.2" rel="stylesheet">
+	<link href="css/responsive.css?version=5.0" rel="stylesheet">
+	<link href="css/emojionearea.min.css" rel="stylesheet"> 
+
+	<!-- For Arabic only -->
+	<!--<c:if test="${i18n.language == 'ar'}">-->
+		<!-- <link href="css/rtl.css?version=10.1" rel="stylesheet"> -->
+	<!--</c:if>-->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	
+		<link href="css/custom/jquery.dataTables.css?version=3.0" rel="stylesheet" type="text/css">
+		<link href="css/custom/buttons.dataTables.min.css?version=2.1" rel="stylesheet" type="text/css">
+		
+
+		<link href="css/tagging.css?version=1.2" rel="stylesheet" type="text/css">
+	<link href="css/jquery.datetimepicker.min.css?version=1.3" rel="stylesheet" type="text/css">
+	<link data-cssvarsponyfill="true" href="css/bootstrap-tagsinput.css?version=1.5" rel="stylesheet" type="text/css">
+	<link href="css/app.css?version=1.4" rel="stylesheet" type="text/css"> 
+	
+	
+	
+	<link data-cssvarsponyfill="true" href="css/latest.css?version=6.5" rel="stylesheet">
+	<link data-cssvarsponyfill="true" href="css/timeline.css?version=2.1" rel="stylesheet">
+	<link href="css/material-switch.css?version=1.5" rel="stylesheet">
+	<link data-cssvarsponyfill="true" href="css/eval-style.css?version=2.5" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	
+	<!-- For Arabic only -->
+	<!--<c:if test="${i18n.language == 'ar' }">-->
+		<!-- <link data-cssvarsponyfill="true" href="css/timeline.rtl.css?version=3.0" rel="stylesheet">
+		<link data-cssvarsponyfill="true" href="css/latest.rtl.css?version=6.5" rel="stylesheet">
+		<link href="css/material-switch-rtl.css?version=2.1" rel="stylesheet">
+		<link href="css/override-rtl.css?version=2.2" rel="stylesheet">
+		<link data-cssvarsponyfill="true" href="css/eval-style-rtl.css?version=2.5" rel="stylesheet"> -->
+			
+	<!--</c:if>-->
+				
+	
+			
+	<script src="js/jquery.js?version=1.2"></script>
+	<script type="text/javascript" src="js/custom/custom-controls.js?version=5.0"></script>
+		<script type="text/javascript" src="js/custom/pagination.js?version=1.3"></script>
+		<script type="text/javascript" src="js/custom/css-vars-ponyfill1.js"></script>
+
+	<script type="text/javascript">
+		// See documentation for option details
+		// Toggle commented options to see effects
+		cssVars({
+			// fixNestedCalc: false,
+			onlyVars: true,
+			// preserve: true,
+			// updateURLs: false,
+			// variables: { '--font-family': 'helvetica' },
+			// ----------
+			onlyLegacy: true,
+			include: '[data-cssvarsponyfill="true"]',
+			
+			
+		});
+	
+	</script>
+	
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="custom-css/style.css" rel="stylesheet">
+	<link href="custom-css/style-new.css" rel="stylesheet">
+	
+
+		<!-- <link href="css/rtl.css" rel="stylesheet">
+		<link href="custom-css/custom-rtl.css" rel="stylesheet"> -->
+
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<!--jquery-->
+</head>
+
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="main_header">
+						<div class="logo_box">
+							<div class="logo_inner">
+								<a href="index.html"><img src="images/log0.png" /></a>
+							</div>
+						</div>
+						<div class="icons_box">
+							<ul>
+								<li>
+									<button type="button" class="navbar-toggle" data-toggle="collapse"
+										data-target="#myNavbar" id="myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</li>
+								<li><a href="#"><img src="images/logout.png" /></a></li>
+								<li><a href="#"><img src="images/bell.png" /></a></li>
+								<li><a href="assign-managers-rtl.html"><img src="images/Arabic-flag.png"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header-top End -->
+	</header>
+
+	<main class="main_body">
+		<section class="main_banner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="banner">
+						<img src="images/banner.png">
+						<div class="col-md-12 col-sm-12 caption centertext">
+							<h6> Welcme to </h6>
+							<h2> Abu Dhabi Municipality </h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- Section End -->
+		<section id="main-sec">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left Sidebar Start -->
+					<div class="col-md-2 col-sm-2 col-left main_left">
+						<div class="left">
+							<div class="left-sidebar">
+								<a href="profile.html"><img class="profile-img" src="images/profile.png" alt="img"></a>
+								<img class="edit-img" src="images/edit.png">
+								<div class="caption text-center">
+									<h4>Mohammad Ali</h4>
+									<p>Department Manager</p>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star unchecked"></span>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="scores">
+								<ul>
+									<li>
+										<p>Your Scores</p><span>3000</span>
+									</li>
+									<li>
+										<p>Annual Leaves</p><span>30</span>
+									</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+							<div class="departments">
+								<a href="#">Designer</a>
+								<a href="#">Developer</a>
+								<a href="#">SEO</a>
+								<a href="#">Abode Edge Animate</a>
+								<a href="#" data-toggle="modal" data-target="#profile_skills">+</a>
+							</div>
+
+							<!--skills modal-->
+							<div id="profile_skills" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- Modal content-->
+									<div class="modal-content">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<div class="modal-body">
+											<form action="">
+												<div class="col-sm-12 gtx-row-field">
+													<label>Add multiple skills with comma separated/press enter
+														key</label>
+													<input type="text" class="form-control" name="skills"
+														data-role="tagsinput"
+														placeholder="Enter skill with comma separated/enter press">
+												</div>
+
+											</form>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="sidebar-menu">
+								<ul>
+									<li><img src="images/dashboard.png" alt="img"><a href="index.html"
+											class="preloader">Dashboard</a></li>
+									<li><img src="images/file.png" alt="img"><a href="chart.html">File Directory</a>
+									</li>
+									<li><img src="images/achivements.png" alt="img"><a
+											href="achivements.html">Achievements</a></li>
+									<li class="active"><img src="images/task.png" alt="img"><a
+											href="tasks.html">Tasks</a></li>
+									<li><img src="images/skils.png" alt="img"><a href="skills-directory.html">Skills
+											Directory</a></li>
+									<li><img src="images/saeed-services.png" alt="img"><a
+											href="saeed-services.html">Saeed Services</a></li>
+									<li><img src="images/discussion-form.png" alt="img"><a
+											href="discussion.html">Discussion Form</a></li>
+									<li><img src="images/suggestion.png" alt="img"><a
+											href="suggestion.html">Suggestions</a></li>
+									<li><img src="images/media-gallery.png" alt="img"><a href="gallery.html">Media
+											Gallery</a></li>
+									<li><img src="images/my-Links.png" alt="img"><a href="my-links.html">My Links</a>
+									</li>
+									<li><img src="images/news.png" alt="img"><a href="news.html">News</a></li>
+									<li><img src="images/intranet-system.png" alt="img"><a
+											href="internal-system.html">Internal System</a></li>
+									<li><img src="images/annoucements.png" alt="img"><a
+											href="announcement.html">Announcements</a></li>
+									<li><img src="images/events.png" alt="img"><a href="events.html">Events</a></li>
+									<li><img src="images/employee.png" alt="img"><a
+											href="employee-of-month.html">Employee for the Month</a></li>
+									<li><img src="images/shared-folder.png" alt="img"><a
+											href="division-shared-folder.html">Division shared folders</a></li>
+									<li><img src="images/adm.png" alt="img"><a href="souq.html">ADM Souq</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Left Sidebar End -->
+
+
+
+
+
+
+					<!-- Specialist Start -->
+					<div class="col-md-10 col-sm-10 col-middle col-middle">
+						<div class="middle-sec">
+							<div class="saed-serv custom-new-generic-page">
+								<div class="card">
+									<div class="container-fluid">
+										<div class="row mb-3">
+											<div class="col-12 col-sm-12 align-self-end mt-3">
+												<form class="inbox-custom">
+													<div class="form-group mb-0">
+														<div class="col-sm-12 col-md-10 col-lg-11 col-xl-11 col-12 pr-0 cuspl-0 fr-rtl">
+															<input class="form-control input-sm text-dark" id="inputsm"
+																type="text" placeholder="Need help finding what you are looking for ?">
+														</div>
+														<div class="col-sm-12 col-md-2 col-lg-1 col-12 text-center col-xl-1 mart-sm btn-mx-wid-on-md">
+															<button type="button" class="btn btn-pa on-scrn-sm">search</button>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row mt-5 border-bottom">
+									<div class="col-sm-12">
+										<div class=" cus-wid-1st-tabs card cus-wid-1st-tabs-bdr-l">
+											<img src="images/group-24.svg" alt="group-24 image" class="img-res-csc">
+											<span>My Favourites</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sed-tabs-bdr-l">
+											<img src="images/group-21.svg" alt="group-21 image" class="img-res-csc">
+											<span>Most Used</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector one</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector two</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector three</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector four</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector five</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector six</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector seven</span>
+										</div>
+										<div class=" cus-wid-1st-tabs card cus-wid-sector-tabs-bdr-l">
+											<img src="images/group-20.svg" alt="group-24 image" class="img-res-csc">
+											<span>Sector eight</span>
+										</div>
+										
+									</div>
+								</div>
+								<div class="row mt-5 border-bottom">
+									<div class="col-sm-12 dis-cnt">
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Central <br> Records and Archives</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card">
+											<span>HR Services</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Facility <br> and Security Services</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Performance <br> Department Services</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Marketing Office</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Other Services</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Technical Planning</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Strategic Planing</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>PMO Office</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Services Development</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Community <br> Services Department</span>
+										</div>
+										<div class=" cus-wid-serv-sec-tabs card ">
+											<span>Committee Services</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="row mt-5">
+									<h3 class="d-block w-100">Most Used</h3>
+									<div class="mst-usr-parent">
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+											<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+											<div class="col-sm-12 p-0">
+													<div class="col-sm-4 fr-rtl">
+														<img src="images/kpi-change-request.svg" alt="">
+													</div>
+													<div class="col-sm-12 col-lg-8 pl-0">
+														<p class="most-ser-hed">Request Vehicle for Temporary Task</p>
+														<p class="most-ser-sub-hed">Request Vehicle for Temporary Task</p>
+													</div>
+													<div class="col-sm-12 pb-2 pos-left-on-rtl">
+														<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+														<span class="str-serv">Start Service</span>
+													</div>
+											</div>
+										</div>
+
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl cus-wid-img">
+
+																<img src="images/urgent-maintenance-request.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Urgnet Maintenance Request</p>
+															<p class="most-ser-sub-hed">mechanical and electrical maintenance</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">
+																<img src="images/kpi-change-request.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">General Inquiry</p>
+															<p class="most-ser-sub-hed">General Inquiry</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">		
+																<img src="images/visitor-request.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Visitor Request</p>
+															<p class="most-ser-sub-hed">Visitor Request</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">			
+															<img src="images/user-consent.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">User consent from Information security</p>
+															<p class="most-ser-sub-hed">User consent from Information security</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">	
+															<img src="images/pledge-undertaking-request.svg" alt="">
+															
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Pledge Undertaking Request</p>
+															<p class="most-ser-sub-hed">Pledge Undertaking Request</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">
+															<img src="images/add-change-services-on-saeed.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Add/Change Service on Saeed</p>
+															<p class="most-ser-sub-hed">SAEED</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">
+															<img src="images/adm-directory.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">ADM Directory</p>
+															<p class="most-ser-sub-hed">ADM Directory</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">	
+															<img src="images/employee-contract-information.svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Employee Contract Information</p>
+															<p class="most-ser-sub-hed">Employee Contract Information</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+									</div>
+								</div>
+								<div class="row mt-5">
+										<h3 class="d-block">Community Services Department</h3>
+									<div class=" w-100">
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+											<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+											<div class="col-sm-12 p-0">
+													<div class="col-sm-4 fr-rtl cus-wid-img">	
+														<img src="images/group-2.svg" class="" alt="">
+													</div>
+													<div class="col-sm-12 col-lg-8 pl-0">
+														<p class="most-ser-hed">Agenda Preparation Process</p>
+														<p class="most-ser-sub-hed">Agenda Preparation Process</p>
+													</div>
+													<div class="col-sm-12 pb-2 pos-left-on-rtl">
+														<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+														<span class="str-serv">Start Service</span>
+													</div>
+											</div>
+										</div>
+
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">
+																<img src="images/group-2 (1).svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Agenda Calendar</p>
+															<p class="most-ser-sub-hed">Agenda Calendar - Public</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">				
+																<img src="images/group-2 (2).svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Volunteers Registration </p>
+															<p class="most-ser-sub-hed">Volunteers Registration </p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+									</div>
+								</div>
+								<div class="row mt-5">
+										<h3 class="d-block">Community Services Department</h3>
+									<div class="w-100">
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+											<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+											<div class="col-sm-12 p-0">
+													<div class="col-sm-4 fr-rtl">			
+														<img src="images/group-2.svg" alt="">
+													</div>
+													<div class="col-sm-12 col-lg-8 pl-0">
+														<p class="most-ser-hed">Agenda Preparation Process</p>
+														<p class="most-ser-sub-hed">Agenda Preparation Process</p>
+													</div>
+													<div class="col-sm-12 pb-2 pos-left-on-rtl">
+														<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+														<span class="str-serv">Start Service</span>
+													</div>
+											</div>
+										</div>
+
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">		
+															<img src="images/group-2 (1).svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Agenda Calendar</p>
+															<p class="most-ser-sub-hed">Agenda Calendar - Public</p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+										<div class=" col-sm-12 col-md-6 card ml-1 mr-1 p-0 serv-custom-width mb-3 fr-rtl">
+												<p class="pt-1"><i class="fa fa-star gold-color f-lr"></i></p>
+												<div class="col-sm-12 p-0">
+														<div class="col-sm-4 fr-rtl">				
+															<img src="images/group-2 (2).svg" alt="">
+														</div>
+														<div class=" col-sm-12 col-lg-8 pl-0">
+															<p class="most-ser-hed">Volunteers Registration </p>
+															<p class="most-ser-sub-hed">Volunteers Registration </p>
+														</div>
+														<div class="col-sm-12 pb-2 pos-left-on-rtl">
+															<img src="images/rectangle.svg" alt="" class="f-lr rec-pos">
+															<span class="str-serv">Start Service</span>
+														</div>
+												</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- Specialist End -->
+
+
+
+
+					<!-- Right Sidebar Start -->
+					<div class="col-md-2 col-sm-2 col-right main_right d-none">
+						<div class="right-sidebar">
+							<div class="custom-widgets">
+								<span>Customize Widgets</span>
+								<img src="images/del.png" alt="img">
+								<img src="images/addWidget.png" alt="img">
+							</div>
+							<div class="clearfix"></div>
+							<div class="sortable" id="sortable">
+								<!-- custom widgets end -->
+								<div class="my-requests">
+									<div class="request-title">
+										<span class="title">Requests</span>
+										<span class="icon"><a href="#request_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="collapse in" id="request_demo">
+										<ul class="tab_header">
+											<li><a data-toggle="pill" href="#inbox">My Inbox (10)</a></li>
+											<li class="active"><a data-toggle="pill" href="#requests">My Requests
+													(5)</a></li>
+										</ul>
+										<div class="request-list">
+											<div class="new-owl-theme">
+												<div class="tab-content">
+													<div id="requests" class="tab-pane fade in active">
+														<div class="new-owl-carousel owl-carousel owl-theme">
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>788667888778 788667888778</p><span
+																	class="tooltiptext">788667888778</span><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>345686743358</p><span
+																	class="tooltiptext">345686743358345686743358</span><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>098785647546</p><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="request-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+
+														</div>
+													</div>
+													<div id="inbox" class="tab-pane fade">
+														<div class="new-owl-carousel owl-carousel owl-theme">
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>345686743358</p><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>788667888778</p><i>6/18/2018</i><span>pending</span>
+															</div>
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>098785647546</p><i>6/18/2018</i><span
+																	class="accepted">accepted</span>
+															</div>
+															<div class="inbox-head"><img src="images/file-icon-2.png"
+																	alt="img" />
+																<p>87665879898</p><i>6/18/2018</i><span>pending</span>
+															</div>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- My requests end -->
+								<div class="most-used-services">
+									<div class="services-title">
+										<span class="title">Most Used Services</span>
+										<span class="icon"><a href="#services_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="services-list collapse in" id="services_demo">
+										<ul>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Construction Permits System</span></a></li>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Tasjeel (Tawtheeq) System</span></a></li>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Commodities Sales</span></a></li>
+											<li><a href="#"><img src="images/most-used-services.png"
+														alt="img" /><span>Lands Services</span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- Most used end -->
+								<div class="file-directory">
+									<div class="directory-title">
+										<span class="title">File Directory</span>
+										<span class="icon"><a href="#directory_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="file-upload collapse in" id="directory_demo">
+										<form class="md-form dragupload">
+											<div class="file-field box__input">
+												<div class="z-depth-1-half mb-4">
+													<img src="images/upload-icon.png" alt="img">
+												</div>
+												<div class="d-flex justify-content-center centertext">
+													<span>Drag your file here to upload or</span>
+													<span class="btn default btn-file">
+														<label for="fileupload" class="fileinput-new"> Upload
+															Manually</label>
+														<input type="file" class="textbox wp95 fl fileupload fileInput"
+															name="files" id="fileupload">
+													</span>
+													<button style="display: none;" type="submit"
+														class="box__button">Upload</button>
+												</div>
+											</div>
+											<div style="display: none;" class="box__uploading">Uploading&hellip;</div>
+											<div style="display: none;" class="box__success">Done! <a href="?"
+													class="box__restart" role="button">Upload more?</a></div>
+											<div style="display: none;" class="box__error">Error! <span></span>. <a
+													href="?" class="box__restart" role="button">Try again!</a></div>
+										</form>
+										<section id="demos">
+											<div class="row owl">
+												<div class="col-md-12">
+													<div class="owl-carousel owl-theme new-owl-carosssusel centertext">
+														<div class="item">
+															<ul>
+																<li class="upload_item">
+																	<img src="images/pdf.png" alt="img"><span
+																		class="file_name">new.pdf</span><span>Shared
+																		with 5 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/word.png" alt="img"><span
+																		class="file_name">requirements.doc</span><span>Shared
+																		with 2 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/guidelines.png" alt="img"><span
+																		class="file_name">guidelines</span><span>6/18/2018</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+															</ul>
+														</div>
+														<div class="item">
+															<ul>
+																<li class="upload_item">
+																	<img src="images/pdf.png" alt="img"><span
+																		class="file_name">new.pdf</span><span>Shared
+																		with 5 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/word.png" alt="img"><span
+																		class="file_name">requirements.doc</span><span>Shared
+																		with 2 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/guidelines.png" alt="img"><span
+																		class="file_name">guidelines</span><span>6/18/2018</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+															</ul>
+														</div>
+														<div class="item">
+															<ul>
+																<li class="upload_item">
+																	<img src="images/pdf.png" alt="img"><span
+																		class="file_name">new.pdf</span><span>Shared
+																		with 5 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/word.png" alt="img"><span
+																		class="file_name">requirements.doc</span><span>Shared
+																		with 2 persons</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+																<li class="upload_item">
+																	<img src="images/guidelines.png" alt="img"><span
+																		class="file_name">guidelines</span><span>6/18/2018</span>
+																	<strong class="share_pane">
+																		<a href="#" class="tag">Policy</a>
+																		<a href="#" class="tag">user</a>
+																	</strong>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- file directory end -->
+								<div class="calendar">
+									<div class="calendar-title">
+										<span class="title">Calendar</span>
+										<span class="icon"><a href="#calendar_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="collapse in" id="calendar_demo">
+										<ul class="tab_header">
+											<li><a data-toggle="pill" href="#employee">Employee Calendar</a></li>
+											<li class="active"><a data-toggle="pill" href="#hall">Hall Reservation</a>
+											</li>
+										</ul>
+										<div class="tab-content">
+											<ul id="hall" class="tab-pane fade in active">
+												<table
+													class="calendar table table-condensed table-responsive table-bordered">
+													<thead>
+														<tr>
+															<td></td>
+															<td>10:00</td>
+															<td>11:00</td>
+															<td>12:00</td>
+															<td>13:00</td>
+															<td>14:00</td>
+															<td>15:00</td>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<th>Meeting Room 1</th>
+															<td><span class="meet_room1 tag bg_blue">10:30 -
+																	14:30</span></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_room11 tag bg_yellow">14:00</span>
+															</td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 2</th>
+															<td><span class="meet_room2 tag bg_coral">10:30 -
+																	12:30</span></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_room22 tag bg_coral">14:00</span></td>
+															<td><span class="meet_room222 tag bg_purple">14:50</span>
+															</td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 3</th>
+															<td><span class="meet_room3 tag bg_blue">10:0</span></td>
+															<td><span class="meet_room33 tag bg_aqua">11:00 - 12</span>
+															</td>
+															<td></td>
+															<td><span class="meet_room333 tag bg_yellow">13:00 -
+																	15:30</span></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 4</th>
+															<td><span class="meet_room4 tag bg_purple">10:00 -
+																	15:50</span></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 5</th>
+															<td><span class="meet_room5 tag bg_aqua">10:00 -
+																	12:50</span></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_room55 tag bg_blue">13:0</span></td>
+															<td></td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+											</ul>
+											<ul id="employee" class="tab-pane fade">
+												<table
+													class="calendar table table-condensed table-responsive table-bordered">
+													<thead>
+														<tr>
+															<td></td>
+															<td>10:00</td>
+															<td>11:00</td>
+															<td>12:00</td>
+															<td>13:00</td>
+															<td>14:00</td>
+															<td>15:00</td>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<th>Meeting Room 1</th>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_r1 tag bg_yellow">14:00</span></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 2</th>
+															<td><span class="meet_r2 tag bg_coral">10:30 - 12:30</span>
+															</td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td><span class="meet_r21 tag bg_purple">14:50</span></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 3</th>
+															<td></td>
+															<td><span class="meet_r3 tag bg_aqua">11:00 - 12:00</span>
+															</td>
+															<td></td>
+															<td><span class="meet_r32 tag bg_yellow">13:00 -
+																	15:30</span></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 4</th>
+															<td><span class="meet_r4 tag bg_purple">10:00 - 13:50</span>
+															</td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+														<tr>
+															<th>Meeting Room 5</th>
+															<td><span class="meet_r5 tag bg_aqua">10:00 - 12:50</span>
+															</td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+															<td></td>
+														</tr>
+													</tbody>
+												</table>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- calendar end -->
+								<div class="best-employee">
+									<div class="best-title">
+										<span class="title">Employee of the month</span>
+										<span class="icon"><a href="#employee_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="employee-detail text-center collapse in" id="employee_demo">
+										<img src="images/Group.png" alt="img">
+										<h4>Mohammad Saleh</h4>
+										<p>Month of JUNE</p>
+										<button class="btn btn-style btn-red">View Profile</button>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<!-- employee of the month end -->
+								<div class="media-gallery">
+									<div class="gallery-title">
+										<span class="title">Media Gallery</span>
+										<span class="icon"><a href="#gallery_demo" data-toggle="collapse"><img
+													src="images/menu.png" alt="img"></a></span>
+									</div>
+									<div class="clearfix"></div>
+									<div class="media_gallery collapse in" id="gallery_demo">
+										<div id="jssor_1"
+											style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:780px;overflow:hidden;visibility:hidden;">
+											<!-- Loading Screen -->
+											<div data-u="loading" class="jssorl-009-spin"
+												style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+												<img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+													src="images/spin.svg" alt="img" />
+											</div>
+											<div data-u="slides"
+												style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:580px;overflow:hidden;">
+												<div>
+													<img data-u="image" src="images/media-1.png" alt="img" />
+													<img data-u="thumb" src="images/media-1.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/303x191.png" alt="img" />
+													<img data-u="thumb" src="images/303x191.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/media-1.png" alt="img" />
+													<img data-u="thumb" src="images/media-1.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/303x191.png" alt="img" />
+													<img data-u="thumb" src="images/303x191.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/media-1.png" alt="img" />
+													<img data-u="thumb" src="images/media-1.png" alt="img" />
+												</div>
+												<div>
+													<img data-u="image" src="images/303x191.png" alt="img" />
+													<img data-u="thumb" src="images/303x191.png" alt="img" />
+												</div>
+											</div>
+											<!-- Thumbnail Navigator -->
+											<div data-u="thumbnavigator" class="jssort101"
+												style="position:absolute;left:0px;bottom:0px;width:980px;height:220px;background-color:#f9f9f9; padding:5px;"
+												data-autocenter="1" data-scale-bottom="0.75">
+												<div data-u="slides">
+													<div data-u="prototype" class="p"
+														style="width:200px;height:150px; border-radius: 5px;">
+														<div data-u="thumbnailtemplate" class="t"></div>
+													</div>
+												</div>
+											</div>
+											<!-- Arrow Navigator -->
+											<div data-u="arrowleft" class="jssora106"
+												style="width:55px;height:55px;top:620px;left:30px;" data-scale="0.75">
+												<svg viewBox="0 0 16000 16000"
+													style="position:absolute;top:0;left:0;width:100%;height:100%;">
+													<circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+													<polyline class="a"
+														points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+													<line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+												</svg>
+											</div>
+											<div data-u="arrowright" class="jssora106"
+												style="width:55px;height:55px;top:620px;right:30px;" data-scale="0.75">
+												<svg viewBox="0 0 16000 16000"
+													style="position:absolute;top:0;left:0;width:100%;height:100%;">
+													<circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+													<polyline class="a"
+														points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+													<line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- #endregion Jssor Slider End -->
+								<!-- media gallery end -->
+							</div>
+						</div>
+					</div>
+					<!-- Right Sidebar End -->
+
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<!-- Section End -->
+	</main>
+	<div class="modal fade" id="manager_alert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Search Employee</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body updates_fields">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-6 disc_title">
+							<label class="update_search">Name</label>
+							<input type="text" placeholder="Example" class="search_by_filter">
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6 disc_title">
+							<label class="update_search">Staff No</label>
+							<input type="text" placeholder="Example" class="search_by_filter">
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 disc_title">
+							<label class="update_search">E-mail</label>
+							<input type="text" placeholder="Example@mail.com" class="search_by_filter">
+						</div>
+						<div class="assing_popup_button">
+							<button class="search_button">Search</button>
+						</div>
+					</div>
+				</div>
+				<h2>Showing Results</h2>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+				<div class="modal-footer">
+					<img src="images/assing_manager.jpg" alt="img">
+					<h3>Muhammad Ali</h3>
+					<p>Administration Department</p>
+					<button class="search_button">Select</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/chart.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	
+	<script type="text/javascript" src="js/emoji/config.js"></script>
+	<script type="text/javascript" src="js/emoji/util.js"></script>
+	<script type="text/javascript" src="js/emoji/jquery.emojiarea.js"></script>
+	<script type="text/javascript" src="js/emoji/emoji-picker.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/fancybox.min.js"></script>
+	<script type="text/javascript" src="js/moment.min.js"></script>
+	<script type="text/javascript" src="js/datepicker.min.js"></script>
+	<script type="text/javascript" src="js/choosen.min.js"></script>
+	<script src="js/jssor.slider.min.js" type="text/javascript"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/sticky-kit.min.js"></script>
+	<script src="js/isotope.min.js"></script> -->
+	<script src="js/swiper.min.js?version=1.2"></script>
+	<script src="js/chart.js?version=1.2"></script>
+	<script src="js/dropzone.js?version=1.2"></script>
+	
+	 <script src="js/editor.js?version=1.4"></script>	
+	
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js?version=1.2"></script>
+	
+	
+	
+	<script type="text/javascript" src="js/jquery-ui.js?version=1.2"></script>
+	
+	<!-- New -->
+	<script type="text/javascript" src="js/fancybox.min.js?version=1.2"></script>
+	<script type="text/javascript" src="js/moment.min.js?version=1.2"></script>
+	
+	
+	<script type="text/javascript" src="js/datepicker.min.js?version=1.2"></script>
+	
+	<script type="text/javascript" src="js/choosen.min.js?version=1.2"></script>
+	
+	<!-- New -->
+	<script src="js/jssor.slider.min.js?version=1.2" type="text/javascript"></script>
+	
+	<script src="js/jquery.easy_slides.js?version=1.2"></script>
+	
+	<script src="js/jquery-circle-progress.js?version=1.2"></script>
+	
+	<!-- <script src="js/emojiarea.js?version=1.0"></script>-->
+	
+	<script src="js/cropper.js?version=1.2"></script>
+	<script src="js/custom.js?version=3.6"></script> 
+	
+	<!-- <script src="js/emojiarea.js"></script>-->
+	<script src="js/sticky-kit.min.js?version=1.2"></script>
+	
+	<!-- New -->
+	<script src="js/isotope.min.js?version=1.2"></script>
+	
+	
+	
+	
+	<script type="text/javascript" src="js/custom/ajaxfileupload.js?version=1.4"></script>
+	<script type="text/javascript" src="js/custom/croppie.min.js?version=1.4"></script>
+	<script type="text/javascript" src="js/custom/jquery.dataTables.min.js?version=1.3"></script>
+	<script type="text/javascript" src="js/custom/datatable-functions.js"></script>
+	
+	<script type="text/javascript" src="js/custom/jquery.marquee.min.js"></script>
+	<script type="text/javascript" src="js/custom/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/emojionearea.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-slider.js"></script>
+	
+	<script type="text/javascript" src="js/calender/fullcalendar.min.js?version=1.5"></script>
+	<script type="text/javascript" src="js/calender/gcal.min.js?version=1.4"></script>
+	<script type="text/javascript" src="js/calender/locale-all.js?version=1.4"></script>
+	
+	
+	
+	<script type="text/javascript" src="js/jquery.datetimepicker.js?version=1.4"></script>
+	
+	<script type="text/javascript" src="js/bootstrap-tagsinput.js?version=1.9"></script>
+	
+	
+	 <script type="text/javascript" src="js/typeahead.js?version=1.4"></script>
+	<script type="text/javascript" src="js/app.js?version=2.3"></script>
+	<script type="text/javascript" src="js/app_bs3.js?version=1.8"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* @media (max-width: 502px){
+	.events-set-main .events-img{
+		width: 57px;
+	}
+	.events-set-main .events-img{
+		margin-left: 43%;
+		margin-bottom: 14px;
+	}
+	.upcomming-events h3{
+		font-size: 17px;
+	}
+} */
+@media(max-width: 767px){
+	.events-content-set{
+		padding: 0 0 0 15px;
+	}
+	.events-set-main .events-img{
+		float: none;
+	}
+	.upcomming-events h3{
+		font-size: 20px;
+
+	}
+}
+@media(max-width:480px){
+	 th.fc-day-header{
+	 	padding: 5px;
+	 }
+}

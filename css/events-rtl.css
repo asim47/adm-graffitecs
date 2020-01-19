@@ -1,0 +1,9 @@
+/* body{
+     direction:rtl; 
+     font-family: 'Cairo', serif;
+     text-align:right;
+} */
+.bottom-icons ul li{
+	float:left;
+
+}

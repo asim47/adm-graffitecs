@@ -1,0 +1,317 @@
+/* custom-status-block Start */
+.custom-status-block .row {
+  /* display: flex;
+  height: 100%; */
+}
+.custom-status-block .row > div {
+  align-self: center;
+}
+.custom-status-block {
+  margin-top: 10px;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.eval-input::placeholder {
+	color: #717171;
+}
+
+
+.eval-border{
+	border: 1px solid #b6d0e0;
+}
+
+.custom-feedback-block p.eval-choose-opt-txt{
+	text-align: right;
+	float: right;
+    font-size: 15px;
+    padding: 0 0 20px 0;
+    color: var(--themeColor1);
+    font-weight: 600;
+}
+
+.custom-status-block .circle-image {
+  font-size: 30px;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid red;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.custom-status-block .circle-image.blue-circle {
+  border-color: #5d7bac;
+  color: #5d7bac;
+}
+.custom-status-block .circle-image.green-circle {
+  border-color: #479585;
+  color: #479585;
+}
+.custom-status-block .circle-image.yellow-circle {
+  border-color: #ce9c67;
+  color: #ce9c67;
+}
+.custom-status-block h2 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-style: normal;
+  color: #606060;
+  text-align: center;
+}
+.custom-news-block {
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  overflow-y: auto;
+  max-height: 130px;
+  padding: 0 20px;
+}
+.custom-news-block ul {
+  list-style: none;
+}
+.custom-news-block ul li {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5d7bac;
+  padding: 10px 0;
+}
+.custom-news-block ul li:nth-child(even) {
+  color: #479585;
+}
+/* custom-status-block End */
+
+/* custom-feedback-block Start */
+.custom-feedback-block {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 30px;
+  margin-top: 10px;
+}
+.custom-feedback-block h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #277eb5;
+  padding: 0 0 10px;
+}
+.custom-feedback-block p {
+  /* display: inline-block; */
+  vertical-align: top;
+  font-size: 16px;
+  /* line-height: 20px; */
+  color: #505050;
+  /* max-width: 425px; */
+}
+
+.eval-loader{
+	height: 100px;
+    float: right;
+    margin: 0px 20px;
+}
+
+
+.eval-submitted{
+	opacity: 0.5;
+	cursor: not-allowed !important;
+}
+
+.eval-submitted > button,
+.eval-submitted > input[type="text"]{
+	pointer-events: none !important;
+}
+
+
+.custom-feedback-block span {
+  /* display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c4c4c4; */
+  color: var(--themeColor1);
+  font-weight: 600;
+}
+.afterSubmit{
+	float: right;
+	width: 33.33333333%;
+}
+
+
+
+.custom-feedback-block .custom-smileys {
+  list-style: none;
+  float: right;
+}
+.custom-feedback-block .custom-smileys li {
+  float: left;
+  width: 45px;
+  margin: 0 10px;
+}
+.custom-feedback-block .custom-smileys li button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: transparent;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.custom-feedback-block .custom-smileys li button i {
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background: #fff;
+  color: #2a7db3;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  display: none;
+}
+.custom-feedback-block .custom-smileys li.selected button i {
+  display: block;
+}
+.custom-feedback-block .custom-smileys li.not-selected {
+  opacity: 0.5;
+}
+
+.custom-feedback-block .custom-smileys li.selected button,
+.custom-feedback-block .custom-smileys li button:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.custom-feedback-block input {
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;
+  color: #404040;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  line-break: 28px;
+  padding: 5px 10px;
+}
+.custom-feedback-block button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  background: #2a7db3;
+  color: #fff;
+  padding: 5px 20px;
+}
+.custom-feedback-block button:hover {
+  background: #51a6dd;
+}
+.custom-feedback-block > .row > .col-lg-2 {
+  width: 11%;
+}
+.custom-feedback-block > .row > .col-lg-10 {
+  width: 89%;
+}
+
+.custom-feedback-block .custom-margin-holder {
+  margin-top: 30px;
+}
+.custom-feedback-block .satisfaction-image {
+  width: 100%;
+}
+.custom-feedback-block .satisfaction-image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+/* custom-feedback-block End */
+.custom-al-alanaat.best-employee .employee-detail {
+  position: relative;
+  padding: 0;
+}
+.saeed-banner-content-holder {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 180px;
+  height: 122px;
+}
+.saeed-banner-content-holder .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+.saeed-banner-content-holder .content h2 {
+  color: #2a7db3;
+  font-size: 14px;
+  line-height: 18px;
+}
+.saeed-banner-content-holder .content h3 {
+  color: #2a7db3;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 5px 0 0;
+}
+
+
+
+@media only screen and (max-device-width: 1200px) {
+  .afterSubmit{
+	width: 100%;
+	margin: 30px 0 0;
+  }
+  .custom-news-block {
+    margin: 30px 0 0;
+  }
+  .custom-feedback-block > .row > .col-lg-2,
+  .custom-feedback-block > .row > .col-lg-10 {
+    width: 100%;
+  }
+  .custom-feedback-block .satisfaction-image {
+    width: 120px;
+    margin: 0 auto 30px;
+  }
+  .custom-feedback-block {
+    text-align: center;
+  }
+  .custom-feedback-block .custom-smileys {
+    float: none;
+  }
+  .custom-feedback-block .custom-smileys li {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .custom-feedback-block input {
+    margin: 0 0 10px;
+  }
+  .custom-feedback-block span {
+    display: block;
+  }
+  .custom-feedback-block p {
+    padding: 0 0 5px;
+    max-width: 100%;
+    white-space: normal;
+  }
+  .custom-feedback-block p.eval-choose-opt-txt{
+	float: none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+  }  
+  
+  
+}
+
+@media only screen and (max-device-width: 767px) {
+  .custom-status-block .col-lg-4.col-md-4.col-sm-4 {
+    margin-bottom: 30px;
+  }
+}
